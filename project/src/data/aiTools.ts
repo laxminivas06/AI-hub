@@ -6,9 +6,9 @@ export const aiTools: AITool[] = [
     "id": 1,
     "name": "Perplexity AI",
     "description": "AI-powered research assistant with citations and sources.",
-    "website": "https://www.perplexity.ai/",
+    "website": "https://www.perplexity.ai/?login-source=oneTapHome&login-new=false",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/perp.png"
   },
   {
     "id": 2,
@@ -16,31 +16,31 @@ export const aiTools: AITool[] = [
     "description": "Finds answers directly from peer-reviewed research papers.",
     "website": "https://consensus.app/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/Cons.png"
   },
   {
     "id": 3,
     "name": "Scholarcy",
     "description": "Summarizes academic papers, reports, and books.",
-    "website": "https://scholarcy.com/",
+    "website": "https://www.scholarcy.com/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/sch.png"
   },
   {
     "id": 4,
     "name": "Elicit",
     "description": "AI tool for automating literature reviews and academic research.",
-    "website": "https://elicit.org/",
+    "website": "https://elicit.com/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/eli.png"
   },
   {
     "id": 5,
     "name": "QANDA",
     "description": "Math problem solver with step-by-step explanations.",
-    "website": "https://qanda.ai/",
+    "website": "https://qanda.ai/en",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/qan.png"
   },
   {
     "id": 6,
@@ -56,7 +56,7 @@ export const aiTools: AITool[] = [
     "description": "Fact-checks and verifies scientific papers and citations.",
     "website": "https://scite.ai/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/sci.png"
   },
   {
     "id": 8,
@@ -64,7 +64,7 @@ export const aiTools: AITool[] = [
     "description": "Simplifies complex academic papers for students and researchers.",
     "website": "https://www.explainpaper.com/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/ex.png"
   },
   {
     "id": 9,
@@ -72,7 +72,7 @@ export const aiTools: AITool[] = [
     "description": "AI-powered grading assistant for assignments and exams.",
     "website": "https://www.gradescope.com/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/gra.png"
   },
   {
     "id": 10,
@@ -80,7 +80,7 @@ export const aiTools: AITool[] = [
     "description": "Computational engine for solving math, physics, and science problems.",
     "website": "https://www.wolframalpha.com/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/wol.png"
   },
   {
     "id": 11,
@@ -88,7 +88,7 @@ export const aiTools: AITool[] = [
     "description": "AI-powered reference manager and academic collaboration tool.",
     "website": "https://www.mendeley.com/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/men.png"
   },
   {
     "id": 12,
@@ -96,7 +96,7 @@ export const aiTools: AITool[] = [
     "description": "AI tool for improving academic writing clarity and style.",
     "website": "https://www.deepl.com/write",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/deep.png"
   },
   {
     "id": 13,
@@ -104,7 +104,7 @@ export const aiTools: AITool[] = [
     "description": "Summarizes lectures, podcasts, books, and videos instantly.",
     "website": "https://mindgrasp.ai/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/min.png"
   },
   {
     "id": 14,
@@ -112,7 +112,7 @@ export const aiTools: AITool[] = [
     "description": "Generates quizzes and tests from text or documents.",
     "website": "https://quizgecko.com/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/qui.png"
   },
   {
     "id": 15,
@@ -120,7 +120,7 @@ export const aiTools: AITool[] = [
     "description": "Summarizes long YouTube lectures and videos into key points.",
     "website": "https://www.summarize.tech/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/sum.png"
   },
 
   {
@@ -129,15 +129,15 @@ export const aiTools: AITool[] = [
     "description": "AI-powered code completion assistant for developers.",
     "website": "https://www.tabnine.com/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/tab.png"
   },
   {
     "id": 17,
-    "name": "Codeium",
+    "name": "Windsurfer Codeium",
     "description": "Free AI code completion and Copilot alternative.",
-    "website": "https://codeium.com/",
+    "website": "hhttps://windsurf.com/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/win.png"
   },
   {
     "id": 18,
@@ -145,15 +145,15 @@ export const aiTools: AITool[] = [
     "description": "Generates code snippets, documentation, and tests.",
     "website": "https://www.askcodi.com/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/ask.png"
   },
   {
     "id": 19,
     "name": "Mutable AI",
     "description": "AI-powered code refactoring and enhancements.",
-    "website": "https://mutable.ai/",
+    "website": "https://welcome.ai/solution/mutableai",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/mut.png"
   },
   {
     "id": 20,
@@ -161,7 +161,7 @@ export const aiTools: AITool[] = [
     "description": "AI-powered bug detection and code review tool.",
     "website": "https://snyk.io/developer-tools/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/dee.png"
   },
   {
     "id": 21,
@@ -169,7 +169,7 @@ export const aiTools: AITool[] = [
     "description": "Automated code reviews and security checks.",
     "website": "https://www.codiga.io/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/cod.png"
   },
   {
     "id": 22,
@@ -177,7 +177,7 @@ export const aiTools: AITool[] = [
     "description": "Open-source AI model for code generation.",
     "website": "https://arxiv.org/abs/2202.13169",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/pol.png"
   },
   {
     "id": 23,
@@ -185,7 +185,7 @@ export const aiTools: AITool[] = [
     "description": "No-code AI platform for engineers and analysts.",
     "website": "https://www.akkio.com/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/akk.png"
   },
   {
     "id": 24,
