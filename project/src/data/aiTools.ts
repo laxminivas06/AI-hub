@@ -48,7 +48,7 @@ export const aiTools: AITool[] = [
     "description": "Google's AI homework helper with step-by-step explanations.",
     "website": "https://socratic.org/",
     "category": "Students & Learning",
-    "logo": ""
+    "logo": "/images/soc.png"
   },
   {
     "id": 7,
