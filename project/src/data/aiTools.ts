@@ -193,15 +193,15 @@ export const aiTools: AITool[] = [
     "description": "Generate functional code from natural language text.",
     "website": "https://spellbox.app/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/spe.png"
   },
   {
     "id": 25,
-    "name": "ExplainDev",
+    "name": "leo",
     "description": "Explains complex code in plain English for understanding.",
-    "website": "https://explain.dev/",
+    "website": "https://www.getleo.ai/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/leo.png"
   },
   {
     "id": 26,
@@ -209,23 +209,23 @@ export const aiTools: AITool[] = [
     "description": "Converts plain text queries into SQL statements.",
     "website": "https://www.ai2sql.io/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/ai2.png"
   },
   {
     "id": 27,
-    "name": "OpenRefine",
+    "name": "Mathos AI",
     "description": "AI-assisted data cleaning and transformation tool.",
-    "website": "https://openrefine.org/",
+    "website": "https://www.mathgptpro.com/app/calculator/engineering-math-solver",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/mat.png"
   },
   {
     "id": 28,
-    "name": "Kite",
+    "name": "Symbolab",
     "description": "AI coding assistant specialized in Python.",
-    "website": "https://www.kite.com/",
+    "website": "https://www.symbolab.com/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/sy.png"
   },
   {
     "id": 29,
@@ -233,15 +233,15 @@ export const aiTools: AITool[] = [
     "description": "Platform for coding interviews with AI support.",
     "website": "https://coderpad.io/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/co.png"
   },
   {
     "id": 30,
-    "name": "Buildt AI",
+    "name": "Cosine",
     "description": "AI tool to search and understand large codebases.",
     "website": "https://www.buildt.ai/",
     "category": "Engineering & Coding",
-    "logo": ""
+    "logo": "/images/cos.png"
   },
 
   {
@@ -250,7 +250,7 @@ export const aiTools: AITool[] = [
     "description": "AI marketing platform for content and copywriting.",
     "website": "https://www.jasper.ai/",
     "category": "Entrepreneurship & Startups",
-    "logo": ""
+    "logo": "/images/jas.png"
   },
   {
     "id": 32,
@@ -258,15 +258,15 @@ export const aiTools: AITool[] = [
     "description": "Generates high-converting ad copy, blogs, and social posts.",
     "website": "https://www.copy.ai/",
     "category": "Entrepreneurship & Startups",
-    "logo": ""
+    "logo": "/images/cop.png"
   },
   {
     "id": 33,
     "name": "Tome",
     "description": "AI-powered storytelling and pitch deck builder.",
-    "website": "https://tome.app/",
+    "website": "https://landing-staging.tome.app//",
     "category": "Entrepreneurship & Startups",
-    "logo": ""
+    "logo": "/images/to.png"
   },
   {
     "id": 34,
@@ -274,15 +274,15 @@ export const aiTools: AITool[] = [
     "description": "Generates dynamic and interactive presentations.",
     "website": "https://gamma.app/",
     "category": "Entrepreneurship & Startups",
-    "logo": ""
+    "logo": "/images/ga.png"
   },
   {
     "id": 35,
-    "name": "Runway ML",
+    "name": "Runway M",
     "description": "AI-powered video editing platform for creators and startups.",
     "website": "https://runwayml.com/",
     "category": "Entrepreneurship & Startups",
-    "logo": ""
+    "logo": "/images/run.png"
   },
   {
     "id": 36,
@@ -290,7 +290,7 @@ export const aiTools: AITool[] = [
     "description": "Creates realistic AI voiceovers for presentations and pitches.",
     "website": "https://murf.ai/",
     "category": "Entrepreneurship & Startups",
-    "logo": ""
+    "logo": "/images/mur.png"
   },
   {
     "id": 37,
@@ -298,7 +298,7 @@ export const aiTools: AITool[] = [
     "description": "AI platform for creating videos with avatars.",
     "website": "https://www.synthesia.io/",
     "category": "Entrepreneurship & Startups",
-    "logo": ""
+    "logo": "/images/syn.png"
   },
   {
     "id": 38,
@@ -306,7 +306,7 @@ export const aiTools: AITool[] = [
     "description": "AI-powered content strategy and optimization platform.",
     "website": "https://marketmuse.com/",
     "category": "Entrepreneurship & Startups",
-    "logo": ""
+    "logo": "/images/mar.png"
   },
   {
     "id": 39,
@@ -314,7 +314,7 @@ export const aiTools: AITool[] = [
     "description": "SEO and content creation tool for startups.",
     "website": "https://www.growthbarseo.com/",
     "category": "Entrepreneurship & Startups",
-    "logo": ""
+    "logo": "/images/gro.png"
   },
   {
     "id": 40,
@@ -322,216 +322,5 @@ export const aiTools: AITool[] = [
     "description": "Generates AI-powered images and branding assets.",
     "website": "https://neural.love/",
     "category": "Entrepreneurship & Startups",
-    "logo": ""
-  },
-  {
-    "id": 41,
-    "name": "Taskade",
-    "description": "AI-powered team collaboration and project management.",
-    "website": "https://www.taskade.com/",
-    "category": "Entrepreneurship & Startups",
-    "logo": ""
-  },
-  {
-    "id": 42,
-    "name": "SlidesAI",
-    "description": "Creates presentation slides from text automatically.",
-    "website": "https://slidesai.io/",
-    "category": "Entrepreneurship & Startups",
-    "logo": ""
-  },
-  {
-    "id": 43,
-    "name": "Figma AI",
-    "description": "AI plugins for fast and smart design workflows.",
-    "website": "https://www.figma.com/community/file/1283573336398877252",
-    "category": "Entrepreneurship & Startups",
-    "logo": ""
-  },
-  {
-    "id": 44,
-    "name": "Tability",
-    "description": "AI-powered OKR tracking and business goal alignment.",
-    "website": "https://www.tability.io/",
-    "category": "Entrepreneurship & Startups",
-    "logo": ""
-  },
-  {
-    "id": 45,
-    "name": "Durable",
-    "description": "AI website builder for small businesses and startups.",
-    "website": "https://durable.co/",
-    "category": "Entrepreneurship & Startups",
-    "logo": ""
-  },
-
-  {
-    "id": 46,
-    "name": "Fireflies.ai",
-    "description": "AI meeting assistant for transcription and note-taking.",
-    "website": "https://fireflies.ai/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 47,
-    "name": "Otter.ai",
-    "description": "AI-powered real-time meeting notes and summaries.",
-    "website": "https://otter.ai/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 48,
-    "name": "Motion",
-    "description": "AI assistant for scheduling and task automation.",
-    "website": "https://www.usemotion.com/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 49,
-    "name": "Krisp",
-    "description": "AI noise cancellation for meetings and calls.",
-    "website": "https://krisp.ai/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 50,
-    "name": "Notion AI",
-    "description": "AI writing, notes, and task management inside Notion.",
-    "website": "https://www.notion.so/product/ai",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 51,
-    "name": "ClickUp AI",
-    "description": "AI-powered productivity and project management suite.",
-    "website": "https://clickup.com/ai",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 52,
-    "name": "Hootsuite AI",
-    "description": "Social media scheduling and analytics with AI.",
-    "website": "https://www.hootsuite.com/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 53,
-    "name": "Surfer SEO",
-    "description": "AI SEO optimization and content strategy tool.",
-    "website": "https://surferseo.com/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 54,
-    "name": "Lumen5",
-    "description": "AI-powered video creation platform for businesses.",
-    "website": "https://lumen5.com/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 55,
-    "name": "Synthmind AI",
-    "description": "AI assistant for business brainstorming and ideation.",
-    "website": "https://synthmind.ai/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 56,
-    "name": "Taskade AI",
-    "description": "AI productivity tool for workflows and collaboration.",
-    "website": "https://taskade.com/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 57,
-    "name": "Zapier AI",
-    "description": "AI workflow automation and integration platform.",
-    "website": "https://zapier.com/ai",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 58,
-    "name": "Tactiq AI",
-    "description": "AI meeting transcriber for Zoom and Google Meet.",
-    "website": "https://tactiq.io/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 59,
-    "name": "Claude AI",
-    "description": "AI assistant for generating detailed business reports.",
-    "website": "https://claude.ai/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-  {
-    "id": 60,
-    "name": "Beautiful.ai",
-    "description": "AI platform for creating business presentations.",
-    "website": "https://www.beautiful.ai/",
-    "category": "Business & Productivity",
-    "logo": ""
-  },
-
-  {
-    "id": 61,
-    "name": "Kickresume",
-    "description": "AI-powered resume and cover letter builder.",
-    "website": "https://kickresume.com/",
-    "category": "Interview & Career Prep",
-    "logo": ""
-  },
-  {
-    "id": 62,
-    "name": "Rezi",
-    "description": "ATS-optimized AI resume builder.",
-    "website": "https://www.rezi.ai/",
-    "category": "Interview & Career Prep",
-    "logo": ""
-  },
-  {
-    "id": 63,
-    "name": "Teal",
-    "description": "AI tool for resumes and job application tracking.",
-    "website": "https://www.tealhq.com/",
-    "category": "Interview & Career Prep",
-    "logo": ""
-  },
-  {
-    "id": 64,
-    "name": "Huru AI",
-    "description": "AI mock interview simulator with feedback.",
-    "website": "https://huru.ai/",
-    "category": "Interview & Career Prep",
-    "logo": ""
-  },
-  {
-    "id": 65,
-    "name": "InterviewBuddy",
-    "description": "AI-powered platform for practicing live interviews.",
-    "website": "https://interviewbuddy.in/",
-    "category": "Interview & Career Prep",
-    "logo": ""
-  },
-  {
-    "id": 66,
-    "name": "JobScan",
-    "description": "AI tool to match resumes with job descriptions.",
-    "website": "https://www.jobscan.co/",
-    "category": "Interview & Career Prep",
-    "logo": ""
-  }
-];
+    "logo": "/images/neu.png"
+  } ]
