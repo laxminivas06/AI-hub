@@ -834,7 +834,7 @@ export const aiTools: AITool[] = [
   "description": "AI conversation intelligence platform for sales teams.",
   "website": "https://www.chorus.ai/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/104.png"
 },
 {
   "id": 105,
@@ -842,7 +842,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered sales intelligence and prospecting platform.",
   "website": "https://www.cognism.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/105.png"
 },
 {
   "id": 106,
@@ -850,7 +850,7 @@ export const aiTools: AITool[] = [
   "description": "AI revenue intelligence platform that captures customer engagement data.",
   "website": "https://www.people.ai/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/106.png"
 },
 {
   "id": 107,
@@ -858,7 +858,7 @@ export const aiTools: AITool[] = [
   "description": "AI revenue platform for forecasting and pipeline management.",
   "website": "https://www.clari.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/107.png"
 },
 {
   "id": 108,
@@ -866,7 +866,7 @@ export const aiTools: AITool[] = [
   "description": "AI business forecasting and analytics platform for revenue teams.",
   "website": "https://www.akkio.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/108.png"
 },
 {
   "id": 109,
@@ -874,7 +874,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform for real-time conversation intelligence and agent coaching.",
   "website": "https://cresta.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/109.png"
 },
 {
   "id": 110,
@@ -882,7 +882,7 @@ export const aiTools: AITool[] = [
   "description": "AI conversation analytics platform for customer service and sales.",
   "website": "https://uniphore.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/110.png"
 },
 {
   "id": 111,
@@ -890,7 +890,7 @@ export const aiTools: AITool[] = [
   "description": "AI contact center platform for conversation intelligence and agent coaching.",
   "website": "https://www.observe.ai/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/111.png"
 },
 {
   "id": 112,
@@ -898,7 +898,7 @@ export const aiTools: AITool[] = [
   "description": "AI real-time call guidance for sales and customer service representatives.",
   "website": "https://www.balto.ai/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/112.png"
 },
 {
   "id": 113,
@@ -906,7 +906,7 @@ export const aiTools: AITool[] = [
   "description": "AI conversation intelligence platform for sales coaching and analytics.",
   "website": "https://jiminny.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/113.png"
 },
 {
   "id": 114,
@@ -914,7 +914,7 @@ export const aiTools: AITool[] = [
   "description": "AI conversation intelligence for sales and customer success teams.",
   "website": "https://www.execvision.io/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/114.png"
 },
 {
   "id": 115,
@@ -922,7 +922,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform integrated with Salesforce for predictive analytics and automation.",
   "website": "https://www.salesforce.com/products/einstein/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/115.png"
 },
 {
   "id": 116,
@@ -930,7 +930,7 @@ export const aiTools: AITool[] = [
   "description": "AI features integrated into HubSpot for marketing, sales, and service.",
   "website": "https://www.hubspot.com/products/ai",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/116.png"
 },
 {
   "id": 117,
@@ -938,7 +938,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered conversational marketing and sales platform.",
   "website": "https://www.drift.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/117.png"
 },
 {
   "id": 118,
@@ -946,7 +946,7 @@ export const aiTools: AITool[] = [
   "description": "AI customer messaging platform with chatbots and automation.",
   "website": "https://www.intercom.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/118.png"
 },
 {
   "id": 119,
@@ -954,7 +954,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered customer service and support platform.",
   "website": "https://www.zendesk.com/ai/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/119.png"
 },
 {
   "id": 120,
@@ -962,7 +962,7 @@ export const aiTools: AITool[] = [
   "description": "AI-enhanced customer support software with automation features.",
   "website": "https://freshdesk.com/ai",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/120.png"
 },
 {
   "id": 121,
@@ -970,7 +970,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered CRM platform for customer service and support.",
   "website": "https://www.kustomer.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/121.png"
 },
 {
   "id": 122,
@@ -978,7 +978,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered automated customer service platform with chatbots.",
   "website": "https://www.ada.cx/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/122.png"
 },
 {
   "id": 123,
@@ -986,7 +986,7 @@ export const aiTools: AITool[] = [
   "description": "AI customer support platform that automates ticket resolution.",
   "website": "https://www.forethought.ai/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/123.png"
 },
 {
   "id": 124,
@@ -994,7 +994,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform for building enterprise-grade virtual assistants and chatbots.",
   "website": "https://kore.ai/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/124.png"
 },
 {
   "id": 125,
@@ -1002,7 +1002,7 @@ export const aiTools: AITool[] = [
   "description": "AI conversational platform for customer engagement and messaging.",
   "website": "https://www.liveperson.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/125.png"
 },
 {
   "id": 126,
@@ -1010,7 +1010,7 @@ export const aiTools: AITool[] = [
   "description": "AI conversational automation platform for customer service.",
   "website": "https://www.cognigy.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/126.png"
 },
 {
   "id": 127,
@@ -1018,7 +1018,7 @@ export const aiTools: AITool[] = [
   "description": "AI customer service platform that automates issue resolution.",
   "website": "https://www.solvemate.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/127.png"
 },
 {
   "id": 128,
@@ -1026,7 +1026,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered customer engagement platform with automation capabilities.",
   "website": "https://www.verint.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/128.png"
 },
 {
   "id": 129,
@@ -1034,7 +1034,7 @@ export const aiTools: AITool[] = [
   "description": "AI customer experience platform with automation and analytics.",
   "website": "https://www.nice.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/129.png"
 },
 {
   "id": 130,
@@ -1042,7 +1042,7 @@ export const aiTools: AITool[] = [
   "description": "AI decisioning and analytics platform for customer engagement.",
   "website": "https://www.pega.com/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/130.png"
 },
 {
   "id": 131,
@@ -1050,7 +1050,7 @@ export const aiTools: AITool[] = [
   "description": "AI, analytics, and data management platform for businesses.",
   "website": "https://www.sas.com/en_us/software/viya.html",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/131.png"
 },
 {
   "id": 132,
@@ -1058,7 +1058,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform for automated machine learning and predictive analytics.",
   "website": "https://www.datarobot.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/132.png"
 },
 {
   "id": 133,
@@ -1066,7 +1066,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform for automatic machine learning and AI applications.",
   "website": "https://h2o.ai/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/133.png"
 },
 {
   "id": 134,
@@ -1074,7 +1074,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform for data science, machine learning, and predictive analytics.",
   "website": "https://rapidminer.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/134.png"
 },
 {
   "id": 135,
@@ -1082,7 +1082,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered analytics platform for data preparation and blending.",
   "website": "https://www.alteryx.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/135.png"
 },
 {
   "id": 136,
@@ -1090,7 +1090,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform for enterprise data science teams and MLOps.",
   "website": "https://www.dominodatalab.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/136.png"
 },
 {
   "id": 137,
@@ -1098,7 +1098,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform for designing and deploying data science projects.",
   "website": "https://www.dataiku.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/137.png"
 },
 {
   "id": 138,
@@ -1106,7 +1106,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source platform for data analytics, reporting, and integration.",
   "website": "https://www.knime.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/138.png"
 },
 {
   "id": 139,
@@ -1114,7 +1114,7 @@ export const aiTools: AITool[] = [
   "description": "AI and data science platform for R programming and statistical computing.",
   "website": "https://www.rstudio.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/139.png"
 },
 {
   "id": 140,
@@ -1122,7 +1122,7 @@ export const aiTools: AITool[] = [
   "description": "Platform for Python data science, machine learning, and AI development.",
   "website": "https://www.anaconda.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/140.png"
 },
 {
   "id": 141,
@@ -1130,7 +1130,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform for data engineering, science, and machine learning.",
   "website": "https://www.databricks.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/141.png"
 },
 {
   "id": 142,
@@ -1138,7 +1138,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered data cloud platform for data warehousing and analytics.",
   "website": "https://www.snowflake.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/142.png"
 },
 {
   "id": 143,
@@ -1146,7 +1146,7 @@ export const aiTools: AITool[] = [
   "description": "Machine learning platform for creating and deploying predictive models.",
   "website": "https://bigml.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/143.png"
 },
 {
   "id": 144,
@@ -1154,7 +1154,7 @@ export const aiTools: AITool[] = [
   "description": "AI and machine learning services on Google Cloud Platform.",
   "website": "https://cloud.google.com/products/ai",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/144.png"
 },
 {
   "id": 145,
@@ -1162,7 +1162,7 @@ export const aiTools: AITool[] = [
   "description": "Amazon's AI and machine learning services on AWS cloud platform.",
   "website": "https://aws.amazon.com/machine-learning/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/145.png"
 },
 {
   "id": 146,
@@ -1170,7 +1170,7 @@ export const aiTools: AITool[] = [
   "description": "Microsoft's AI and machine learning services on Azure cloud.",
   "website": "https://azure.microsoft.com/en-us/products/machine-learning",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/146.png"
 },
 {
   "id": 147,
@@ -1178,7 +1178,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform for businesses with various AI tools and services.",
   "website": "https://www.ibm.com/watson",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/147.png"
 },
 {
   "id": 148,
@@ -1186,7 +1186,7 @@ export const aiTools: AITool[] = [
   "description": "AI and machine learning services integrated with Oracle Cloud.",
   "website": "https://www.oracle.com/artificial-intelligence/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/148.png"
 },
 {
   "id": 149,
@@ -1194,7 +1194,7 @@ export const aiTools: AITool[] = [
   "description": "AI capabilities integrated into SAP's business software solutions.",
   "website": "https://www.sap.com/products/ai.html",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/149.png"
 },
 {
   "id": 150,
@@ -1202,7 +1202,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered analytics platform from Salesforce for business intelligence.",
   "website": "https://www.salesforce.com/products/einstein-analytics/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/150.png"
 },
 {
   "id": 151,
@@ -1210,7 +1210,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered analytics platform for natural language search and insights.",
   "website": "https://www.thoughtspot.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/151.png"
 },
 {
   "id": 152,
@@ -1218,7 +1218,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered data analytics and visualization platform.",
   "website": "https://www.qlik.com/us/products/qlik-sense",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/152.png"
 },
 {
   "id": 153,
@@ -1226,7 +1226,7 @@ export const aiTools: AITool[] = [
   "description": "AI-enhanced data visualization and business intelligence platform.",
   "website": "https://www.tableau.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/153.png"
 },
 {
   "id": 154,
@@ -1234,7 +1234,7 @@ export const aiTools: AITool[] = [
   "description": "Microsoft's AI-powered business analytics and visualization tool.",
   "website": "https://powerbi.microsoft.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/154.png"
 },
 {
   "id": 155,
@@ -1242,7 +1242,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered business intelligence and data analytics platform.",
   "website": "https://looker.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/155.png"
 },
 {
   "id": 156,
@@ -1250,7 +1250,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered business intelligence and data visualization platform.",
   "website": "https://www.domo.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/156.png"
 },
 {
   "id": 157,
@@ -1258,7 +1258,7 @@ export const aiTools: AITool[] = [
   "description": "AI-driven analytics platform for embedded business intelligence.",
   "website": "https://www.sisense.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/157.png"
 },
 {
   "id": 158,
@@ -1266,7 +1266,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered enterprise analytics and mobility platform.",
   "website": "https://www.microstrategy.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/158.png"
 },
 {
   "id": 159,
@@ -1274,7 +1274,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered analytics platform for embedded business intelligence.",
   "website": "https://www.gooddata.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/159.png"
 },
 {
   "id": 160,
@@ -1282,7 +1282,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered analytics and data visualization platform.",
   "website": "https://www.yellowfinbi.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/160.png"
 },
 {
   "id": 161,
@@ -1290,7 +1290,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered business intelligence and analytics platform.",
   "website": "https://www.zoho.com/analytics/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/161.png"
 },
 {
   "id": 162,
@@ -1298,7 +1298,7 @@ export const aiTools: AITool[] = [
   "description": "AI and analytics platform for advanced statistical analysis.",
   "website": "https://www.sas.com/en_us/software/analytics.html",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/162.png"
 },
 {
   "id": 163,
@@ -1306,7 +1306,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered predictive analytics and data visualization platform.",
   "website": "https://www.rapidinsight.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/163.png"
 },
 {
   "id": 164,
@@ -1314,7 +1314,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered analytics and business intelligence platform.",
   "website": "https://www.ibi.com/",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/164.png"
 },
 {
   "id": 165,
@@ -1322,7 +1322,7 @@ export const aiTools: AITool[] = [
   "description": "AI-powered analytics and data visualization platform.",
   "website": "https://www.tibco.com/products/tibco-spotfire",
   "category": "Data & Analytics",
-  "logo": "/images/neu.png"
+  "logo": "/images/165.png"
 },
 {
   "id": 166,
@@ -1330,7 +1330,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source machine learning framework for AI research and development.",
   "website": "https://pytorch.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/166.png"
 },
 {
   "id": 167,
@@ -1338,7 +1338,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source machine learning platform for AI development and research.",
   "website": "https://www.tensorflow.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/167.png"
 },
 {
   "id": 168,
@@ -1346,7 +1346,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source neural network library written in Python.",
   "website": "https://keras.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/168.png"
 },
 {
   "id": 169,
@@ -1354,7 +1354,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source machine learning library for Python programming.",
   "website": "https://scikit-learn.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/169.png"
 },
 {
   "id": 170,
@@ -1362,7 +1362,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source computer vision and machine learning software library.",
   "website": "https://opencv.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/170.png"
 },
 {
   "id": 171,
@@ -1370,7 +1370,7 @@ export const aiTools: AITool[] = [
   "description": "Unified analytics engine for large-scale data processing and machine learning.",
   "website": "https://spark.apache.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/171.png"
 },
 {
   "id": 172,
@@ -1378,7 +1378,7 @@ export const aiTools: AITool[] = [
   "description": "AI community building the future of machine learning and NLP models.",
   "website": "https://huggingface.co/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/172.png"
 },
 {
   "id": 173,
@@ -1386,7 +1386,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source library that simplifies training fast and accurate neural nets.",
   "website": "https://www.fast.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/173.png"
 },
 {
   "id": 174,
@@ -1394,7 +1394,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source platform for the complete machine learning lifecycle.",
   "website": "https://mlflow.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/174.png"
 },
 {
   "id": 175,
@@ -1402,7 +1402,7 @@ export const aiTools: AITool[] = [
   "description": "Machine learning toolkit for Kubernetes and cloud-native ML workflows.",
   "website": "https://www.kubeflow.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/175.png"
 },
 {
   "id": 176,
@@ -1410,7 +1410,7 @@ export const aiTools: AITool[] = [
   "description": "Developer tools for machine learning experiment tracking and visualization.",
   "website": "https://wandb.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/176.png"
 },
 {
   "id": 177,
@@ -1418,7 +1418,7 @@ export const aiTools: AITool[] = [
   "description": "Machine learning platform for tracking, comparing, and optimizing models.",
   "website": "https://www.comet.ml/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/177.png"
 },
 {
   "id": 178,
@@ -1426,7 +1426,7 @@ export const aiTools: AITool[] = [
   "description": "Metadata store for MLOps, built for research and production teams.",
   "website": "https://neptune.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/178.png"
 },
 {
   "id": 179,
@@ -1434,7 +1434,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source deep learning training platform with hyperparameter tuning.",
   "website": "https://determined.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/179.png"
 },
 {
   "id": 180,
@@ -1442,7 +1442,7 @@ export const aiTools: AITool[] = [
   "description": "AI model deployment platform for machine learning operations.",
   "website": "https://algorithmia.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/180.png"
 },
 {
   "id": 181,
@@ -1450,7 +1450,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source platform for deploying machine learning models in production.",
   "website": "https://www.cortex.dev/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/181.png"
 },
 {
   "id": 182,
@@ -1458,7 +1458,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source platform for deploying and monitoring machine learning models.",
   "website": "https://www.seldon.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/182.png"
 },
 {
   "id": 183,
@@ -1466,7 +1466,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source platform for serving and deploying machine learning models.",
   "website": "https://bentoml.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/183.png"
 },
 {
   "id": 184,
@@ -1474,7 +1474,7 @@ export const aiTools: AITool[] = [
   "description": "NVIDIA's open-source inference serving software for AI models.",
   "website": "https://developer.nvidia.com/nvidia-triton-inference-server",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/184.png"
 },
 {
   "id": 185,
@@ -1482,7 +1482,7 @@ export const aiTools: AITool[] = [
   "description": "Open format for representing machine learning models across frameworks.",
   "website": "https://onnx.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/185.png"
 },
 {
   "id": 186,
@@ -1490,7 +1490,7 @@ export const aiTools: AITool[] = [
   "description": "TensorFlow Extended production-ready machine learning platform.",
   "website": "https://www.tensorflow.org/tfx",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/186.png"
 },
 {
   "id": 187,
@@ -1498,7 +1498,7 @@ export const aiTools: AITool[] = [
   "description": "Serverless inference platform for Kubernetes and machine learning models.",
   "website": "https://github.com/kubeflow/kfserving",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/187.png"
 },
 {
   "id": 188,
@@ -1506,7 +1506,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source MLOps framework for managing machine learning pipelines.",
   "website": "https://www.mlrun.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/188.png"
 },
 {
   "id": 189,
@@ -1514,7 +1514,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source feature store for machine learning and AI applications.",
   "website": "https://feast.dev/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/189.png"
 },
 {
   "id": 190,
@@ -1522,7 +1522,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform with feature store for machine learning and data science.",
   "website": "https://www.hopsworks.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/190.png"
 },
 {
   "id": 191,
@@ -1530,7 +1530,7 @@ export const aiTools: AITool[] = [
   "description": "Enterprise feature store for machine learning and AI applications.",
   "website": "https://www.tecton.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/191.png"
 },
 {
   "id": 192,
@@ -1538,7 +1538,7 @@ export const aiTools: AITool[] = [
   "description": "Data versioning and pipeline platform for machine learning and data science.",
   "website": "https://www.pachyderm.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/192.png"
 },
 {
   "id": 193,
@@ -1546,7 +1546,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source version control system for machine learning projects.",
   "website": "https://dvc.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/193.png"
 },
 {
   "id": 194,
@@ -1554,7 +1554,7 @@ export const aiTools: AITool[] = [
   "description": "Platform for reproducing and managing machine learning experiments.",
   "website": "https://polyaxon.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/n194.png"
 },
 {
   "id": 195,
@@ -1562,7 +1562,7 @@ export const aiTools: AITool[] = [
   "description": "Human-centric framework for real-life data science and machine learning.",
   "website": "https://metaflow.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/195.png"
 },
 {
   "id": 196,
@@ -1570,7 +1570,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source Python framework for creating reproducible, maintainable data science code.",
   "website": "https://kedro.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/196.png"
 },
 {
   "id": 197,
@@ -1578,7 +1578,7 @@ export const aiTools: AITool[] = [
   "description": "Workflow management system for data engineering and machine learning.",
   "website": "https://www.prefect.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/197.png"
 },
 {
   "id": 198,
@@ -1586,7 +1586,7 @@ export const aiTools: AITool[] = [
   "description": "Platform to programmatically author, schedule and monitor workflows.",
   "website": "https://airflow.apache.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/198.png"
 },
 {
   "id": 199,
@@ -1594,7 +1594,7 @@ export const aiTools: AITool[] = [
   "description": "Python package that helps you build complex pipelines of batch jobs.",
   "website": "https://github.com/spotify/luigi",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/199.png"
 },
 {
   "id": 200,
@@ -1602,7 +1602,7 @@ export const aiTools: AITool[] = [
   "description": "Flexible library for parallel computing in Python for analytics and machine learning.",
   "website": "https://dask.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/200.png"
 },
 {
   "id": 201,
@@ -1610,7 +1610,7 @@ export const aiTools: AITool[] = [
   "description": "Unified framework for scaling AI and Python applications across clusters.",
   "website": "https://www.ray.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/201.png"
 },
 {
   "id": 202,
@@ -1618,7 +1618,7 @@ export const aiTools: AITool[] = [
   "description": "Speed up your Pandas workflows by changing a single line of code with parallel processing.",
   "website": "https://modin.readthedocs.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/202.png"
 },
 {
   "id": 203,
@@ -1626,7 +1626,7 @@ export const aiTools: AITool[] = [
   "description": "Python library for lazy Out-of-Core DataFrames for big data analysis.",
   "website": "https://vaex.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/203.png"
 },
 {
   "id": 204,
@@ -1634,7 +1634,7 @@ export const aiTools: AITool[] = [
   "description": "Fast, powerful, flexible and easy to use open source data analysis tool.",
   "website": "https://pandas.pydata.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/204.png"
 },
 {
   "id": 205,
@@ -1642,7 +1642,7 @@ export const aiTools: AITool[] = [
   "description": "Fundamental package for scientific computing with Python for numerical data.",
   "website": "https://numpy.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/205.png"
 },
 {
   "id": 206,
@@ -1650,7 +1650,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source software for mathematics, science, and engineering in Python.",
   "website": "https://www.scipy.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/206.png"
 },
 {
   "id": 207,
@@ -1658,7 +1658,7 @@ export const aiTools: AITool[] = [
   "description": "Comprehensive library for creating static, animated, and interactive visualizations.",
   "website": "https://matplotlib.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/207.png"
 },
 {
   "id": 208,
@@ -1666,7 +1666,7 @@ export const aiTools: AITool[] = [
   "description": "Python data visualization library based on matplotlib for statistical graphics.",
   "website": "https://seaborn.pydata.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/208.png"
 },
 {
   "id": 209,
@@ -1674,7 +1674,7 @@ export const aiTools: AITool[] = [
   "description": "Interactive graphing library for Python for creating web-based visualizations.",
   "website": "https://plotly.com/python/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/209.png"
 },
 {
   "id": 210,
@@ -1682,7 +1682,7 @@ export const aiTools: AITool[] = [
   "description": "Interactive visualization library for modern web browsers using Python.",
   "website": "https://docs.bokeh.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/210.png"
 },
 {
   "id": 211,
@@ -1690,7 +1690,7 @@ export const aiTools: AITool[] = [
   "description": "Declarative statistical visualization library for Python based on Vega-Lite.",
   "website": "https://altair-viz.github.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/211.png"
 },
 {
   "id": 212,
@@ -1698,7 +1698,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source app framework for Machine Learning and Data Science teams.",
   "website": "https://streamlit.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/212.png"
 },
 {
   "id": 213,
@@ -1706,7 +1706,7 @@ export const aiTools: AITool[] = [
   "description": "Python library for building quick demos of machine learning models.",
   "website": "https://www.gradio.app/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/213.png"
 },
 {
   "id": 214,
@@ -1714,7 +1714,7 @@ export const aiTools: AITool[] = [
   "description": "Python framework for building analytical web applications for data science.",
   "website": "https://plotly.com/dash/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/214.png"
 },
 {
   "id": 215,
@@ -1722,7 +1722,7 @@ export const aiTools: AITool[] = [
   "description": "Turns Jupyter notebooks into standalone web applications and dashboards.",
   "website": "https://voila.readthedocs.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/215.png"
 },
 {
   "id": 216,
@@ -1730,7 +1730,7 @@ export const aiTools: AITool[] = [
   "description": "Web-based interactive development environment for notebooks, code, and data.",
   "website": "https://jupyter.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/216.png"
 },
 {
   "id": 217,
@@ -1738,7 +1738,7 @@ export const aiTools: AITool[] = [
   "description": "Google's free Jupyter notebook environment for machine learning research.",
   "website": "https://colab.research.google.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/217.png"
 },
 {
   "id": 218,
@@ -1746,7 +1746,7 @@ export const aiTools: AITool[] = [
   "description": "Platform for data science competitions, datasets, and machine learning education.",
   "website": "https://www.kaggle.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/218.png"
 },
 {
   "id": 219,
@@ -1754,7 +1754,7 @@ export const aiTools: AITool[] = [
   "description": "Cloud platform for machine learning development and GPU-accelerated computing.",
   "website": "https://www.paperspace.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/219.png"
 },
 {
   "id": 220,
@@ -1762,7 +1762,7 @@ export const aiTools: AITool[] = [
   "description": "Cloud platform for training and deploying deep learning models.",
   "website": "https://www.floydhub.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/220.png"
 },
 {
   "id": 221,
@@ -1770,7 +1770,7 @@ export const aiTools: AITool[] = [
   "description": "Cloud GPU platform for deep learning and machine learning workloads.",
   "website": "https://lambdalabs.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/221.png"
 },
 {
   "id": 222,
@@ -1778,7 +1778,7 @@ export const aiTools: AITool[] = [
   "description": "Cloud platform for Jupyter notebooks with pre-installed ML packages.",
   "website": "https://www.crestle.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/222.png"
 },
 {
   "id": 223,
@@ -1786,7 +1786,7 @@ export const aiTools: AITool[] = [
   "description": "Machine learning platform for training and deploying models at scale.",
   "website": "https://spell.run/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/223.png"
 },
 {
   "id": 224,
@@ -1794,7 +1794,7 @@ export const aiTools: AITool[] = [
   "description": "MLOps platform that automates machine learning pipelines and workflows.",
   "website": "https://valohai.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/224.png"
 },
 {
   "id": 225,
@@ -1802,7 +1802,7 @@ export const aiTools: AITool[] = [
   "description": "AI platform for building and automating machine learning pipelines.",
   "website": "https://cnvrg.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/225.png"
 },
 {
   "id": 226,
@@ -1810,7 +1810,7 @@ export const aiTools: AITool[] = [
   "description": "MLOps platform for automating and managing machine learning lifecycles.",
   "website": "https://www.iguazio.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/226.png"
 },
 {
   "id": 227,
@@ -1818,7 +1818,7 @@ export const aiTools: AITool[] = [
   "description": "MLOps platform for deploying, serving, and managing machine learning models.",
   "website": "https://algorithmia.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/227.png"
 },
 {
   "id": 228,
@@ -1826,7 +1826,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source MLOps platform for automating machine learning workflows.",
   "website": "https://clear.ml/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/228.png"
 },
 {
   "id": 229,
@@ -1834,7 +1834,7 @@ export const aiTools: AITool[] = [
   "description": "ML observability platform for monitoring and explaining machine learning models.",
   "website": "https://arize.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/229.png"
 },
 {
   "id": 230,
@@ -1842,7 +1842,7 @@ export const aiTools: AITool[] = [
   "description": "AI observability platform for monitoring and explaining machine learning models.",
   "website": "https://www.fiddler.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/230.png"
 },
 {
   "id": 231,
@@ -1850,7 +1850,7 @@ export const aiTools: AITool[] = [
   "description": "AI observability platform for monitoring data and ML model performance.",
   "website": "https://whylabs.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/231.png"
 },
 {
   "id": 232,
@@ -1858,7 +1858,7 @@ export const aiTools: AITool[] = [
   "description": "AI governance platform for monitoring and auditing machine learning models.",
   "website": "https://www.monitaur.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/232.png"
 },
 {
   "id": 233,
@@ -1866,7 +1866,7 @@ export const aiTools: AITool[] = [
   "description": "AI security platform for testing and protecting machine learning models.",
   "website": "https://www.robustintelligence.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/233.png"
 },
 {
   "id": 234,
@@ -1874,7 +1874,7 @@ export const aiTools: AITool[] = [
   "description": "AI performance platform for monitoring and explaining machine learning models.",
   "website": "https://www.arthur.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/234.png"
 },
 {
   "id": 235,
@@ -1882,7 +1882,7 @@ export const aiTools: AITool[] = [
   "description": "Automated machine learning platform with automatic feature engineering.",
   "website": "https://www.h2o.ai/products/h2o-driverless-ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/235.png"
 },
 {
   "id": 236,
@@ -1890,7 +1890,7 @@ export const aiTools: AITool[] = [
   "description": "Automated machine learning capabilities within the Dataiku platform.",
   "website": "https://www.dataiku.com/product/automl/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/236.png"
 },
 {
   "id": 237,
@@ -1898,7 +1898,7 @@ export const aiTools: AITool[] = [
   "description": "Suite of machine learning products for training high-quality models with minimal effort.",
   "website": "https://cloud.google.com/automl",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/237.png"
 },
 {
   "id": 238,
@@ -1906,7 +1906,7 @@ export const aiTools: AITool[] = [
   "description": "Automated machine learning capabilities within Microsoft Azure.",
   "website": "https://azure.microsoft.com/en-us/products/machine-learning/automatedml",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/238.png"
 },
 {
   "id": 239,
@@ -1914,7 +1914,7 @@ export const aiTools: AITool[] = [
   "description": "Automated machine learning capability within AWS SageMaker.",
   "website": "https://aws.amazon.com/sagemaker/autopilot/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/239.png"
 },
 {
   "id": 240,
@@ -1922,7 +1922,7 @@ export const aiTools: AITool[] = [
   "description": "Python Automated Machine Learning tool that optimizes machine learning pipelines.",
   "website": "https://epistasislab.github.io/tpot/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/240.png"
 },
 {
   "id": 241,
@@ -1930,7 +1930,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source automated machine learning library based on Keras.",
   "website": "https://autokeras.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/241.png"
 },
 {
   "id": 242,
@@ -1938,7 +1938,7 @@ export const aiTools: AITool[] = [
   "description": "Automated machine learning toolkit for scikit-learn based models.",
   "website": "https://automl.github.io/auto-sklearn/master/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/242.png"
 },
 {
   "id": 243,
@@ -1946,7 +1946,7 @@ export const aiTools: AITool[] = [
   "description": "AutoML library for deep learning and tabular data from Amazon Web Services.",
   "website": "https://auto.gluon.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/243.png"
 },
 {
   "id": 244,
@@ -1954,7 +1954,7 @@ export const aiTools: AITool[] = [
   "description": "Automated machine learning platform with code generation capabilities.",
   "website": "https://mljar.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/244.png"
 },
 {
   "id": 245,
@@ -1962,7 +1962,7 @@ export const aiTools: AITool[] = [
   "description": "Automated feature engineering platform for machine learning.",
   "website": "https://www.featurelabs.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/245.png"
 },
 {
   "id": 246,
@@ -1970,7 +1970,7 @@ export const aiTools: AITool[] = [
   "description": "Automated machine learning capabilities within the Comet ML platform.",
   "website": "https://www.comet.ml/site/products/automl/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/246.png"
 },
 {
   "id": 247,
@@ -1978,7 +1978,7 @@ export const aiTools: AITool[] = [
   "description": "Automated machine learning integration within the Neptune AI platform.",
   "website": "https://docs.neptune.ai/essentials/integrations/automl",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/247.png"
 },
 {
   "id": 248,
@@ -1986,7 +1986,7 @@ export const aiTools: AITool[] = [
   "description": "Automated machine learning capabilities within the Determined AI platform.",
   "website": "https://docs.determined.ai/latest/training/automl.html",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/248.png"
 },
 {
   "id": 249,
@@ -1994,7 +1994,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source distributed machine learning platform with AutoML capabilities.",
   "website": "https://h2o.ai/products/h2o/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/249.png"
 },
 {
   "id": 250,
@@ -2002,7 +2002,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source, low-code machine learning library in Python for automation.",
   "website": "https://pycaret.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/250.png"
 },
 {
   "id": 251,
@@ -2010,7 +2010,7 @@ export const aiTools: AITool[] = [
   "description": "Declarative deep learning framework that requires no coding experience.",
   "website": "https://ludwig.ai/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/251.png"
 },
 {
   "id": 252,
@@ -2018,7 +2018,7 @@ export const aiTools: AITool[] = [
   "description": "Library for efficient learning of word representations and sentence classification.",
   "website": "https://fasttext.cc/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/252.png"
 },
 {
   "id": 253,
@@ -2026,7 +2026,7 @@ export const aiTools: AITool[] = [
   "description": "Python library for topic modeling, document indexing and similarity retrieval.",
   "website": "https://radimrehurek.com/gensim/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/253.png"
 },
 {
   "id": 254,
@@ -2034,7 +2034,7 @@ export const aiTools: AITool[] = [
   "description": "Industrial-strength natural language processing library in Python.",
   "website": "https://spacy.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/254.png"
 },
 {
   "id": 255,
@@ -2042,7 +2042,7 @@ export const aiTools: AITool[] = [
   "description": "Platform for building Python programs to work with human language data.",
   "website": "https://www.nltk.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/255.png"
 },
 {
   "id": 256,
@@ -2050,7 +2050,7 @@ export const aiTools: AITool[] = [
   "description": "Python library for processing textual data and performing NLP tasks.",
   "website": "https://textblob.readthedocs.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/256.png"
 },
 {
   "id": 257,
@@ -2058,7 +2058,7 @@ export const aiTools: AITool[] = [
   "description": "Stanford's natural language processing toolkit for linguistic analysis.",
   "website": "https://stanfordnlp.github.io/CoreNLP/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/257.png"
 },
 {
   "id": 258,
@@ -2066,7 +2066,7 @@ export const aiTools: AITool[] = [
   "description": "Open-source NLP research library built on PyTorch for deep learning models.",
   "website": "https://allennlp.org/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/258.png"
 },
 {
   "id": 259,
@@ -2074,7 +2074,7 @@ export const aiTools: AITool[] = [
   "description": "Simple framework for state-of-the-art natural language processing.",
   "website": "https://github.com/flairNLP/flair",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/259.png"
 },
 {
   "id": 260,
@@ -2082,7 +2082,7 @@ export const aiTools: AITool[] = [
   "description": "State-of-the-art natural language processing for PyTorch and TensorFlow.",
   "website": "https://huggingface.co/docs/transformers/index",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/260.png"
 },
 {
   "id": 261,
@@ -2090,7 +2090,7 @@ export const aiTools: AITool[] = [
   "description": "Google's transformer-based technique for natural language processing pre-training.",
   "website": "https://github.com/google-research/bert",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/261.png"
 },
 {
   "id": 262,
@@ -2098,7 +2098,7 @@ export const aiTools: AITool[] = [
   "description": "OpenAI's autoregressive language model that uses deep learning to produce human-like text.",
   "website": "https://openai.com/blog/openai-api/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/262.png"
 },
 {
   "id": 263,
@@ -2106,7 +2106,7 @@ export const aiTools: AITool[] = [
   "description": "OpenAI's most advanced system, producing safer and more useful responses.",
   "website": "https://openai.com/product/gpt-4",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/263.png"
 },
 {
   "id": 264,
@@ -2114,7 +2114,7 @@ export const aiTools: AITool[] = [
   "description": "Text-to-Text Transfer Transformer model for various NLP tasks.",
   "website": "https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/264.png"
 },
 {
   "id": 265,
@@ -2122,7 +2122,7 @@ export const aiTools: AITool[] = [
   "description": "Robustly optimized BERT approach for natural language understanding.",
   "website": "https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/265.png"
 },
 {
   "id": 266,
@@ -2130,7 +2130,7 @@ export const aiTools: AITool[] = [
   "description": "A Lite BERT for self-supervised learning of language representations.",
   "website": "https://ai.googleblog.com/2019/12/albert-lite-bert-for-self-supervised.html",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/266.png"
 },
 {
   "id": 267,
@@ -2138,7 +2138,7 @@ export const aiTools: AITool[] = [
   "description": "Efficiently Learning an Encoder that Classifies Token Replacements Accurately.",
   "website": "https://ai.googleblog.com/2020/03/more-efficient-nlp-model-pre-training.html",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/267.png"
 },
 {
   "id": 268,
@@ -2146,7 +2146,7 @@ export const aiTools: AITool[] = [
   "description": "Decoding-enhanced BERT with disentangled attention for NLP tasks.",
   "website": "https://www.microsoft.com/en-us/research/blog/microsoft-deberta-surpasses-human-performance-on-the-superglue-benchmark/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/268.png"
 },
 {
   "id": 269,
@@ -2154,7 +2154,7 @@ export const aiTools: AITool[] = [
   "description": "Generalized autoregressive pretraining for language understanding.",
   "website": "https://ai.googleblog.com/2019/06/xlnet-outperforms-bert-on-several.html",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/269.png"
 },
 {
   "id": 270,
@@ -2162,7 +2162,7 @@ export const aiTools: AITool[] = [
   "description": "Denoising sequence-to-sequence pre-training for natural language generation.",
   "website": "https://ai.facebook.com/blog/bart-de-noising-sequence-to-sequence-pre-training-for-natural-language-generation-translation-and-comprehension/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/270.png"
 },
 {
   "id": 271,
@@ -2170,7 +2170,7 @@ export const aiTools: AITool[] = [
   "description": "Multitask prompted training enables zero-shot task generalization.",
   "website": "https://bigscience.huggingface.co/blog/t0",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/271.png"
 },
 {
   "id": 272,
@@ -2178,7 +2178,7 @@ export const aiTools: AITool[] = [
   "description": "AI system that translates natural language to code, powering GitHub Copilot.",
   "website": "https://openai.com/blog/openai-codex",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/272.png"
 },
 {
   "id": 273,
@@ -2186,7 +2186,7 @@ export const aiTools: AITool[] = [
   "description": "AI system competitive at programming competitions from DeepMind.",
   "website": "https://www.deepmind.com/blog/competitive-programming-with-alphacode",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/273.png"
 },
 {
   "id": 274,
@@ -2194,7 +2194,7 @@ export const aiTools: AITool[] = [
   "description": "Deep learning architecture for tabular data from Google Research.",
   "website": "https://arxiv.org/abs/1908.07442",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/274.png"
 },
 {
   "id": 275,
@@ -2202,7 +2202,7 @@ export const aiTools: AITool[] = [
   "description": "Deep learning for chemistry, biology, and materials science.",
   "website": "https://deepchem.io/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/275.png"
 },
 {
   "id": 276,
@@ -2210,7 +2210,7 @@ export const aiTools: AITool[] = [
   "description": "Pre-trained biomedical language representation model for biomedical text mining.",
   "website": "https://arxiv.org/abs/1901.08746",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/276.png"
 },
 {
   "id": 277,
@@ -2218,7 +2218,7 @@ export const aiTools: AITool[] = [
   "description": "BERT model pretrained on clinical notes for healthcare NLP applications.",
   "website": "https://arxiv.org/abs/1904.05342",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/277.png"
 },
 {
   "id": 278,
@@ -2226,7 +2226,7 @@ export const aiTools: AITool[] = [
   "description": "BERT model pretrained on scientific text for scientific NLP tasks.",
   "website": "https://arxiv.org/abs/1903.10676",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/278.png"
 },
 {
   "id": 279,
@@ -2234,7 +2234,7 @@ export const aiTools: AITool[] = [
   "description": "BERT model pretrained on legal text for legal document analysis.",
   "website": "https://arxiv.org/abs/2010.02559",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/279.png"
 },
 {
   "id": 280,
@@ -2242,7 +2242,7 @@ export const aiTools: AITool[] = [
   "description": "BERT model trained on financial communication text for sentiment analysis.",
   "website": "https://arxiv.org/abs/1908.10063",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/280.png"
 },
 {
   "id": 281,
@@ -2250,7 +2250,7 @@ export const aiTools: AITool[] = [
   "description": "Joint visual-linguistic model for learning video representations.",
   "website": "https://ai.googleblog.com/2019/09/videobert-learning-visual-common-sense.html",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/281.png"
 },
 {
   "id": 282,
@@ -2258,7 +2258,7 @@ export const aiTools: AITool[] = [
   "description": "OpenAI's neural network that creates images from text descriptions.",
   "website": "https://openai.com/product/dall-e-2",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/282.png"
 },
 {
   "id": 283,
@@ -2266,7 +2266,7 @@ export const aiTools: AITool[] = [
   "description": "Contrastive Language-Image Pre-training for visual concept learning.",
   "website": "https://openai.com/blog/clip/",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/283.png"
 },
 {
   "id": 284,
@@ -2274,7 +2274,7 @@ export const aiTools: AITool[] = [
   "description": "Generative adversarial network for generating realistic images from NVIDIA.",
   "website": "https://github.com/NVlabs/stylegan",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/284.png"
 },
 {
   "id": 285,
@@ -2282,7 +2282,7 @@ export const aiTools: AITool[] = [
   "description": "Large-scale GAN training for high fidelity natural image synthesis.",
   "website": "https://arxiv.org/abs/1809.11096",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/285.png"
 },
 {
   "id": 286,
@@ -2290,7 +2290,7 @@ export const aiTools: AITool[] = [
   "description": "Neural discrete representation learning for image generation.",
   "website": "https://arxiv.org/abs/1711.00937",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/286.png"
 },
 {
   "id": 287,
@@ -2298,7 +2298,7 @@ export const aiTools: AITool[] = [
   "description": "Deep generative model of raw audio waveforms from DeepMind.",
   "website": "https://deepmind.com/blog/article/wavenet-generative-model-raw-audio",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/287.png"
 },
 {
   "id": 288,
@@ -2306,7 +2306,7 @@ export const aiTools: AITool[] = [
   "description": "End-to-end generative text-to-speech model from Google Research.",
   "website": "https://arxiv.org/abs/1703.10135",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/288.png"
 },
 {
   "id": 289,
@@ -2314,7 +2314,7 @@ export const aiTools: AITool[] = [
   "description": "Flow-based generative network for speech synthesis from NVIDIA.",
   "website": "https://github.com/NVlabs/waveglow",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/289.png"
 },
 {
   "id": 290,
@@ -2322,7 +2322,7 @@ export const aiTools: AITool[] = [
   "description": "Deep neural network that can generate 4-minute musical compositions.",
   "website": "https://openai.com/blog/musenet/",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/290.png"
 },
 {
   "id": 291,
@@ -2330,7 +2330,7 @@ export const aiTools: AITool[] = [
   "description": "Neural net that generates music, including rudimentary singing, as raw audio.",
   "website": "https://openai.com/blog/jukebox/",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/291.png"
 },
 {
   "id": 292,
@@ -2338,7 +2338,7 @@ export const aiTools: AITool[] = [
   "description": "Computer vision program that uses neural networks to find and enhance patterns.",
   "website": "https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/292.png"
 },
 {
   "id": 293,
@@ -2346,7 +2346,7 @@ export const aiTools: AITool[] = [
   "description": "Algorithm that applies the style of one image to the content of another.",
   "website": "https://arxiv.org/abs/1508.06576",
   "category": "Design & Creativity",
-  "logo": "/images/neu.png"
+  "logo": "/images/293.png"
 },
 {
   "id": 294,
@@ -2354,7 +2354,7 @@ export const aiTools: AITool[] = [
   "description": "Facebook's deep learning facial recognition system.",
   "website": "https://research.facebook.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/294.png"
 },
 {
   "id": 295,
@@ -2362,7 +2362,7 @@ export const aiTools: AITool[] = [
   "description": "Unified embedding for face recognition and clustering from Google Research.",
   "website": "https://arxiv.org/abs/1503.03832",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/295.png"
 },
 {
   "id": 296,
@@ -2370,7 +2370,7 @@ export const aiTools: AITool[] = [
   "description": "Real-time multi-person keypoint detection library for body, face, and hands.",
   "website": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/296.png"
 },
 {
   "id": 297,
@@ -2378,7 +2378,7 @@ export const aiTools: AITool[] = [
   "description": "Real-time object detection system for identifying objects in images and video.",
   "website": "https://pjreddie.com/darknet/yolo/",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/297.png"
 },
 {
   "id": 298,
@@ -2386,7 +2386,7 @@ export const aiTools: AITool[] = [
   "description": "Framework for object instance segmentation from Facebook AI Research.",
   "website": "https://arxiv.org/abs/1703.06870",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/298.png"
 },
 {
   "id": 299,
@@ -2394,7 +2394,7 @@ export const aiTools: AITool[] = [
   "description": "Facebook AI Research's next-generation library for object detection and segmentation.",
   "website": "https://github.com/facebookresearch/detectron2",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/299.png"
 },
 {
   "id": 300,
@@ -2402,5 +2402,5 @@ export const aiTools: AITool[] = [
   "description": "Open-source object detection toolbox based on PyTorch.",
   "website": "https://github.com/open-mmlab/mmdetection",
   "category": "Engineering & Coding",
-  "logo": "/images/neu.png"
+  "logo": "/images/300.png"
 } ]
