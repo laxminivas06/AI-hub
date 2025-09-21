@@ -1554,7 +1554,7 @@ export const aiTools: AITool[] = [
   "description": "Platform for reproducing and managing machine learning experiments.",
   "website": "https://polyaxon.com/",
   "category": "Engineering & Coding",
-  "logo": "/images/n194.png"
+  "logo": "/images/194.png"
 },
 {
   "id": 195,
