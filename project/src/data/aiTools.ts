@@ -530,7 +530,7 @@ export const aiTools: AITool[] = [
   "description": "AI content creation platform for e-commerce and marketing teams.",
   "website": "https://copysmith.ai/",
   "category": "Entrepreneurship & Startups",
-  "logo": "/images/neu.png"
+  "logo": "/images/cop.png"
 },
 {
   "id": 67,
@@ -562,7 +562,7 @@ export const aiTools: AITool[] = [
   "description": "AI writer specialized in generating niche-specific articles and content.",
   "website": "https://kafkai.com/",
   "category": "Productivity & Writing",
-  "logo": "/images/neu.png"
+  "logo": "/images/70.png"
 },
 {
   "id": 71,
