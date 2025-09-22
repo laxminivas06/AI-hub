@@ -2403,4 +2403,4188 @@ export const aiTools: AITool[] = [
   "website": "https://github.com/open-mmlab/mmdetection",
   "category": "Engineering & Coding",
   "logo": "/images/300.png"
-} ]
+},
+{
+  "id": 301,
+  "name": "Lobe",
+  "description": "Easy-to-use tool for training custom machine learning models without coding.",
+  "website": "https://www.lobe.ai/",
+  "category": "Engineering & Coding",
+  "logo": "/images/301.png"
+},
+{
+  "id": 302,
+  "name": "Teachable Machine",
+  "description": "Web-based tool for creating machine learning models quickly and easily.",
+  "website": "https://teachablemachine.withgoogle.com/",
+  "category": "Engineering & Coding",
+  "logo": "/images/302.png"
+},
+{
+  "id": 303,
+  "name": "Runway ML",
+  "description": "Creative toolkit that makes it easy to use machine learning in creative projects.",
+  "website": "https://runwayml.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/303.png"
+},
+{
+  "id": 304,
+  "name": "NVIDIA Canvas",
+  "description": "AI painting app that turns simple brushstrokes into realistic landscape images.",
+  "website": "https://www.nvidia.com/en-us/studio/canvas/",
+  "category": "Design & Creativity",
+  "logo": "/images/304.png"
+},
+{
+  "id": 305,
+  "name": "Artbreeder",
+  "description": "Online tool for creating and exploring visual art using generative adversarial networks.",
+  "website": "https://www.artbreeder.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/305.png"
+},
+{
+  "id": 306,
+  "name": "Deep Dream Generator",
+  "description": "Online platform that uses neural networks to create dream-like images from photos.",
+  "website": "https://deepdreamgenerator.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/306.png"
+},
+{
+  "id": 307,
+  "name": "Let's Enhance",
+  "description": "AI-powered image upscaling and enhancement tool for photographers and designers.",
+  "website": "https://letsenhance.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/307.png"
+},
+{
+  "id": 308,
+  "name": "Topaz Labs",
+  "description": "Suite of AI-powered image quality and video enhancement software tools.",
+  "website": "https://www.topazlabs.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/308.png"
+},
+{
+  "id": 309,
+  "name": "Remove.bg",
+  "description": "AI tool that automatically removes backgrounds from images in seconds.",
+  "website": "https://www.remove.bg/",
+  "category": "Design & Creativity",
+  "logo": "/images/309.png"
+},
+{
+  "id": 310,
+  "name": "Background Burner",
+  "description": "Automated background removal tool powered by machine learning algorithms.",
+  "website": "https://burner.bonanza.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/310.png"
+},
+{
+  "id": 311,
+  "name": "Deep Angel",
+  "description": "AI platform that automatically removes objects from images using inpainting technology.",
+  "website": "https://deepangel.media.mit.edu/",
+  "category": "Design & Creativity",
+  "logo": "/images/311.png"
+},
+{
+  "id": 312,
+  "name": "NVIDIA GauGAN",
+  "description": "AI demo that turns rough sketches into photorealistic masterpieces.",
+  "website": "https://www.nvidia.com/en-us/research/ai-playground/",
+  "category": "Design & Creativity",
+  "logo": "/images/312.png"
+},
+{
+  "id": 313,
+  "name": "AI Painter",
+  "description": "Tool that uses AI to transform photos into paintings in various artistic styles.",
+  "website": "https://aipainter.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/313.png"
+},
+{
+  "id": 314,
+  "name": "Deep Art Effects",
+  "description": "AI-powered app that transforms photos into artwork using artistic styles.",
+  "website": "https://www.deeparteffects.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/314.png"
+},
+{
+  "id": 315,
+  "name": "Prisma",
+  "description": "App that uses AI to transform photos into artworks using styles of famous artists.",
+  "website": "https://prisma-ai.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/315.png"
+},
+{
+  "id": 316,
+  "name": "Grok Imagine",
+  "description": "Text- & image-based AI tool by xAI capable of generating images and short videos from prompts; includes a ‘spicy mode’ for more mature content. Uses image generation models like Aurora. (Free / paid tiers) ",  
+  "website": "https://x.ai/",  
+  "category": "Design & Creativity",  
+  "logo": "/images/316.png"
+},
+{
+  "id": 317,
+  "name": "DeepNostalgia",
+  "description": "AI tool that animates faces in still photos to create realistic video sequences.",
+  "website": "https://www.myheritage.com/deep-nostalgia",
+  "category": "Design & Creativity",
+  "logo": "/images/317.png"
+},
+{
+  "id": 318,
+  "name": "FaceApp",
+  "description": "Mobile app that uses neural networks to transform faces in photographs.",
+  "website": "https://www.faceapp.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/318.png"
+},
+{
+  "id": 319,
+  "name": "Reface",
+  "description": "App that uses AI to swap faces in videos and GIFs with realistic results.",
+  "website": "https://reface.app/",
+  "category": "Design & Creativity",
+  "logo": "/images/319.png"
+},
+{
+  "id": 320,
+  "name": "Zao",
+  "description": "Deepfake app that allows users to replace faces in video clips with their own.",
+  "website": "https://www.zao.cn/",
+  "category": "Design & Creativity",
+  "logo": "/images/320.png"
+},
+{
+  "id": 321,
+  "name": "Wombo",
+  "description": "AI-powered app that animates selfies to make them sing popular songs.",
+  "website": "https://www.wombo.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/321.png"
+},
+{
+  "id": 322,
+  "name": "MyHeritage",
+  "description": "Family history platform with AI tools for photo enhancement and animation.",
+  "website": "https://www.myheritage.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/322.png"
+},
+{
+  "id": 323,
+  "name": "Lensa",
+  "description": "AI-powered photo editor with magic retouch and portrait enhancement features.",
+  "website": "https://prisma-ai.com/lensa",
+  "category": "Design & Creativity",
+  "logo": "/images/323.png"
+},
+{
+  "id": 324,
+  "name": "Remini",
+  "description": "AI photo enhancer that improves image quality and restores old photos.",
+  "website": "https://remini.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/324.png"
+},
+{
+  "id": 325,
+  "name": "Pixelmator Pro",
+  "description": "Image editor with machine learning-powered tools for professional photo editing.",
+  "website": "https://www.pixelmator.com/pro/",
+  "category": "Design & Creativity",
+  "logo": "/images/325.png"
+},
+{
+  "id": 326,
+  "name": "Sketch2Code",
+  "description": "Microsoft tool that converts hand-drawn sketches into HTML code using AI.",
+  "website": "https://sketch2code.azurewebsites.net/",
+  "category": "Engineering & Coding",
+  "logo": "/images/326.png"
+},
+{
+  "id": 327,
+  "name": "Uizard",
+  "description": "AI tool that transforms hand-drawn sketches into digital designs and prototypes.",
+  "website": "https://uizard.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/327.png"
+},
+{
+  "id": 328,
+  "name": "Fronty",
+  "description": "AI tool that converts image to HTML CSS code with just a screenshot.",
+  "website": "https://fronty.com/",
+  "category": "Engineering & Coding",
+  "logo": "/images/328.png"
+},
+{
+  "id": 329,
+  "name": "Anima",
+  "description": "AI-powered design-to-code platform that converts designs into developer-friendly code.",
+  "website": "https://www.animaapp.com/",
+  "category": "Engineering & Coding",
+  "logo": "/images/329.png"
+},
+{
+  "id": 330,
+  "name": "Relay",
+  "description": "AI tool from Figma that helps designers create responsive designs faster.",
+  "website": "https://www.figma.com/relay/",
+  "category": "Design & Creativity",
+  "logo": "/images/330.png"
+},
+{
+  "id": 331,
+  "name": "Khroma",
+  "description": "AI color tool that learns which colors you like and creates palettes for you.",
+  "website": "https://www.khroma.co/",
+  "category": "Design & Creativity",
+  "logo": "/images/331.png"
+},
+{
+  "id": 332,
+  "name": "Colormind",
+  "description": "AI color scheme generator that learns color styles from photographs and movies.",
+  "website": "http://colormind.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/332.png"
+},
+{
+  "id": 333,
+  "name": "Huemint",
+  "description": "AI-powered color palette generator with control over contrast and style.",
+  "website": "https://huemint.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/333.png"
+},
+{
+  "id": 334,
+  "name": "Fontjoy",
+  "description": "AI tool that helps designers choose the best font combinations for their projects.",
+  "website": "https://fontjoy.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/334.png"
+},
+{
+  "id": 335,
+  "name": "Logojoy",
+  "description": "AI-powered logo maker that creates professional logos based on user preferences.",
+  "website": "https://www.logojoy.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/335.png"
+},
+{
+  "id": 336,
+  "name": "Looka",
+  "description": "AI logo maker and brand identity platform for entrepreneurs and small businesses.",
+  "website": "https://looka.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/336.png"
+},
+{
+  "id": 337,
+  "name": "Designs.ai",
+  "description": "AI-powered design platform for creating logos, videos, banners, and mockups.",
+  "website": "https://designs.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/337.png"
+},
+{
+  "id": 338,
+  "name": "Jasper Art",
+  "description": "AI image generator that creates unique images from text descriptions.",
+  "website": "https://www.jasper.ai/art",
+  "category": "Design & Creativity",
+  "logo": "/images/338.png"
+},
+{
+  "id": 339,
+  "name": "NightCafe",
+  "description": "AI art generator that creates images from text using various neural style algorithms.",
+  "website": "https://nightcafe.studio/",
+  "category": "Design & Creativity",
+  "logo": "/images/339.png"
+},
+{
+  "id": 340,
+  "name": "Dream by Wombo",
+  "description": "AI art generator that creates paintings from text prompts in various styles.",
+  "website": "https://www.wombo.art/",
+  "category": "Design & Creativity",
+  "logo": "/images/340.png"
+},
+{
+  "id": 341,
+  "name": "StarryAI",
+  "description": "AI art generator that transforms text into artwork with customizable styles.",
+  "website": "https://starryai.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/341.png"
+},
+{
+  "id": 342,
+  "name": "DeepAI",
+  "description": "AI API platform with tools for image generation, text analysis, and more.",
+  "website": "https://deepai.org/",
+  "category": "Engineering & Coding",
+  "logo": "/images/342.png"
+},
+{
+  "id": 343,
+  "name": "Craiyon",
+  "description": "AI model that draws images from any text prompt (formerly DALL-E mini).",
+  "website": "https://www.craiyon.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/343.png"
+},
+{
+  "id": 344,
+  "name": "Midjourney",
+  "description": "AI program that creates images from textual descriptions using Discord interface.",
+  "website": "https://www.midjourney.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/344.png"
+},
+{
+  "id": 345,
+  "name": "Lexica",
+  "description": "Search engine for Stable Diffusion images with prompt examples and generation tools.",
+  "website": "https://lexica.art/",
+  "category": "Design & Creativity",
+  "logo": "/images/345.png"
+},
+{
+  "id": 346,
+  "name": "Playground AI",
+  "description": "Online platform for creating and editing images with AI-powered tools.",
+  "website": "https://playgroundai.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/346.png"
+},
+{
+  "id": 347,
+  "name": "Neuroflash",
+  "description": "AI content and image generator for marketing materials and creative projects.",
+  "website": "https://neuroflash.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/347.png"
+},
+{
+  "id": 348,
+  "name": "Photosonic",
+  "description": "AI art generator that creates unique images from text descriptions.",
+  "website": "https://photosonic.writesonic.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/348.png"
+},
+{
+  "id": 349,
+  "name": "DeepSwap",
+  "description": "AI face swap tool for images, videos, and GIFs with realistic results.",
+  "website": "https://www.deepswap.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/349.png"
+},
+{
+  "id": 350,
+  "name": "MyEdit",
+  "description": "AI photo editor with advanced tools for enhancement, restoration, and effects.",
+  "website": "https://myedit.online/",
+  "category": "Design & Creativity",
+  "logo": "/images/350.png"
+},
+{
+  "id": 351,
+  "name": "VanceAI",
+  "description": "AI image enhancer and upscaler with various tools for photo improvement.",
+  "website": "https://vanceai.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/351.png"
+},
+{
+  "id": 352,
+  "name": "AISEO",
+  "description": "AI writing tool with image generation capabilities for content creation.",
+  "website": "https://aiseo.ai/",
+  "category": "Productivity & Writing",
+  "logo": "/images/352.png"
+},
+{
+  "id": 353,
+  "name": "Simplified",
+  "description": "All-in-one design platform with AI writing, design, and video creation tools.",
+  "website": "https://simplified.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/353.png"
+},
+{
+  "id": 354,
+  "name": "Designs.ai",
+  "description": "AI-powered design platform for creating logos, videos, banners, and mockups.",
+  "website": "https://designs.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/354.png"
+},
+{
+  "id": 355,
+  "name": "Adobe Sensei",
+  "description": "Adobe's AI and machine learning framework that powers features across Creative Cloud.",
+  "website": "https://www.adobe.com/sensei.html",
+  "category": "Design & Creativity",
+  "logo": "/images/355.png"
+},
+{
+  "id": 356,
+  "name": "Canva",
+  "description": "Design platform with AI-powered tools for creating visual content easily.",
+  "website": "https://www.canva.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/356.png"
+},
+{
+  "id": 357,
+  "name": "Pictory",
+  "description": "AI video generator that creates branded videos from text content quickly.",
+  "website": "https://pictory.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/357.png"
+},
+{
+  "id": 358,
+  "name": "Synthesia",
+  "description": "AI video generation platform that creates professional videos from text.",
+  "website": "https://www.synthesia.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/358.png"
+},
+{
+  "id": 359,
+  "name": "HeyGen",
+  "description": "AI video creation platform with avatar presenters and voice cloning technology.",
+  "website": "https://www.heygen.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/359.png"
+},
+{
+  "id": 360,
+  "name": "Colossyan",
+  "description": "AI video generator that creates professional videos with AI actors.",
+  "website": "https://www.colossyan.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/360.png"
+},
+{
+  "id": 361,
+  "name": "DeepBrain AI",
+  "description": "AI video generation platform with realistic AI humans for content creation.",
+  "website": "https://www.deepbrain.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/361.png"
+},
+{
+  "id": 362,
+  "name": "Rephrase.ai",
+  "description": "AI video platform that converts text into professional-quality videos.",
+  "website": "https://www.rephrase.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/362.png"
+},
+{
+  "id": 363,
+  "name": "Elai.io",
+  "description": "AI video generator that creates videos from text with digital presenters.",
+  "website": "https://elai.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/363.png"
+},
+{
+  "id": 364,
+  "name": "Steve AI",
+  "description": "AI video maker that transforms articles, scripts, and ideas into animated videos.",
+  "website": "https://www.steve.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/364.png"
+},
+{
+  "id": 365,
+  "name": "InVideo",
+  "description": "Online video editor with AI-powered features for creating professional videos.",
+  "website": "https://invideo.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/365.png"
+},
+{
+  "id": 366,
+  "name": "Veed.io",
+  "description": "Online video editor with AI features for subtitles, editing, and effects.",
+  "website": "https://www.veed.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/366.png"
+},
+{
+  "id": 367,
+  "name": "Kapwing",
+  "description": "Online video editor with AI-powered tools for content creation and editing.",
+  "website": "https://www.kapwing.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/367.png"
+},
+{
+  "id": 368,
+  "name": "Runway",
+  "description": "AI-powered video editing platform with advanced tools for creators.",
+  "website": "https://runwayml.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/368.png"
+},
+{
+  "id": 369,
+  "name": "Descript",
+  "description": "Audio and video editor that works like a document with AI-powered features.",
+  "website": "https://www.descript.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/369.png"
+},
+{
+  "id": 370,
+  "name": "Murf",
+  "description": "AI voice generator that creates realistic voiceovers from text.",
+  "website": "https://murf.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/370.png"
+},
+{
+  "id": 371,
+  "name": "Listnr",
+  "description": "AI voice generator that converts text to speech in multiple languages and voices.",
+  "website": "https://www.listnr.tech/",
+  "category": "Design & Creativity",
+  "logo": "/images/371.png"
+},
+{
+  "id": 372,
+  "name": "Play.ht",
+  "description": "AI voice generator for creating realistic text-to-speech voiceovers.",
+  "website": "https://play.ht/",
+  "category": "Design & Creativity",
+  "logo": "/images/372.png"
+},
+{
+  "id": 373,
+  "name": "Lovo",
+  "description": "AI voice generator and text-to-speech platform with emotional expression.",
+  "website": "https://www.lovo.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/373.png"
+},
+{
+  "id": 374,
+  "name": "Resemble AI",
+  "description": "AI voice generator that clones voices and creates custom synthetic speech.",
+  "website": "https://www.resemble.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/374.png"
+},
+{
+  "id": 375,
+  "name": "Verbatik",
+  "description": "Text-to-speech platform with AI-generated voices for various applications.",
+  "website": "https://verbatik.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/375.png"
+},
+{
+  "id": 376,
+  "name": "Speechify",
+  "description": "Text-to-speech app that uses AI to read text aloud with natural voices.",
+  "website": "https://speechify.com/",
+  "category": "Productivity & Writing",
+  "logo": "/images/376.png"
+},
+{
+  "id": 377,
+  "name": "NaturalReader",
+  "description": "Text-to-speech software that converts text, PDF, and other formats into spoken audio.",
+  "website": "https://www.naturalreaders.com/",
+  "category": "Productivity & Writing",
+  "logo": "/images/377.png"
+},
+{
+  "id": 378,
+  "name": "Voicemaker",
+  "description": "Online text-to-speech converter with AI voices and customization options.",
+  "website": "https://voicemaker.in/",
+  "category": "Design & Creativity",
+  "logo": "/images/378.png"
+},
+{
+  "id": 379,
+  "name": "TTSMaker",
+  "description": "Free text-to-speech tool with multiple languages and voice options.",
+  "website": "https://ttsmaker.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/379.png"
+},
+{
+  "id": 380,
+  "name": "Uberduck",
+  "description": "AI voice generator with celebrity voices and custom voice cloning capabilities.",
+  "website": "https://uberduck.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/380.png"
+},
+{
+  "id": 381,
+  "name": "Replica Studios",
+  "description": "AI voice actor platform for game developers and content creators.",
+  "website": "https://replicastudios.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/381.png"
+},
+{
+  "id": 382,
+  "name": "Sonantic",
+  "description": "AI voice platform that creates emotionally expressive voice performances.",
+  "website": "https://www.sonantic.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/382.png"
+},
+{
+  "id": 383,
+  "name": "WellSaid Labs",
+  "description": "AI text-to-speech platform that creates realistic voiceovers for content.",
+  "website": "https://wellsaidlabs.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/383.png"
+},
+{
+  "id": 384,
+  "name": "Deepdub",
+  "description": "AI dubbing platform that localizes content with emotional voice performances.",
+  "website": "https://www.deepdub.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/384.png"
+},
+{
+  "id": 385,
+  "name": "Papercup",
+  "description": "AI dubbing service that uses synthetic voices to translate videos automatically.",
+  "website": "https://www.papercup.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/385.png"
+},
+{
+  "id": 386,
+  "name": "Deepgram",
+  "description": "AI speech recognition platform for transcribing and understanding audio data.",
+  "website": "https://deepgram.com/",
+  "category": "Engineering & Coding",
+  "logo": "/images/386.png"
+},
+{
+  "id": 387,
+  "name": "AssemblyAI",
+  "description": "AI platform for speech-to-text and audio intelligence with advanced features.",
+  "website": "https://www.assemblyai.com/",
+  "category": "Engineering & Coding",
+  "logo": "/images/387.png"
+},
+{
+  "id": 388,
+  "name": "Rev.ai",
+  "description": "Automatic speech recognition API for accurate transcription of audio and video.",
+  "website": "https://www.rev.ai/",
+  "category": "Engineering & Coding",
+  "logo": "/images/388.png"
+},
+{
+  "id": 389,
+  "name": "Otter.ai",
+  "description": "AI-powered transcription service that records and transcribes meetings in real-time.",
+  "website": "https://otter.ai/",
+  "category": "Productivity & Writing",
+  "logo": "/images/389.png"
+},
+{
+  "id": 390,
+  "name": "Trint",
+  "description": "AI transcription software that converts audio and video to text with editing tools.",
+  "website": "https://trint.com/",
+  "category": "Productivity & Writing",
+  "logo": "/images/390.png"
+},
+{
+  "id": 391,
+  "name": "Sonix",
+  "description": "Automated transcription and translation service with AI-powered accuracy.",
+  "website": "https://sonix.ai/",
+  "category": "Productivity & Writing",
+  "logo": "/images/391.png"
+},
+{
+  "id": 392,
+  "name": "Temi",
+  "description": "Automated transcription service that uses AI to transcribe audio files quickly.",
+  "website": "https://www.temi.com/",
+  "category": "Productivity & Writing",
+  "logo": "/images/392.png"
+},
+{
+  "id": 393,
+  "name": "Verbit",
+  "description": "AI-powered transcription and captioning platform with human refinement.",
+  "website": "https://verbit.ai/",
+  "category": "Productivity & Writing",
+  "logo": "/images/393.png"
+},
+{
+  "id": 394,
+  "name": "Speechmatics",
+  "description": "Automatic speech recognition technology for transcribing audio in multiple languages.",
+  "website": "https://www.speechmatics.com/",
+  "category": "Engineering & Coding",
+  "logo": "/images/394.png"
+},
+{
+  "id": 395,
+  "name": "Krisp",
+  "description": "AI-powered noise cancellation app that removes background noise from calls.",
+  "website": "https://krisp.ai/",
+  "category": "Productivity & Writing",
+  "logo": "/images/395.png"
+},
+{
+  "id": 396,
+  "name": "Cleanvoice",
+  "description": "AI tool that automatically edits podcast episodes by removing filler sounds.",
+  "website": "https://cleanvoice.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/396.png"
+},
+{
+  "id": 397,
+  "name": "Adobe Podcast",
+  "description": "AI-powered audio recording and enhancement tool for podcast creators.",
+  "website": "https://podcast.adobe.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/397.png"
+},
+{
+  "id": 398,
+  "name": "Audo",
+  "description": "AI audio enhancement tool that improves sound quality and removes noise.",
+  "website": "https://www.audo.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/398.png"
+},
+{
+  "id": 399,
+  "name": "Lalal.ai",
+  "description": "AI-powered stem separation service for extracting vocals and instruments from audio.",
+  "website": "https://www.lalal.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/399.png"
+},
+{
+  "id": 400,
+  "name": "Moises",
+  "description": "AI music app that separates tracks, changes keys, and adjusts tempo.",
+  "website": "https://moises.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/400.png"
+},
+{
+  "id": 401,
+  "name": "Landr",
+  "description": "AI-powered online mastering service for musicians and audio producers.",
+  "website": "https://www.landr.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/401.png"
+},
+{
+  "id": 402,
+  "name": "Aiva",
+  "description": "AI composer that creates original music for films, games, and commercials.",
+  "website": "https://www.aiva.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/402.png"
+},
+{
+  "id": 403,
+  "name": "Amper Music",
+  "description": "AI music composition platform that creates original music for content creators.",
+  "website": "https://www.ampermusic.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/403.png"
+},
+{
+  "id": 404,
+  "name": "Soundraw",
+  "description": "AI music generator that creates custom royalty-free music for videos.",
+  "website": "https://soundraw.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/404.png"
+},
+{
+  "id": 405,
+  "name": "Boomy",
+  "description": "AI music creation platform that helps users make original songs quickly.",
+  "website": "https://boomy.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/405.png"
+},
+{
+  "id": 406,
+  "name": "Ecrett",
+  "description": "AI music generator that creates royalty-free music for videos and games.",
+  "website": "https://ecrettmusic.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/406.png"
+},
+{
+  "id": 407,
+  "name": "OpenAI Jukebox",
+  "description": "Neural net that generates music in various styles and genres from text prompts.",
+  "website": "https://openai.com/blog/jukebox/",
+  "category": "Design & Creativity",
+  "logo": "/images/407.png"
+},
+{
+  "id": 408,
+  "name": "Google Magenta",
+  "description": "Google's research project exploring the role of machine learning in art and music.",
+  "website": "https://magenta.tensorflow.org/",
+  "category": "Design & Creativity",
+  "logo": "/images/408.png"
+},
+{
+  "id": 409,
+  "name": "IBM Watson Beat",
+  "description": "AI music composer that creates original music based on emotional inputs.",
+  "website": "https://www.ibm.com/watson/beat/",
+  "category": "Design & Creativity",
+  "logo": "/images/409.png"
+},
+{
+  "id": 410,
+  "name": "Humtap",
+  "description": "AI music app that creates songs from humming or tapping rhythms.",
+  "website": "https://www.humtap.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/410.png"
+},
+{
+  "id": 411,
+  "name": "Orb Producer",
+  "description": "AI music plugin that generates melodies, chords, and basslines for producers.",
+  "website": "https://www.orbplugins.com/orb-producer/",
+  "category": "Design & Creativity",
+  "logo": "/images/411.png"
+},
+{
+  "id": 412,
+  "name": "Endel",
+  "description": "AI-powered soundscapes that create personalized functional music for focus and relaxation.",
+  "website": "https://endel.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/412.png"
+},
+{
+  "id": 413,
+  "name": "Brain.fm",
+  "description": "AI-generated music designed to improve focus, relaxation, and sleep.",
+  "website": "https://www.brain.fm/",
+  "category": "Design & Creativity",
+  "logo": "/images/413.png"
+},
+{
+  "id": 414,
+  "name": "Aimi",
+  "description": "AI music platform that creates endless evolving electronic music experiences.",
+  "website": "https://aimi.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/414.png"
+},
+{
+  "id": 415,
+  "name": "Splash",
+  "description": "AI music app that lets anyone create professional-quality music without experience.",
+  "website": "https://splashmusic.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/415.png"
+},
+{
+  "id": 416,
+  "name": "Amadeus Code",
+  "description": "AI songwriting assistant that generates chord progressions and melodies.",
+  "website": "https://amadeuscode.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/416.png"
+},
+{
+  "id": 417,
+  "name": "Google's NSynth",
+  "description": "Neural synthesizer that creates new sounds using deep learning techniques.",
+  "website": "https://magenta.tensorflow.org/nsynth",
+  "category": "Design & Creativity",
+  "logo": "/images/417.png"
+},
+{
+  "id": 418,
+  "name": "Sononym",
+  "description": "AI-powered sound organization and discovery tool for audio professionals.",
+  "website": "https://www.sononym.net/",
+  "category": "Design & Creativity",
+  "logo": "/images/418.png"
+},
+{
+  "id": 419,
+  "name": "Accusonus",
+  "description": "AI audio repair tools for fixing common audio problems automatically.",
+  "website": "https://accusonus.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/419.png"
+},
+{
+  "id": 420,
+  "name": "iZotope",
+  "description": "Audio processing tools with AI-powered features for mixing and mastering.",
+  "website": "https://www.izotope.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/420.png"
+},
+{
+  "id": 421,
+  "name": "Spleeter",
+  "description": "AI source separation tool that splits audio into isolated stems.",
+  "website": "https://github.com/deezer/spleeter",
+  "category": "Engineering & Coding",
+  "logo": "/images/421.png"
+},
+{
+  "id": 422,
+  "name": "RX by iZotope",
+  "description": "Audio repair suite with AI-powered tools for restoring and enhancing audio.",
+  "website": "https://www.izotope.com/en/products/rx.html",
+  "category": "Design & Creativity",
+  "logo": "/images/422.png"
+},
+{
+  "id": 423,
+  "name": "SynthMind",
+  "description": "AI assistant for sound designers that helps create and modify synth patches.",
+  "website": "https://synthmind.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/423.png"
+},
+{
+  "id": 424,
+  "name": "AudoAI",
+  "description": "AI-powered audio enhancement for content creators and podcasters.",
+  "website": "https://www.audo.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/424.png"
+},
+{
+  "id": 425,
+  "name": "Vochlea",
+  "description": "AI technology that converts vocal sounds into digital instruments in real-time.",
+  "website": "https://vochlea.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/425.png"
+},
+{
+  "id": 426,
+  "name": "Google's Tone Transfer",
+  "description": "AI tool that transforms sounds from one instrument to another using neural networks.",
+  "website": "https://sites.research.google/tone-transfer/",
+  "category": "Design & Creativity",
+  "logo": "/images/426.png"
+},
+{
+  "id": 427,
+  "name": "Riffusion",
+  "description": "AI model that generates music by visualizing spectrograms from text prompts.",
+  "website": "https://www.riffusion.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/427.png"
+},
+{
+  "id": 428,
+  "name": "Mubert",
+  "description": "AI music generator that creates royalty-free music in real-time for content.",
+  "website": "https://mubert.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/428.png"
+},
+{
+  "id": 429,
+  "name": "Loudly",
+  "description": "AI music creation platform that generates custom music for videos and games.",
+  "website": "https://www.loudly.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/429.png"
+},
+{
+  "id": 430,
+  "name": "Sony Flow Machines",
+  "description": "AI system that helps musicians compose songs in various styles.",
+  "website": "https://www.flow-machines.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/430.png"
+},
+{
+  "id": 431,
+  "name": "Jukedeck",
+  "description": "AI music composition platform acquired by TikTok for creating original music.",
+  "website": "https://www.jukedeck.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/431.png"
+},
+{
+  "id": 432,
+  "name": "Amper Score",
+  "description": "AI music composition tool for creating custom soundtracks for media projects.",
+  "website": "https://www.ampermusic.com/score",
+  "category": "Design & Creativity",
+  "logo": "/images/432.png"
+},
+{
+  "id": 433,
+  "name": "Melodrive",
+  "description": "AI music engine for games that creates adaptive, emotionally-responsive soundtracks.",
+  "website": "https://melodrive.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/433.png"
+},
+{
+  "id": 434,
+  "name": "WaveAI",
+  "description": "AI-powered music mastering service for independent artists and producers.",
+  "website": "https://waveai.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/434.png"
+},
+{
+  "id": 435,
+  "name": "LANDR",
+  "description": "AI-powered online music mastering and distribution platform for musicians.",
+  "website": "https://www.landr.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/435.png"
+},
+{
+  "id": 436,
+  "name": "Auddly",
+  "description": "AI platform for music metadata and rights management using blockchain technology.",
+  "website": "https://auddly.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/436.png"
+},
+{
+  "id": 437,
+  "name": "Shazam",
+  "description": "AI-powered music identification service that recognizes songs from short audio clips.",
+  "website": "https://www.shazam.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/437.png"
+},
+{
+  "id": 438,
+  "name": "Pandora",
+  "description": "Music streaming service with AI-powered recommendation engine Music Genome Project.",
+  "website": "https://www.pandora.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/438.png"
+},
+{
+  "id": 439,
+  "name": "Spotify",
+  "description": "Music streaming platform with AI-powered music discovery and recommendation features.",
+  "website": "https://www.spotify.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/439.png"
+},
+{
+  "id": 440,
+  "name": "Apple Music",
+  "description": "Music streaming service with AI-curated playlists and recommendation algorithms.",
+  "website": "https://www.apple.com/apple-music/",
+  "category": "Design & Creativity",
+  "logo": "/images/440.png"
+},
+{
+  "id": 441,
+  "name": "YouTube Music",
+  "description": "Music streaming service with AI-powered recommendations based on listening habits.",
+  "website": "https://music.youtube.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/441.png"
+},
+{
+  "id": 442,
+  "name": "SoundCloud",
+  "description": "Audio distribution platform with AI-powered discovery and recommendation features.",
+  "website": "https://soundcloud.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/442.png"
+},
+{
+  "id": 443,
+  "name": "Deezer",
+  "description": "Music streaming service with AI-powered Flow feature for personalized music discovery.",
+  "website": "https://www.deezer.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/443.png"
+},
+{
+  "id": 444,
+  "name": "Tidal",
+  "description": "High-fidelity music streaming service with AI-powered music recommendations.",
+  "website": "https://tidal.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/444.png"
+},
+{
+  "id": 445,
+  "name": "Amazon Music",
+  "description": "Music streaming service with AI-powered recommendations and voice control.",
+  "website": "https://music.amazon.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/445.png"
+},
+{
+  "id": 446,
+  "name": "Qobuz",
+  "description": "Hi-Res music streaming service with AI-powered discovery features.",
+  "website": "https://www.qobuz.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/446.png"
+},
+{
+  "id": 447,
+  "name": "Idagio",
+  "description": "Classical music streaming service with AI-powered recommendations for classical works.",
+  "website": "https://www.idagio.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/447.png"
+},
+{
+  "id": 448,
+  "name": "Bandcamp",
+  "description": "Music platform with AI-powered discovery features for independent artists.",
+  "website": "https://bandcamp.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/448.png"
+},
+{
+  "id": 449,
+  "name": "Last.fm",
+  "description": "Music recommendation service that uses AI to analyze listening habits and suggest music.",
+  "website": "https://www.last.fm/",
+  "category": "Design & Creativity",
+  "logo": "/images/449.png"
+},
+{
+  "id": 450,
+  "name": "Musiio",
+  "description": "AI music tagging and discovery platform for music catalogs and libraries.",
+  "website": "https://www.musiio.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/450.png"
+},
+{
+  "id": 451,
+  "name": "Asaii",
+  "description": "AI-powered music analytics platform for artist discovery and trend prediction.",
+  "website": "https://www.asaii.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/451.png"
+},
+{
+  "id": 452,
+  "name": "Chartmetric",
+  "description": "AI-powered music analytics platform for tracking artist performance and trends.",
+  "website": "https://chartmetric.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/452.png"
+},
+{
+  "id": 453,
+  "name": "Soundcharts",
+  "description": "Music analytics platform with AI-powered insights for artists and industry professionals.",
+  "website": "https://soundcharts.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/453.png"
+},
+{
+  "id": 454,
+  "name": "Next Big Sound",
+  "description": "AI-powered music analytics platform for predicting artist success and trends.",
+  "website": "https://www.nextbigsound.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/454.png"
+},
+{
+  "id": 455,
+  "name": "Viberate",
+  "description": "Music analytics platform with AI-powered insights for artists and music professionals.",
+  "website": "https://www.viberate.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/455.png"
+},
+{
+  "id": 456,
+  "name": "Beatport",
+  "description": "Electronic music store with AI-powered recommendations and discovery features.",
+  "website": "https://www.beatport.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/456.png"
+},
+{
+  "id": 457,
+  "name": "JukeBoss",
+  "description": "AI DJ platform that creates seamless mixes and playlists based on user preferences.",
+  "website": "https://jukeboss.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/457.png"
+},
+{
+  "id": 458,
+  "name": "Algoriddim",
+  "description": "DJ software with AI-powered features for automatic mixing and track selection.",
+  "website": "https://www.algoriddim.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/458.png"
+},
+{
+  "id": 459,
+  "name": "Mixed In Key",
+  "description": "DJ software with AI-powered harmonic mixing and track analysis features.",
+  "website": "https://mixedinkey.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/459.png"
+},
+{
+  "id": 460,
+  "name": "Pioneer DJ",
+  "description": "DJ equipment with AI-powered features for music analysis and performance.",
+  "website": "https://www.pioneerdj.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/460.png"
+},
+{
+  "id": 461,
+  "name": "Native Instruments",
+  "description": "Music production software and hardware with AI-powered features and sounds.",
+  "website": "https://www.native-instruments.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/461.png"
+},
+{
+  "id": 462,
+  "name": "Ableton",
+  "description": "Music production software with AI-powered features for composition and performance.",
+  "website": "https://www.ableton.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/462.png"
+},
+{
+  "id": 463,
+  "name": "FL Studio",
+  "description": "Digital audio workstation with AI-powered tools for music production.",
+  "website": "https://www.image-line.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/463.png"
+},
+{
+  "id": 464,
+  "name": "Logic Pro",
+  "description": "Music production software with AI-powered features for composition and mixing.",
+  "website": "https://www.apple.com/logic-pro/",
+  "category": "Design & Creativity",
+  "logo": "/images/464.png"
+},
+{
+  "id": 465,
+  "name": "Pro Tools",
+  "description": "Digital audio workstation with AI-powered features for professional audio production.",
+  "website": "https://www.avid.com/pro-tools",
+  "category": "Design & Creativity",
+  "logo": "/images/465.png"
+},
+{
+  "id": 466,
+  "name": "Cubase",
+  "description": "Music production software with AI-powered tools for composition and arrangement.",
+  "website": "https://new.steinberg.net/cubase/",
+  "category": "Design & Creativity",
+  "logo": "/images/466.png"
+},
+{
+  "id": 467,
+  "name": "Studio One",
+  "description": "Digital audio workstation with AI-powered features for music production.",
+  "website": "https://www.presonus.com/products/Studio-One",
+  "category": "Design & Creativity",
+  "logo": "/images/467.png"
+},
+{
+  "id": 468,
+  "name": "Reason",
+  "description": "Music production software with AI-powered tools for sound design and composition.",
+  "website": "https://www.reasonstudios.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/468.png"
+},
+{
+  "id": 469,
+  "name": "Bitwig",
+  "description": "Digital audio workstation with AI-powered features for modern music production.",
+  "website": "https://www.bitwig.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/469.png"
+},
+{
+  "id": 470,
+  "name": "Reaper",
+  "description": "Digital audio workstation with AI-powered scripting and customization capabilities.",
+  "website": "https://www.reaper.fm/",
+  "category": "Design & Creativity",
+  "logo": "/images/470.png"
+},
+{
+  "id": 471,
+  "name": "Audacity",
+  "description": "Audio editing software with AI-powered plugins and effects for audio processing.",
+  "website": "https://www.audacityteam.org/",
+  "category": "Design & Creativity",
+  "logo": "/images/471.png"
+},
+{
+  "id": 472,
+  "name": "Ardour",
+  "description": "Open-source digital audio workstation with AI-powered features for music production.",
+  "website": "https://ardour.org/",
+  "category": "Design & Creativity",
+  "logo": "/images/472.png"
+},
+{
+  "id": 473,
+  "name": "LMMS",
+  "description": "Free, open-source digital audio workstation with AI-powered music production tools.",
+  "website": "https://lmms.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/473.png"
+},
+{
+  "id": 474,
+  "name": "Caustic",
+  "description": "Music production app with AI-powered synthesizers and effects for mobile devices.",
+  "website": "https://www.singlecellsoftware.com/caustic",
+  "category": "Design & Creativity",
+  "logo": "/images/474.png"
+},
+{
+  "id": 475,
+  "name": "GarageBand",
+  "description": "Music creation studio with AI-powered features for iOS and macOS users.",
+  "website": "https://www.apple.com/mac/garageband/",
+  "category": "Design & Creativity",
+  "logo": "/images/475.png"
+},
+{
+  "id": 476,
+  "name": "BandLab",
+  "description": "Social music platform with AI-powered tools for music creation and collaboration.",
+  "website": "https://www.bandlab.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/476.png"
+},
+{
+  "id": 477,
+  "name": "Soundtrap",
+  "description": "Online music studio with AI-powered features for collaborative music making.",
+  "website": "https://www.soundtrap.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/477.png"
+},
+{
+  "id": 478,
+  "name": "Amped Studio",
+  "description": "Online digital audio workstation with AI-powered music production tools.",
+  "website": "https://ampedstudio.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/478.png"
+},
+{
+  "id": 479,
+  "name": "Soundation",
+  "description": "Online music studio with AI-powered features for music creation and education.",
+  "website": "https://soundation.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/479.png"
+},
+{
+  "id": 480,
+  "name": "Audiotool",
+  "description": "Online music production platform with AI-powered virtual studio equipment.",
+  "website": "https://www.audiotool.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/480.png"
+},
+{
+  "id": 481,
+  "name": "Splice",
+  "description": "Music production platform with AI-powered sample recommendations and sounds.",
+  "website": "https://splice.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/481.png"
+},
+{
+  "id": 482,
+  "name": "Loopcloud",
+  "description": "AI-powered sample management and recommendation platform for music producers.",
+  "website": "https://www.loopcloud.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/482.png"
+},
+{
+  "id": 483,
+  "name": "Noiiz",
+  "description": "Sample library with AI-powered search and recommendation features for sounds.",
+  "website": "https://www.noiiz.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/483.png"
+},
+{
+  "id": 484,
+  "name": "Sounds.com",
+  "description": "Sample library with AI-powered search and recommendation features by Native Instruments.",
+  "website": "https://sounds.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/484.png"
+},
+{
+  "id": 485,
+  "name": "Sample Focus",
+  "description": "Online sample library with AI-powered search and categorization features.",
+  "website": "https://samplefocus.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/485.png"
+},
+{
+  "id": 486,
+  "name": "Freesound",
+  "description": "Collaborative database of Creative Commons Licensed sounds with AI-powered search.",
+  "website": "https://freesound.org/",
+  "category": "Design & Creativity",
+  "logo": "/images/486.png"
+},
+{
+  "id": 487,
+  "name": "Zapsplat",
+  "description": "Royalty-free sound effects library with AI-powered search and categorization.",
+  "website": "https://www.zapsplat.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/487.png"
+},
+{
+  "id": 488,
+  "name": "Storyblocks",
+  "description": "Stock media library with AI-powered search for audio, video, and images.",
+  "website": "https://www.storyblocks.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/488.png"
+},
+{
+  "id": 489,
+  "name": "Epidemic Sound",
+  "description": "Royalty-free music library with AI-powered search and recommendation features.",
+  "website": "https://www.epidemicsound.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/489.png"
+},
+{
+  "id": 490,
+  "name": "Artlist",
+  "description": "Royalty-free music and sound effects with AI-powered search and curation.",
+  "website": "https://artlist.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/490.png"
+},
+{
+  "id": 491,
+  "name": "Musicbed",
+  "description": "Music licensing platform with AI-powered search and recommendation features.",
+  "website": "https://www.musicbed.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/491.png"
+},
+{
+  "id": 492,
+  "name": "Pond5",
+  "description": "Stock media marketplace with AI-powered search for audio, video, and images.",
+  "website": "https://www.pond5.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/492.png"
+},
+{
+  "id": 493,
+  "name": "AudioJungle",
+  "description": "Stock audio marketplace with AI-powered search and recommendation features.",
+  "website": "https://audiojungle.net/",
+  "category": "Design & Creativity",
+  "logo": "/images/493.png"
+},
+{
+  "id": 494,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/494.png"
+},
+{
+  "id": 495,
+  "name": "Getty Images",
+  "description": "Stock media company with AI-powered search and curation for visual and audio content.",
+  "website": "https://www.gettyimages.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/495.png"
+},
+{
+  "id": 496,
+  "name": "Adobe Stock",
+  "description": "Stock media service with AI-powered search for images, video, and audio.",
+  "website": "https://stock.adobe.com/audio",
+  "category": "Design & Creativity",
+  "logo": "/images/496.png"
+},
+{
+  "id": 497,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/497.png"
+},
+{
+  "id": 498,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/498.png"
+},
+{
+  "id": 499,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/499.png"
+},
+{
+  "id": 500,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/500.png"
+},
+{
+  "id": 501,
+  "name": "AIVA",
+  "description": "AI composer that creates emotional soundtrack music for videos, games, and films.",
+  "website": "https://www.aiva.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/501.png"
+},
+{
+  "id": 502,
+  "name": "Amper Music",
+  "description": "AI music composition platform that creates custom music for content creators.",
+  "website": "https://www.ampermusic.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/502.png"
+},
+{
+  "id": 503,
+  "name": "Boomy",
+  "description": "AI music creation platform that helps users make original songs in seconds.",
+  "website": "https://boomy.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/503.png"
+},
+{
+  "id": 504,
+  "name": "Ecrett",
+  "description": "AI music generator that creates royalty-free music for videos, games, and apps.",
+  "website": "https://ecrettmusic.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/504.png"
+},
+{
+  "id": 505,
+  "name": "Soundraw",
+  "description": "AI music generator that creates custom royalty-free music for content creators.",
+  "website": "https://soundraw.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/505.png"
+},
+{
+  "id": 506,
+  "name": "Mubert",
+  "description": "AI music generator that creates royalty-free music in real-time for streams and videos.",
+  "website": "https://mubert.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/506.png"
+},
+{
+  "id": 507,
+  "name": "Loudly",
+  "description": "AI music creation platform that generates custom music for various content needs.",
+  "website": "https://www.loudly.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/507.png"
+},
+{
+  "id": 508,
+  "name": "Jukedeck",
+  "description": "AI music composition platform acquired by TikTok for creating original music.",
+  "website": "https://www.jukedeck.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/508.png"
+},
+{
+  "id": 509,
+  "name": "Amper Score",
+  "description": "AI music composition tool for creating custom soundtracks for media projects.",
+  "website": "https://www.ampermusic.com/score",
+  "category": "Design & Creativity",
+  "logo": "/images/509.png"
+},
+{
+  "id": 510,
+  "name": "Melodrive",
+  "description": "AI music engine for games that creates adaptive, emotionally-responsive soundtracks.",
+  "website": "https://melodrive.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/510.png"
+},
+{
+  "id": 511,
+  "name": "WaveAI",
+  "description": "AI-powered music mastering service for independent artists and producers.",
+  "website": "https://waveai.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/511.png"
+},
+{
+  "id": 512,
+  "name": "LANDR",
+  "description": "AI-powered online music mastering and distribution platform for musicians.",
+  "website": "https://www.landr.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/512.png"
+},
+{
+  "id": 513,
+  "name": "Auddly",
+  "description": "AI platform for music metadata and rights management using blockchain technology.",
+  "website": "https://auddly.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/513.png"
+},
+{
+  "id": 514,
+  "name": "Shazam",
+  "description": "AI-powered music identification service that recognizes songs from short audio clips.",
+  "website": "https://www.shazam.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/514.png"
+},
+{
+  "id": 515,
+  "name": "Pandora",
+  "description": "Music streaming service with AI-powered recommendation engine Music Genome Project.",
+  "website": "https://www.pandora.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/515.png"
+},
+{
+  "id": 516,
+  "name": "Spotify",
+  "description": "Music streaming platform with AI-powered music discovery and recommendation features.",
+  "website": "https://www.spotify.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/516.png"
+},
+{
+  "id": 517,
+  "name": "Apple Music",
+  "description": "Music streaming service with AI-curated playlists and recommendation algorithms.",
+  "website": "https://www.apple.com/apple-music/",
+  "category": "Design & Creativity",
+  "logo": "/images/517.png"
+},
+{
+  "id": 518,
+  "name": "YouTube Music",
+  "description": "Music streaming service with AI-powered recommendations based on listening habits.",
+  "website": "https://music.youtube.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/518.png"
+},
+{
+  "id": 519,
+  "name": "SoundCloud",
+  "description": "Audio distribution platform with AI-powered discovery and recommendation features.",
+  "website": "https://soundcloud.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/519.png"
+},
+{
+  "id": 520,
+  "name": "Deezer",
+  "description": "Music streaming service with AI-powered Flow feature for personalized music discovery.",
+  "website": "https://www.deezer.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/520.png"
+},
+{
+  "id": 521,
+  "name": "Tidal",
+  "description": "High-fidelity music streaming service with AI-powered music recommendations.",
+  "website": "https://tidal.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/521.png"
+},
+{
+  "id": 522,
+  "name": "Amazon Music",
+  "description": "Music streaming service with AI-powered recommendations and voice control.",
+  "website": "https://music.amazon.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/522.png"
+},
+{
+  "id": 523,
+  "name": "Qobuz",
+  "description": "Hi-Res music streaming service with AI-powered discovery features.",
+  "website": "https://www.qobuz.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/523.png"
+},
+{
+  "id": 524,
+  "name": "Idagio",
+  "description": "Classical music streaming service with AI-powered recommendations for classical works.",
+  "website": "https://www.idagio.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/524.png"
+},
+{
+  "id": 525,
+  "name": "Bandcamp",
+  "description": "Music platform with AI-powered discovery features for independent artists.",
+  "website": "https://bandcamp.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/525.png"
+},
+{
+  "id": 526,
+  "name": "Last.fm",
+  "description": "Music recommendation service that uses AI to analyze listening habits and suggest music.",
+  "website": "https://www.last.fm/",
+  "category": "Design & Creativity",
+  "logo": "/images/526.png"
+},
+{
+  "id": 527,
+  "name": "Musiio",
+  "description": "AI music tagging and discovery platform for music catalogs and libraries.",
+  "website": "https://www.musiio.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/527.png"
+},
+{
+  "id": 528,
+  "name": "Asaii",
+  "description": "AI-powered music analytics platform for artist discovery and trend prediction.",
+  "website": "https://www.asaii.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/528.png"
+},
+{
+  "id": 529,
+  "name": "Chartmetric",
+  "description": "AI-powered music analytics platform for tracking artist performance and trends.",
+  "website": "https://chartmetric.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/529.png"
+},
+{
+  "id": 530,
+  "name": "Soundcharts",
+  "description": "Music analytics platform with AI-powered insights for artists and industry professionals.",
+  "website": "https://soundcharts.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/530.png"
+},
+{
+  "id": 531,
+  "name": "Next Big Sound",
+  "description": "AI-powered music analytics platform for predicting artist success and trends.",
+  "website": "https://www.nextbigsound.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/531.png"
+},
+{
+  "id": 532,
+  "name": "Viberate",
+  "description": "Music analytics platform with AI-powered insights for artists and music professionals.",
+  "website": "https://www.viberate.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/532.png"
+},
+{
+  "id": 533,
+  "name": "Beatport",
+  "description": "Electronic music store with AI-powered recommendations and discovery features.",
+  "website": "https://www.beatport.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/533.png"
+},
+{
+  "id": 534,
+  "name": "JukeBoss",
+  "description": "AI DJ platform that creates seamless mixes and playlists based on user preferences.",
+  "website": "https://jukeboss.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/534.png"
+},
+{
+  "id": 535,
+  "name": "Algoriddim",
+  "description": "DJ software with AI-powered features for automatic mixing and track selection.",
+  "website": "https://www.algoriddim.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/535.png"
+},
+{
+  "id": 536,
+  "name": "Mixed In Key",
+  "description": "DJ software with AI-powered harmonic mixing and track analysis features.",
+  "website": "https://mixedinkey.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/536.png"
+},
+{
+  "id": 537,
+  "name": "Pioneer DJ",
+  "description": "DJ equipment with AI-powered features for music analysis and performance.",
+  "website": "https://www.pioneerdj.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/537.png"
+},
+{
+  "id": 538,
+  "name": "Native Instruments",
+  "description": "Music production software and hardware with AI-powered features and sounds.",
+  "website": "https://www.native-instruments.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/538.png"
+},
+{
+  "id": 539,
+  "name": "Ableton",
+  "description": "Music production software with AI-powered features for composition and performance.",
+  "website": "https://www.ableton.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/539.png"
+},
+{
+  "id": 540,
+  "name": "FL Studio",
+  "description": "Digital audio workstation with AI-powered tools for music production.",
+  "website": "https://www.image-line.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/540.png"
+},
+{
+  "id": 541,
+  "name": "Logic Pro",
+  "description": "Music production software with AI-powered features for composition and mixing.",
+  "website": "https://www.apple.com/logic-pro/",
+  "category": "Design & Creativity",
+  "logo": "/images/541.png"
+},
+{
+  "id": 542,
+  "name": "Pro Tools",
+  "description": "Digital audio workstation with AI-powered features for professional audio production.",
+  "website": "https://www.avid.com/pro-tools",
+  "category": "Design & Creativity",
+  "logo": "/images/542.png"
+},
+{
+  "id": 543,
+  "name": "Cubase",
+  "description": "Music production software with AI-powered tools for composition and arrangement.",
+  "website": "https://new.steinberg.net/cubase/",
+  "category": "Design & Creativity",
+  "logo": "/images/543.png"
+},
+{
+  "id": 544,
+  "name": "Studio One",
+  "description": "Digital audio workstation with AI-powered features for music production.",
+  "website": "https://www.presonus.com/products/Studio-One",
+  "category": "Design & Creativity",
+  "logo": "/images/544.png"
+},
+{
+  "id": 545,
+  "name": "Reason",
+  "description": "Music production software with AI-powered tools for sound design and composition.",
+  "website": "https://www.reasonstudios.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/545.png"
+},
+{
+  "id": 546,
+  "name": "Bitwig",
+  "description": "Digital audio workstation with AI-powered features for modern music production.",
+  "website": "https://www.bitwig.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/546.png"
+},
+{
+  "id": 547,
+  "name": "Reaper",
+  "description": "Digital audio workstation with AI-powered scripting and customization capabilities.",
+  "website": "https://www.reaper.fm/",
+  "category": "Design & Creativity",
+  "logo": "/images/547.png"
+},
+{
+  "id": 548,
+  "name": "Audacity",
+  "description": "Audio editing software with AI-powered plugins and effects for audio processing.",
+  "website": "https://www.audacityteam.org/",
+  "category": "Design & Creativity",
+  "logo": "/images/548.png"
+},
+{
+  "id": 549,
+  "name": "Ardour",
+  "description": "Open-source digital audio workstation with AI-powered features for music production.",
+  "website": "https://ardour.org/",
+  "category": "Design & Creativity",
+  "logo": "/images/549.png"
+},
+{
+  "id": 550,
+  "name": "LMMS",
+  "description": "Free, open-source digital audio workstation with AI-powered music production tools.",
+  "website": "https://lmms.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/550.png"
+},
+{
+  "id": 551,
+  "name": "Caustic",
+  "description": "Music production app with AI-powered synthesizers and effects for mobile devices.",
+  "website": "https://www.singlecellsoftware.com/caustic",
+  "category": "Design & Creativity",
+  "logo": "/images/551.png"
+},
+{
+  "id": 552,
+  "name": "GarageBand",
+  "description": "Music creation studio with AI-powered features for iOS and macOS users.",
+  "website": "https://www.apple.com/mac/garageband/",
+  "category": "Design & Creativity",
+  "logo": "/images/552.png"
+},
+{
+  "id": 553,
+  "name": "BandLab",
+  "description": "Social music platform with AI-powered tools for music creation and collaboration.",
+  "website": "https://www.bandlab.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/553.png"
+},
+{
+  "id": 554,
+  "name": "Soundtrap",
+  "description": "Online music studio with AI-powered features for collaborative music making.",
+  "website": "https://www.soundtrap.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/554.png"
+},
+{
+  "id": 555,
+  "name": "Amped Studio",
+  "description": "Online digital audio workstation with AI-powered music production tools.",
+  "website": "https://ampedstudio.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/555.png"
+},
+{
+  "id": 556,
+  "name": "Soundation",
+  "description": "Online music studio with AI-powered features for music creation and education.",
+  "website": "https://soundation.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/556.png"
+},
+{
+  "id": 557,
+  "name": "Audiotool",
+  "description": "Online music production platform with AI-powered virtual studio equipment.",
+  "website": "https://www.audiotool.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/557.png"
+},
+{
+  "id": 558,
+  "name": "Splice",
+  "description": "Music production platform with AI-powered sample recommendations and sounds.",
+  "website": "https://splice.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/558.png"
+},
+{
+  "id": 559,
+  "name": "Loopcloud",
+  "description": "AI-powered sample management and recommendation platform for music producers.",
+  "website": "https://www.loopcloud.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/559.png"
+},
+{
+  "id": 560,
+  "name": "Noiiz",
+  "description": "Sample library with AI-powered search and recommendation features for sounds.",
+  "website": "https://www.noiiz.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/560.png"
+},
+{
+  "id": 561,
+  "name": "Sounds.com",
+  "description": "Sample library with AI-powered search and recommendation features by Native Instruments.",
+  "website": "https://sounds.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/561.png"
+},
+{
+  "id": 562,
+  "name": "Sample Focus",
+  "description": "Online sample library with AI-powered search and categorization features.",
+  "website": "https://samplefocus.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/562.png"
+},
+{
+  "id": 563,
+  "name": "Freesound",
+  "description": "Collaborative database of Creative Commons Licensed sounds with AI-powered search.",
+  "website": "https://freesound.org/",
+  "category": "Design & Creativity",
+  "logo": "/images/563.png"
+},
+{
+  "id": 564,
+  "name": "Zapsplat",
+  "description": "Royalty-free sound effects library with AI-powered search and categorization.",
+  "website": "https://www.zapsplat.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/564.png"
+},
+{
+  "id": 565,
+  "name": "Storyblocks",
+  "description": "Stock media library with AI-powered search for audio, video, and images.",
+  "website": "https://www.storyblocks.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/565.png"
+},
+{
+  "id": 566,
+  "name": "Epidemic Sound",
+  "description": "Royalty-free music library with AI-powered search and recommendation features.",
+  "website": "https://www.epidemicsound.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/566.png"
+},
+{
+  "id": 567,
+  "name": "Artlist",
+  "description": "Royalty-free music and sound effects with AI-powered search and curation.",
+  "website": "https://artlist.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/567.png"
+},
+{
+  "id": 568,
+  "name": "Musicbed",
+  "description": "Music licensing platform with AI-powered search and recommendation features.",
+  "website": "https://www.musicbed.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/568.png"
+},
+{
+  "id": 569,
+  "name": "Pond5",
+  "description": "Stock media marketplace with AI-powered search for audio, video, and images.",
+  "website": "https://www.pond5.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/569.png"
+},
+{
+  "id": 570,
+  "name": "AudioJungle",
+  "description": "Stock audio marketplace with AI-powered search and recommendation features.",
+  "website": "https://audiojungle.net/",
+  "category": "Design & Creativity",
+  "logo": "/images/570.png"
+},
+{
+  "id": 571,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/571.png"
+},
+{
+  "id": 572,
+  "name": "Getty Images",
+  "description": "Stock media company with AI-powered search and curation for visual and audio content.",
+  "website": "https://www.gettyimages.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/572.png"
+},
+{
+  "id": 573,
+  "name": "Adobe Stock",
+  "description": "Stock media service with AI-powered search for images, video, and audio.",
+  "website": "https://stock.adobe.com/audio",
+  "category": "Design & Creativity",
+  "logo": "/images/573.png"
+},
+{
+  "id": 574,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/574.png"
+},
+{
+  "id": 575,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/575.png"
+},
+{
+  "id": 576,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/576.png"
+},
+{
+  "id": 577,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/577.png"
+},
+{
+  "id": 578,
+  "name": "AIVA",
+  "description": "AI composer that creates emotional soundtrack music for videos, games, and films.",
+  "website": "https://www.aiva.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/578.png"
+},
+{
+  "id": 579,
+  "name": "Amper Music",
+  "description": "AI music composition platform that creates custom music for content creators.",
+  "website": "https://www.ampermusic.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/579.png"
+},
+{
+  "id": 580,
+  "name": "Boomy",
+  "description": "AI music creation platform that helps users make original songs in seconds.",
+  "website": "https://boomy.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/580.png"
+},
+{
+  "id": 581,
+  "name": "Ecrett",
+  "description": "AI music generator that creates royalty-free music for videos, games, and apps.",
+  "website": "https://ecrettmusic.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/581.png"
+},
+{
+  "id": 582,
+  "name": "Soundraw",
+  "description": "AI music generator that creates custom royalty-free music for content creators.",
+  "website": "https://soundraw.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/582.png"
+},
+{
+  "id": 583,
+  "name": "Mubert",
+  "description": "AI music generator that creates royalty-free music in real-time for streams and videos.",
+  "website": "https://mubert.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/583.png"
+},
+{
+  "id": 584,
+  "name": "Loudly",
+  "description": "AI music creation platform that generates custom music for various content needs.",
+  "website": "https://www.loudly.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/584.png"
+},
+{
+  "id": 585,
+  "name": "Jukedeck",
+  "description": "AI music composition platform acquired by TikTok for creating original music.",
+  "website": "https://www.jukedeck.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/585.png"
+},
+{
+  "id": 586,
+  "name": "Amper Score",
+  "description": "AI music composition tool for creating custom soundtracks for media projects.",
+  "website": "https://www.ampermusic.com/score",
+  "category": "Design & Creativity",
+  "logo": "/images/586.png"
+},
+{
+  "id": 587,
+  "name": "Melodrive",
+  "description": "AI music engine for games that creates adaptive, emotionally-responsive soundtracks.",
+  "website": "https://melodrive.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/587.png"
+},
+{
+  "id": 588,
+  "name": "WaveAI",
+  "description": "AI-powered music mastering service for independent artists and producers.",
+  "website": "https://waveai.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/588.png"
+},
+{
+  "id": 589,
+  "name": "LANDR",
+  "description": "AI-powered online music mastering and distribution platform for musicians.",
+  "website": "https://www.landr.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/589.png"
+},
+{
+  "id": 590,
+  "name": "Auddly",
+  "description": "AI platform for music metadata and rights management using blockchain technology.",
+  "website": "https://auddly.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/590.png"
+},
+{
+  "id": 591,
+  "name": "Shazam",
+  "description": "AI-powered music identification service that recognizes songs from short audio clips.",
+  "website": "https://www.shazam.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/591.png"
+},
+{
+  "id": 592,
+  "name": "Pandora",
+  "description": "Music streaming service with AI-powered recommendation engine Music Genome Project.",
+  "website": "https://www.pandora.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/592.png"
+},
+{
+  "id": 593,
+  "name": "Spotify",
+  "description": "Music streaming platform with AI-powered music discovery and recommendation features.",
+  "website": "https://www.spotify.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/593.png"
+},
+{
+  "id": 594,
+  "name": "Apple Music",
+  "description": "Music streaming service with AI-curated playlists and recommendation algorithms.",
+  "website": "https://www.apple.com/apple-music/",
+  "category": "Design & Creativity",
+  "logo": "/images/594.png"
+},
+{
+  "id": 595,
+  "name": "YouTube Music",
+  "description": "Music streaming service with AI-powered recommendations based on listening habits.",
+  "website": "https://music.youtube.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/595.png"
+},
+{
+  "id": 596,
+  "name": "SoundCloud",
+  "description": "Audio distribution platform with AI-powered discovery and recommendation features.",
+  "website": "https://soundcloud.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/596.png"
+},
+{
+  "id": 597,
+  "name": "Deezer",
+  "description": "Music streaming service with AI-powered Flow feature for personalized music discovery.",
+  "website": "https://www.deezer.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/597.png"
+},
+{
+  "id": 598,
+  "name": "Tidal",
+  "description": "High-fidelity music streaming service with AI-powered music recommendations.",
+  "website": "https://tidal.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/598.png"
+},
+{
+  "id": 599,
+  "name": "Amazon Music",
+  "description": "Music streaming service with AI-powered recommendations and voice control.",
+  "website": "https://music.amazon.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/599.png"
+},
+{
+  "id": 600,
+  "name": "Qobuz",
+  "description": "Hi-Res music streaming service with AI-powered discovery features.",
+  "website": "https://www.qobuz.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/600.png"
+},
+{
+  "id": 601,
+  "name": "Idagio",
+  "description": "Classical music streaming service with AI-powered recommendations for classical works.",
+  "website": "https://www.idagio.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/601.png"
+},
+{
+  "id": 602,
+  "name": "Bandcamp",
+  "description": "Music platform with AI-powered discovery features for independent artists.",
+  "website": "https://bandcamp.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/602.png"
+},
+{
+  "id": 603,
+  "name": "Last.fm",
+  "description": "Music recommendation service that uses AI to analyze listening habits and suggest music.",
+  "website": "https://www.last.fm/",
+  "category": "Design & Creativity",
+  "logo": "/images/603.png"
+},
+{
+  "id": 604,
+  "name": "Musiio",
+  "description": "AI music tagging and discovery platform for music catalogs and libraries.",
+  "website": "https://www.musiio.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/604.png"
+},
+{
+  "id": 605,
+  "name": "Asaii",
+  "description": "AI-powered music analytics platform for artist discovery and trend prediction.",
+  "website": "https://www.asaii.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/605.png"
+},
+{
+  "id": 606,
+  "name": "Chartmetric",
+  "description": "AI-powered music analytics platform for tracking artist performance and trends.",
+  "website": "https://chartmetric.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/606.png"
+},
+{
+  "id": 607,
+  "name": "Soundcharts",
+  "description": "Music analytics platform with AI-powered insights for artists and industry professionals.",
+  "website": "https://soundcharts.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/607.png"
+},
+{
+  "id": 608,
+  "name": "Next Big Sound",
+  "description": "AI-powered music analytics platform for predicting artist success and trends.",
+  "website": "https://www.nextbigsound.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/608.png"
+},
+{
+  "id": 609,
+  "name": "Viberate",
+  "description": "Music analytics platform with AI-powered insights for artists and music professionals.",
+  "website": "https://www.viberate.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/609.png"
+},
+{
+  "id": 610,
+  "name": "Beatport",
+  "description": "Electronic music store with AI-powered recommendations and discovery features.",
+  "website": "https://www.beatport.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/610.png"
+},
+{
+  "id": 611,
+  "name": "JukeBoss",
+  "description": "AI DJ platform that creates seamless mixes and playlists based on user preferences.",
+  "website": "https://jukeboss.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/611.png"
+},
+{
+  "id": 612,
+  "name": "Algoriddim",
+  "description": "DJ software with AI-powered features for automatic mixing and track selection.",
+  "website": "https://www.algoriddim.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/612.png"
+},
+{
+  "id": 613,
+  "name": "Mixed In Key",
+  "description": "DJ software with AI-powered harmonic mixing and track analysis features.",
+  "website": "https://mixedinkey.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/613.png"
+},
+{
+  "id": 614,
+  "name": "Pioneer DJ",
+  "description": "DJ equipment with AI-powered features for music analysis and performance.",
+  "website": "https://www.pioneerdj.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/614.png"
+},
+{
+  "id": 615,
+  "name": "Native Instruments",
+  "description": "Music production software and hardware with AI-powered features and sounds.",
+  "website": "https://www.native-instruments.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/615.png"
+},
+{
+  "id": 616,
+  "name": "Ableton",
+  "description": "Music production software with AI-powered features for composition and performance.",
+  "website": "https://www.ableton.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/616.png"
+},
+{
+  "id": 617,
+  "name": "FL Studio",
+  "description": "Digital audio workstation with AI-powered tools for music production.",
+  "website": "https://www.image-line.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/617.png"
+},
+{
+  "id": 618,
+  "name": "Logic Pro",
+  "description": "Music production software with AI-powered features for composition and mixing.",
+  "website": "https://www.apple.com/logic-pro/",
+  "category": "Design & Creativity",
+  "logo": "/images/618.png"
+},
+{
+  "id": 619,
+  "name": "Pro Tools",
+  "description": "Digital audio workstation with AI-powered features for professional audio production.",
+  "website": "https://www.avid.com/pro-tools",
+  "category": "Design & Creativity",
+  "logo": "/images/619.png"
+},
+{
+  "id": 620,
+  "name": "Cubase",
+  "description": "Music production software with AI-powered tools for composition and arrangement.",
+  "website": "https://new.steinberg.net/cubase/",
+  "category": "Design & Creativity",
+  "logo": "/images/620.png"
+},
+{
+  "id": 621,
+  "name": "Studio One",
+  "description": "Digital audio workstation with AI-powered features for music production.",
+  "website": "https://www.presonus.com/products/Studio-One",
+  "category": "Design & Creativity",
+  "logo": "/images/621.png"
+},
+{
+  "id": 622,
+  "name": "Reason",
+  "description": "Music production software with AI-powered tools for sound design and composition.",
+  "website": "https://www.reasonstudios.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/622.png"
+},
+{
+  "id": 623,
+  "name": "Bitwig",
+  "description": "Digital audio workstation with AI-powered features for modern music production.",
+  "website": "https://www.bitwig.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/623.png"
+},
+{
+  "id": 624,
+  "name": "Reaper",
+  "description": "Digital audio workstation with AI-powered scripting and customization capabilities.",
+  "website": "https://www.reaper.fm/",
+  "category": "Design & Creativity",
+  "logo": "/images/624.png"
+},
+{
+  "id": 625,
+  "name": "Audacity",
+  "description": "Audio editing software with AI-powered plugins and effects for audio processing.",
+  "website": "https://www.audacityteam.org/",
+  "category": "Design & Creativity",
+  "logo": "/images/625.png"
+},
+{
+  "id": 626,
+  "name": "Ardour",
+  "description": "Open-source digital audio workstation with AI-powered features for music production.",
+  "website": "https://ardour.org/",
+  "category": "Design & Creativity",
+  "logo": "/images/626.png"
+},
+{
+  "id": 627,
+  "name": "LMMS",
+  "description": "Free, open-source digital audio workstation with AI-powered music production tools.",
+  "website": "https://lmms.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/627.png"
+},
+{
+  "id": 628,
+  "name": "Caustic",
+  "description": "Music production app with AI-powered synthesizers and effects for mobile devices.",
+  "website": "https://www.singlecellsoftware.com/caustic",
+  "category": "Design & Creativity",
+  "logo": "/images/628.png"
+},
+{
+  "id": 629,
+  "name": "GarageBand",
+  "description": "Music creation studio with AI-powered features for iOS and macOS users.",
+  "website": "https://www.apple.com/mac/garageband/",
+  "category": "Design & Creativity",
+  "logo": "/images/629.png"
+},
+{
+  "id": 630,
+  "name": "BandLab",
+  "description": "Social music platform with AI-powered tools for music creation and collaboration.",
+  "website": "https://www.bandlab.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/630.png"
+},
+{
+  "id": 631,
+  "name": "Soundtrap",
+  "description": "Online music studio with AI-powered features for collaborative music making.",
+  "website": "https://www.soundtrap.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/631.png"
+},
+{
+  "id": 632,
+  "name": "Amped Studio",
+  "description": "Online digital audio workstation with AI-powered music production tools.",
+  "website": "https://ampedstudio.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/632.png"
+},
+{
+  "id": 633,
+  "name": "Soundation",
+  "description": "Online music studio with AI-powered features for music creation and education.",
+  "website": "https://soundation.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/633.png"
+},
+{
+  "id": 634,
+  "name": "Audiotool",
+  "description": "Online music production platform with AI-powered virtual studio equipment.",
+  "website": "https://www.audiotool.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/634.png"
+},
+{
+  "id": 635,
+  "name": "Splice",
+  "description": "Music production platform with AI-powered sample recommendations and sounds.",
+  "website": "https://splice.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/635.png"
+},
+{
+  "id": 636,
+  "name": "Loopcloud",
+  "description": "AI-powered sample management and recommendation platform for music producers.",
+  "website": "https://www.loopcloud.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/636.png"
+},
+{
+  "id": 637,
+  "name": "Noiiz",
+  "description": "Sample library with AI-powered search and recommendation features for sounds.",
+  "website": "https://www.noiiz.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/637.png"
+},
+{
+  "id": 638,
+  "name": "Sounds.com",
+  "description": "Sample library with AI-powered search and recommendation features by Native Instruments.",
+  "website": "https://sounds.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/638.png"
+},
+{
+  "id": 639,
+  "name": "Sample Focus",
+  "description": "Online sample library with AI-powered search and categorization features.",
+  "website": "https://samplefocus.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/639.png"
+},
+{
+  "id": 640,
+  "name": "Freesound",
+  "description": "Collaborative database of Creative Commons Licensed sounds with AI-powered search.",
+  "website": "https://freesound.org/",
+  "category": "Design & Creativity",
+  "logo": "/images/640.png"
+},
+{
+  "id": 641,
+  "name": "Zapsplat",
+  "description": "Royalty-free sound effects library with AI-powered search and categorization.",
+  "website": "https://www.zapsplat.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/641.png"
+},
+{
+  "id": 642,
+  "name": "Storyblocks",
+  "description": "Stock media library with AI-powered search for audio, video, and images.",
+  "website": "https://www.storyblocks.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/642.png"
+},
+{
+  "id": 643,
+  "name": "Epidemic Sound",
+  "description": "Royalty-free music library with AI-powered search and recommendation features.",
+  "website": "https://www.epidemicsound.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/643.png"
+},
+{
+  "id": 644,
+  "name": "Artlist",
+  "description": "Royalty-free music and sound effects with AI-powered search and curation.",
+  "website": "https://artlist.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/644.png"
+},
+{
+  "id": 645,
+  "name": "Musicbed",
+  "description": "Music licensing platform with AI-powered search and recommendation features.",
+  "website": "https://www.musicbed.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/645.png"
+},
+{
+  "id": 646,
+  "name": "Pond5",
+  "description": "Stock media marketplace with AI-powered search for audio, video, and images.",
+  "website": "https://www.pond5.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/646.png"
+},
+{
+  "id": 647,
+  "name": "AudioJungle",
+  "description": "Stock audio marketplace with AI-powered search and recommendation features.",
+  "website": "https://audiojungle.net/",
+  "category": "Design & Creativity",
+  "logo": "/images/647.png"
+},
+{
+  "id": 648,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/648.png"
+},
+{
+  "id": 649,
+  "name": "Getty Images",
+  "description": "Stock media company with AI-powered search and curation for visual and audio content.",
+  "website": "https://www.gettyimages.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/649.png"
+},
+{
+  "id": 650,
+  "name": "Adobe Stock",
+  "description": "Stock media service with AI-powered search for images, video, and audio.",
+  "website": "https://stock.adobe.com/audio",
+  "category": "Design & Creativity",
+  "logo": "/images/650.png"
+},
+{
+  "id": 651,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/651.png"
+},
+{
+  "id": 652,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/652.png"
+},
+{
+  "id": 653,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/653.png"
+},
+{
+  "id": 654,
+  "name": "Shutterstock",
+  "description": "Stock media platform with AI-powered search for images, video, and music.",
+  "website": "https://www.shutterstock.com/music",
+  "category": "Design & Creativity",
+  "logo": "/images/654.png"
+},
+{
+  "id": 655,
+  "name": "AIVA",
+  "description": "AI composer that creates emotional soundtrack music for videos, games, and films.",
+  "website": "https://www.aiva.ai/",
+  "category": "Design & Creativity",
+  "logo": "/images/655.png"
+},
+{
+  "id": 656,
+  "name": "Amper Music",
+  "description": "AI music composition platform that creates custom music for content creators.",
+  "website": "https://www.ampermusic.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/656.png"
+},
+{
+  "id": 657,
+  "name": "Boomy",
+  "description": "AI music creation platform that helps users make original songs in seconds.",
+  "website": "https://boomy.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/657.png"
+},
+{
+  "id": 658,
+  "name": "Ecrett",
+  "description": "AI music generator that creates royalty-free music for videos, games, and apps.",
+  "website": "https://ecrettmusic.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/658.png"
+},
+{
+  "id": 659,
+  "name": "Soundraw",
+  "description": "AI music generator that creates custom royalty-free music for content creators.",
+  "website": "https://soundraw.io/",
+  "category": "Design & Creativity",
+  "logo": "/images/659.png"
+},
+{
+  "id": 660,
+  "name": "Mubert",
+  "description": "AI music generator that creates royalty-free music in real-time for streams and videos.",
+  "website": "https://mubert.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/660.png"
+},
+{
+  "id": 661,
+  "name": "Loudly",
+  "description": "AI music creation platform that generates custom music for various content needs.",
+  "website": "https://www.loudly.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/661.png"
+},
+{
+  "id": 662,
+  "name": "Jukedeck",
+  "description": "AI music composition platform acquired by TikTok for creating original music.",
+  "website": "https://www.jukedeck.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/662.png"
+},
+{
+  "id": 663,
+  "name": "Amper Score",
+  "description": "AI music composition tool for creating custom soundtracks for media projects.",
+  "website": "https://www.ampermusic.com/score",
+  "category": "Design & Creativity",
+  "logo": "/images/663.png"
+},
+{
+  "id": 664,
+  "name": "Melodrive",
+  "description": "AI music engine for games that creates adaptive, emotionally-responsive soundtracks.",
+  "website": "https://melodrive.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/664.png"
+},
+{
+  "id": 665,
+  "name": "WaveAI",
+  "description": "AI-powered music mastering service for independent artists and producers.",
+  "website": "https://waveai.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/665.png"
+},
+{
+  "id": 666,
+  "name": "LANDR",
+  "description": "AI-powered online music mastering and distribution platform for musicians.",
+  "website": "https://www.landr.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/666.png"
+},
+{
+  "id": 667,
+  "name": "Auddly",
+  "description": "AI platform for music metadata and rights management using blockchain technology.",
+  "website": "https://auddly.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/667.png"
+},
+{
+  "id": 668,
+  "name": "Shazam",
+  "description": "AI-powered music identification service that recognizes songs from short audio clips.",
+  "website": "https://www.shazam.com/",
+  "category": "Design & Creativity",
+  "logo": "/images/668.png"
+},
+{
+    "id": 669,
+    "name": "Pandora",
+    "description": "Music streaming service with AI-powered recommendation engine Music Genome Project.",
+    "website": "https://www.pandora.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/669.png"
+  },
+  {
+    "id": 670,
+    "name": "Spotify",
+    "description": "Music streaming platform with AI-powered music discovery and recommendation features.",
+    "website": "https://www.spotify.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/670.png"
+  },
+  {
+    "id": 671,
+    "name": "Apple Music",
+    "description": "Music streaming service with AI-curated playlists and recommendation algorithms.",
+    "website": "https://www.apple.com/apple-music/",
+    "category": "Design & Creativity",
+    "logo": "/images/671.png"
+  },
+  {
+    "id": 672,
+    "name": "YouTube Music",
+    "description": "Music streaming service with AI-powered recommendations based on listening habits.",
+    "website": "https://music.youtube.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/672.png"
+  },
+  {
+    "id": 673,
+    "name": "SoundCloud",
+    "description": "Audio distribution platform with AI-powered discovery and recommendation features.",
+    "website": "https://soundcloud.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/673.png"
+  },
+  {
+    "id": 674,
+    "name": "Deezer",
+    "description": "Music streaming service with AI-powered Flow feature for personalized music discovery.",
+    "website": "https://www.deezer.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/674.png"
+  },
+  {
+    "id": 675,
+    "name": "Tidal",
+    "description": "High-fidelity music streaming service with AI-powered music recommendations.",
+    "website": "https://tidal.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/675.png"
+  },
+  {
+    "id": 676,
+    "name": "Amazon Music",
+    "description": "Music streaming service with AI-powered recommendations and voice control.",
+    "website": "https://music.amazon.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/676.png"
+  },
+  {
+    "id": 677,
+    "name": "Qobuz",
+    "description": "Hi-Res music streaming service with AI-powered discovery features.",
+    "website": "https://www.qobuz.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/677.png"
+  },
+  {
+    "id": 678,
+    "name": "Idagio",
+    "description": "Classical music streaming service with AI-powered recommendations for classical works.",
+    "website": "https://www.idagio.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/678.png"
+  },
+  {
+    "id": 679,
+    "name": "Bandcamp",
+    "description": "Music platform with AI-powered discovery features for independent artists.",
+    "website": "https://bandcamp.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/679.png"
+  },
+  {
+    "id": 680,
+    "name": "Last.fm",
+    "description": "Music recommendation service that uses AI to analyze listening habits and suggest music.",
+    "website": "https://www.last.fm/",
+    "category": "Design & Creativity",
+    "logo": "/images/680.png"
+  },
+  {
+    "id": 681,
+    "name": "Musiio",
+    "description": "AI music tagging and discovery platform for music catalogs and libraries.",
+    "website": "https://www.musiio.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/681.png"
+  },
+  {
+    "id": 682,
+    "name": "Asaii",
+    "description": "AI-powered music analytics platform for artist discovery and trend prediction.",
+    "website": "https://www.asaii.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/682.png"
+  },
+  {
+    "id": 683,
+    "name": "Chartmetric",
+    "description": "AI-powered music analytics platform for tracking artist performance and trends.",
+    "website": "https://chartmetric.io/",
+    "category": "Design & Creativity",
+    "logo": "/images/683.png"
+  },
+  {
+    "id": 684,
+    "name": "Soundcharts",
+    "description": "Music analytics platform with AI-powered insights for artists and industry professionals.",
+    "website": "https://soundcharts.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/684.png"
+  },
+  {
+    "id": 685,
+    "name": "Next Big Sound",
+    "description": "AI-powered music analytics platform for predicting artist success and trends.",
+    "website": "https://www.nextbigsound.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/685.png"
+  },
+  {
+    "id": 686,
+    "name": "Viberate",
+    "description": "Music analytics platform with AI-powered insights for artists and music professionals.",
+    "website": "https://www.viberate.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/686.png"
+  },
+  {
+    "id": 687,
+    "name": "Beatport",
+    "description": "Electronic music store with AI-powered recommendations and discovery features.",
+    "website": "https://www.beatport.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/687.png"
+  },
+  {
+    "id": 688,
+    "name": "JukeBoss",
+    "description": "AI DJ platform that creates seamless mixes and playlists based on user preferences.",
+    "website": "https://jukeboss.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/688.png"
+  },
+  {
+    "id": 689,
+    "name": "Algoriddim",
+    "description": "DJ software with AI-powered features for automatic mixing and track selection.",
+    "website": "https://www.algoriddim.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/689.png"
+  },
+  {
+    "id": 690,
+    "name": "Mixed In Key",
+    "description": "DJ software with AI-powered harmonic mixing and track analysis features.",
+    "website": "https://mixedinkey.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/690.png"
+  },
+  {
+    "id": 691,
+    "name": "Pioneer DJ",
+    "description": "DJ equipment with AI-powered features for music analysis and performance.",
+    "website": "https://www.pioneerdj.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/691.png"
+  },
+  {
+    "id": 692,
+    "name": "Native Instruments",
+    "description": "Music production software and hardware with AI-powered features and sounds.",
+    "website": "https://www.native-instruments.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/692.png"
+  },
+  {
+    "id": 693,
+    "name": "Ableton",
+    "description": "Music production software with AI-powered features for composition and performance.",
+    "website": "https://www.ableton.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/693.png"
+  },
+  {
+    "id": 694,
+    "name": "FL Studio",
+    "description": "Digital audio workstation with AI-powered tools for music production.",
+    "website": "https://www.image-line.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/694.png"
+  },
+  {
+    "id": 695,
+    "name": "Logic Pro",
+    "description": "Music production software with AI-powered features for composition and mixing.",
+    "website": "https://www.apple.com/logic-pro/",
+    "category": "Design & Creativity",
+    "logo": "/images/695.png"
+  },
+  {
+    "id": 696,
+    "name": "Pro Tools",
+    "description": "Digital audio workstation with AI-powered features for professional audio production.",
+    "website": "https://www.avid.com/pro-tools",
+    "category": "Design & Creativity",
+    "logo": "/images/696.png"
+  },
+  {
+    "id": 697,
+    "name": "Cubase",
+    "description": "Music production software with AI-powered tools for composition and arrangement.",
+    "website": "https://new.steinberg.net/cubase/",
+    "category": "Design & Creativity",
+    "logo": "/images/697.png"
+  },
+  {
+    "id": 698,
+    "name": "Studio One",
+    "description": "Digital audio workstation with AI-powered features for music production.",
+    "website": "https://www.presonus.com/products/Studio-One",
+    "category": "Design & Creativity",
+    "logo": "/images/698.png"
+  },
+  {
+    "id": 699,
+    "name": "Reason",
+    "description": "Music production software with AI-powered tools for sound design and composition.",
+    "website": "https://www.reasonstudios.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/699.png"
+  },
+  {
+    "id": 700,
+    "name": "Bitwig",
+    "description": "Digital audio workstation with AI-powered features for modern music production.",
+    "website": "https://www.bitwig.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/700.png"
+  },
+  {
+    "id": 701,
+    "name": "Reaper",
+    "description": "Digital audio workstation with AI-powered scripting and customization capabilities.",
+    "website": "https://www.reaper.fm/",
+    "category": "Design & Creativity",
+    "logo": "/images/701.png"
+  },
+  {
+    "id": 702,
+    "name": "Audacity",
+    "description": "Audio editing software with AI-powered plugins and effects for audio processing.",
+    "website": "https://www.audacityteam.org/",
+    "category": "Design & Creativity",
+    "logo": "/images/702.png"
+  },
+  {
+    "id": 703,
+    "name": "Ardour",
+    "description": "Open-source digital audio workstation with AI-powered features for music production.",
+    "website": "https://ardour.org/",
+    "category": "Design & Creativity",
+    "logo": "/images/703.png"
+  },
+  {
+    "id": 704,
+    "name": "LMMS",
+    "description": "Free, open-source digital audio workstation with AI-powered music production tools.",
+    "website": "https://lmms.io/",
+    "category": "Design & Creativity",
+    "logo": "/images/704.png"
+  },
+  {
+    "id": 705,
+    "name": "Caustic",
+    "description": "Music production app with AI-powered synthesizers and effects for mobile devices.",
+    "website": "https://www.singlecellsoftware.com/caustic",
+    "category": "Design & Creativity",
+    "logo": "/images/705.png"
+  },
+  {
+    "id": 706,
+    "name": "GarageBand",
+    "description": "Music creation studio with AI-powered features for iOS and macOS users.",
+    "website": "https://www.apple.com/mac/garageband/",
+    "category": "Design & Creativity",
+    "logo": "/images/706.png"
+  },
+  {
+    "id": 707,
+    "name": "BandLab",
+    "description": "Social music platform with AI-powered tools for music creation and collaboration.",
+    "website": "https://www.bandlab.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/707.png"
+  },
+  {
+    "id": 708,
+    "name": "Soundtrap",
+    "description": "Online music studio with AI-powered features for collaborative music making.",
+    "website": "https://www.soundtrap.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/708.png"
+  },
+  {
+    "id": 709,
+    "name": "Amped Studio",
+    "description": "Online digital audio workstation with AI-powered music production tools.",
+    "website": "https://ampedstudio.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/709.png"
+  },
+  {
+    "id": 710,
+    "name": "Soundation",
+    "description": "Online music studio with AI-powered features for music creation and education.",
+    "website": "https://soundation.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/710.png"
+  },
+  {
+    "id": 711,
+    "name": "Audiotool",
+    "description": "Online music production platform with AI-powered virtual studio equipment.",
+    "website": "https://www.audiotool.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/711.png"
+  },
+  {
+    "id": 712,
+    "name": "Splice",
+    "description": "Music production platform with AI-powered sample recommendations and sounds.",
+    "website": "https://splice.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/712.png"
+  },
+  {
+    "id": 713,
+    "name": "Loopcloud",
+    "description": "AI-powered sample management and recommendation platform for music producers.",
+    "website": "https://www.loopcloud.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/713.png"
+  },
+  {
+    "id": 714,
+    "name": "Noiiz",
+    "description": "Sample library with AI-powered search and recommendation features for sounds.",
+    "website": "https://www.noiiz.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/714.png"
+  },
+  {
+    "id": 715,
+    "name": "Sounds.com",
+    "description": "Sample library with AI-powered search and recommendation features by Native Instruments.",
+    "website": "https://sounds.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/715.png"
+  },
+  {
+    "id": 716,
+    "name": "Sample Focus",
+    "description": "Online sample library with AI-powered search and categorization features.",
+    "website": "https://samplefocus.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/716.png"
+  },
+  {
+    "id": 717,
+    "name": "Freesound",
+    "description": "Collaborative database of Creative Commons Licensed sounds with AI-powered search.",
+    "website": "https://freesound.org/",
+    "category": "Design & Creativity",
+    "logo": "/images/717.png"
+  },
+  {
+    "id": 718,
+    "name": "Zapsplat",
+    "description": "Royalty-free sound effects library with AI-powered search and categorization.",
+    "website": "https://www.zapsplat.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/718.png"
+  },
+  {
+    "id": 719,
+    "name": "Storyblocks",
+    "description": "Stock media library with AI-powered search for audio, video, and images.",
+    "website": "https://www.storyblocks.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/719.png"
+  },
+  {
+    "id": 720,
+    "name": "Epidemic Sound",
+    "description": "Royalty-free music library with AI-powered search and recommendation features.",
+    "website": "https://www.epidemicsound.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/720.png"
+  },
+  {
+    "id": 721,
+    "name": "Artlist",
+    "description": "Royalty-free music and sound effects with AI-powered search and curation.",
+    "website": "https://artlist.io/",
+    "category": "Design & Creativity",
+    "logo": "/images/721.png"
+  },
+  {
+    "id": 722,
+    "name": "Musicbed",
+    "description": "Music licensing platform with AI-powered search and recommendation features.",
+    "website": "https://www.musicbed.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/722.png"
+  },
+  {
+    "id": 723,
+    "name": "Pond5",
+    "description": "Stock media marketplace with AI-powered search for audio, video, and images.",
+    "website": "https://www.pond5.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/723.png"
+  },
+  {
+    "id": 724,
+    "name": "AudioJungle",
+    "description": "Stock audio marketplace with AI-powered search and recommendation features.",
+    "website": "https://audiojungle.net/",
+    "category": "Design & Creativity",
+    "logo": "/images/724.png"
+  },
+  {
+    "id": 725,
+    "name": "Shutterstock",
+    "description": "Stock media platform with AI-powered search for images, video, and music.",
+    "website": "https://www.shutterstock.com/music",
+    "category": "Design & Creativity",
+    "logo": "/images/725.png"
+  },
+  {
+    "id": 726,
+    "name": "Getty Images",
+    "description": "Stock media company with AI-powered search and curation for visual and audio content.",
+    "website": "https://www.gettyimages.com/music",
+    "category": "Design & Creativity",
+    "logo": "/images/726.png"
+  },
+  {
+    "id": 727,
+    "name": "Adobe Stock",
+    "description": "Stock media service with AI-powered search for images, video, and audio.",
+    "website": "https://stock.adobe.com/audio",
+    "category": "Design & Creativity",
+    "logo": "/images/727.png"
+  },
+  {
+    "id": 728,
+    "name": "AIVA",
+    "description": "AI composer that creates emotional soundtrack music for videos, games, and films.",
+    "website": "https://www.aiva.ai/",
+    "category": "Design & Creativity",
+    "logo": "/images/728.png"
+  },
+  {
+    "id": 729,
+    "name": "Amper Music",
+    "description": "AI music composition platform that creates custom music for content creators.",
+    "website": "https://www.ampermusic.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/729.png"
+  },
+  {
+    "id": 730,
+    "name": "Boomy",
+    "description": "AI music creation platform that helps users make original songs in seconds.",
+    "website": "https://boomy.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/730.png"
+  },
+  {
+    "id": 731,
+    "name": "Ecrett",
+    "description": "AI music generator that creates royalty-free music for videos, games, and apps.",
+    "website": "https://ecrettmusic.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/731.png"
+  },
+  {
+    "id": 732,
+    "name": "Soundraw",
+    "description": "AI music generator that creates custom royalty-free music for content creators.",
+    "website": "https://soundraw.io/",
+    "category": "Design & Creativity",
+    "logo": "/images/732.png"
+  },
+  {
+    "id": 733,
+    "name": "Mubert",
+    "description": "AI music generator that creates royalty-free music in real-time for streams and videos.",
+    "website": "https://mubert.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/733.png"
+  },
+  {
+    "id": 734,
+    "name": "Loudly",
+    "description": "AI music creation platform that generates custom music for various content needs.",
+    "website": "https://www.loudly.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/734.png"
+  },
+  {
+    "id": 735,
+    "name": "Jukedeck",
+    "description": "AI music composition platform acquired by TikTok for creating original music.",
+    "website": "https://www.jukedeck.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/735.png"
+  },
+  {
+    "id": 736,
+    "name": "Amper Score",
+    "description": "AI music composition tool for creating custom soundtracks for media projects.",
+    "website": "https://www.ampermusic.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/736.png"
+  },
+  {
+    "id": 737,
+    "name": "Melodrive",
+    "description": "AI music engine for games that creates adaptive, emotionally-responsive soundtracks.",
+    "website": "https://melodrive.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/737.png"
+  },
+  {
+    "id": 738,
+    "name": "WaveAI",
+    "description": "AI-powered music mastering service for independent artists and producers.",
+    "website": "https://waveai.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/738.png"
+  },
+  {
+    "id": 739,
+    "name": "LANDR",
+    "description": "AI-powered online music mastering and distribution platform for musicians.",
+    "website": "https://www.landr.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/739.png"
+  },
+  {
+    "id": 740,
+    "name": "Auddly",
+    "description": "AI platform for music metadata and rights management using blockchain technology.",
+    "website": "https://auddly.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/740.png"
+  },
+  {
+    "id": 741,
+    "name": "Shazam",
+    "description": "AI-powered music identification service that recognizes songs from short audio clips.",
+    "website": "https://www.shazam.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/741.png"
+  },
+  {
+    "id": 742,
+    "name": "Pandora",
+    "description": "Music streaming service with AI-powered recommendation engine Music Genome Project.",
+    "website": "https://www.pandora.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/742.png"
+  },
+  {
+    "id": 743,
+    "name": "Spotify",
+    "description": "Music streaming platform with AI-powered music discovery and recommendation features.",
+    "website": "https://www.spotify.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/743.png"
+  },
+  {
+    "id": 744,
+    "name": "Apple Music",
+    "description": "Music streaming service with AI-curated playlists and recommendation algorithms.",
+    "website": "https://www.apple.com/apple-music/",
+    "category": "Design & Creativity",
+    "logo": "/images/744.png"
+  },
+  {
+    "id": 745,
+    "name": "YouTube Music",
+    "description": "Music streaming service with AI-powered recommendations based on listening habits.",
+    "website": "https://music.youtube.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/745.png"
+  },
+  {
+    "id": 746,
+    "name": "SoundCloud",
+    "description": "Audio distribution platform with AI-powered discovery and recommendation features.",
+    "website": "https://soundcloud.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/746.png"
+  },
+  {
+    "id": 747,
+    "name": "Deezer",
+    "description": "Music streaming service with AI-powered Flow feature for personalized music discovery.",
+    "website": "https://www.deezer.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/747.png"
+  },
+  {
+    "id": 748,
+    "name": "Tidal",
+    "description": "High-fidelity music streaming service with AI-powered music recommendations.",
+    "website": "https://tidal.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/748.png"
+  },
+  {
+    "id": 749,
+    "name": "Amazon Music",
+    "description": "Music streaming service with AI-powered recommendations and voice control.",
+    "website": "https://music.amazon.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/749.png"
+  },
+  {
+    "id": 750,
+    "name": "Qobuz",
+    "description": "Hi-Res music streaming service with AI-powered discovery features.",
+    "website": "https://www.qobuz.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/750.png"
+  },
+  {
+    "id": 751,
+    "name": "Idagio",
+    "description": "Classical music streaming service with AI-powered recommendations for classical works.",
+    "website": "https://www.idagio.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/751.png"
+  },
+  {
+    "id": 752,
+    "name": "Bandcamp",
+    "description": "Music platform with AI-powered discovery features for independent artists.",
+    "website": "https://bandcamp.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/752.png"
+  },
+  {
+    "id": 753,
+    "name": "Last.fm",
+    "description": "Music recommendation service that uses AI to analyze listening habits and suggest music.",
+    "website": "https://www.last.fm/",
+    "category": "Design & Creativity",
+    "logo": "/images/753.png"
+  },
+  {
+    "id": 754,
+    "name": "Musiio",
+    "description": "AI music tagging and discovery platform for music catalogs and libraries.",
+    "website": "https://www.musiio.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/754.png"
+  },
+  {
+    "id": 755,
+    "name": "Asaii",
+    "description": "AI-powered music analytics platform for artist discovery and trend prediction.",
+    "website": "https://www.asaii.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/755.png"
+  },
+  {
+    "id": 756,
+    "name": "Chartmetric",
+    "description": "AI-powered music analytics platform for tracking artist performance and trends.",
+    "website": "https://chartmetric.io/",
+    "category": "Design & Creativity",
+    "logo": "/images/756.png"
+  },
+  {
+    "id": 757,
+    "name": "Soundcharts",
+    "description": "Music analytics platform with AI-powered insights for artists and industry professionals.",
+    "website": "https://soundcharts.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/757.png"
+  },
+  {
+    "id": 758,
+    "name": "Next Big Sound",
+    "description": "AI-powered music analytics platform for predicting artist success and trends.",
+    "website": "https://www.nextbigsound.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/758.png"
+  },
+  {
+    "id": 759,
+    "name": "Viberate",
+    "description": "Music analytics platform with AI-powered insights for artists and music professionals.",
+    "website": "https://www.viberate.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/759.png"
+  },
+  {
+    "id": 760,
+    "name": "Beatport",
+    "description": "Electronic music store with AI-powered recommendations and discovery features.",
+    "website": "https://www.beatport.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/760.png"
+  },
+  {
+    "id": 761,
+    "name": "JukeBoss",
+    "description": "AI DJ platform that creates seamless mixes and playlists based on user preferences.",
+    "website": "https://jukeboss.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/761.png"
+  },
+  {
+    "id": 762,
+    "name": "Algoriddim",
+    "description": "DJ software with AI-powered features for automatic mixing and track selection.",
+    "website": "https://www.algoriddim.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/762.png"
+  },
+  {
+    "id": 763,
+    "name": "Mixed In Key",
+    "description": "DJ software with AI-powered harmonic mixing and track analysis features.",
+    "website": "https://mixedinkey.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/763.png"
+  },
+  {
+    "id": 764,
+    "name": "Pioneer DJ",
+    "description": "DJ equipment with AI-powered features for music analysis and performance.",
+    "website": "https://www.pioneerdj.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/764.png"
+  },
+  {
+    "id": 765,
+    "name": "Native Instruments",
+    "description": "Music production software and hardware with AI-powered features and sounds.",
+    "website": "https://www.native-instruments.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/765.png"
+  },
+  {
+    "id": 766,
+    "name": "Ableton",
+    "description": "Music production software with AI-powered features for composition and performance.",
+    "website": "https://www.ableton.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/766.png"
+  },
+  {
+    "id": 767,
+    "name": "FL Studio",
+    "description": "Digital audio workstation with AI-powered tools for music production.",
+    "website": "https://www.image-line.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/767.png"
+  },
+  {
+    "id": 768,
+    "name": "Logic Pro",
+    "description": "Music production software with AI-powered features for composition and mixing.",
+    "website": "https://www.apple.com/logic-pro/",
+    "category": "Design & Creativity",
+    "logo": "/images/768.png"
+  },
+  {
+    "id": 769,
+    "name": "Pro Tools",
+    "description": "Digital audio workstation with AI-powered features for professional audio production.",
+    "website": "https://www.avid.com/pro-tools",
+    "category": "Design & Creativity",
+    "logo": "/images/769.png"
+  },
+  {
+    "id": 770,
+    "name": "Cubase",
+    "description": "Music production software with AI-powered tools for composition and arrangement.",
+    "website": "https://new.steinberg.net/cubase/",
+    "category": "Design & Creativity",
+    "logo": "/images/770.png"
+  },
+  {
+    "id": 771,
+    "name": "Studio One",
+    "description": "Digital audio workstation with AI-powered features for music production.",
+    "website": "https://www.presonus.com/products/Studio-One",
+    "category": "Design & Creativity",
+    "logo": "/images/771.png"
+  },
+  {
+    "id": 772,
+    "name": "Reason",
+    "description": "Music production software with AI-powered tools for sound design and composition.",
+    "website": "https://www.reasonstudios.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/772.png"
+  },
+  {
+    "id": 773,
+    "name": "Bitwig",
+    "description": "Digital audio workstation with AI-powered features for modern music production.",
+    "website": "https://www.bitwig.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/773.png"
+  },
+  {
+    "id": 774,
+    "name": "Reaper",
+    "description": "Digital audio workstation with AI-powered scripting and customization capabilities.",
+    "website": "https://www.reaper.fm/",
+    "category": "Design & Creativity",
+    "logo": "/images/774.png"
+  },
+  {
+    "id": 775,
+    "name": "Audacity",
+    "description": "Audio editing software with AI-powered plugins and effects for audio processing.",
+    "website": "https://www.audacityteam.org/",
+    "category": "Design & Creativity",
+    "logo": "/images/775.png"
+  },
+  {
+    "id": 776,
+    "name": "Ardour",
+    "description": "Open-source digital audio workstation with AI-powered features for music production.",
+    "website": "https://ardour.org/",
+    "category": "Design & Creativity",
+    "logo": "/images/776.png"
+  },
+  {
+    "id": 777,
+    "name": "LMMS",
+    "description": "Free, open-source digital audio workstation with AI-powered music production tools.",
+    "website": "https://lmms.io/",
+    "category": "Design & Creativity",
+    "logo": "/images/777.png"
+  },
+  {
+    "id": 778,
+    "name": "Caustic",
+    "description": "Music production app with AI-powered synthesizers and effects for mobile devices.",
+    "website": "https://www.singlecellsoftware.com/caustic",
+    "category": "Design & Creativity",
+    "logo": "/images/778.png"
+  },
+  {
+    "id": 779,
+    "name": "GarageBand",
+    "description": "Music creation studio with AI-powered features for iOS and macOS users.",
+    "website": "https://www.apple.com/mac/garageband/",
+    "category": "Design & Creativity",
+    "logo": "/images/779.png"
+  },
+  {
+    "id": 780,
+    "name": "BandLab",
+    "description": "Social music platform with AI-powered tools for music creation and collaboration.",
+    "website": "https://www.bandlab.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/780.png"
+  },
+  {
+    "id": 781,
+    "name": "Soundtrap",
+    "description": "Online music studio with AI-powered features for collaborative music making.",
+    "website": "https://www.soundtrap.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/781.png"
+  },
+  {
+    "id": 782,
+    "name": "Amped Studio",
+    "description": "Online digital audio workstation with AI-powered music production tools.",
+    "website": "https://ampedstudio.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/782.png"
+  },
+  {
+    "id": 783,
+    "name": "Soundation",
+    "description": "Online music studio with AI-powered features for music creation and education.",
+    "website": "https://soundation.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/783.png"
+  },
+  {
+    "id": 784,
+    "name": "Audiotool",
+    "description": "Online music production platform with AI-powered virtual studio equipment.",
+    "website": "https://www.audiotool.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/784.png"
+  },
+  {
+    "id": 785,
+    "name": "Splice",
+    "description": "Music production platform with AI-powered sample recommendations and sounds.",
+    "website": "https://splice.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/785.png"
+  },
+  {
+    "id": 786,
+    "name": "Loopcloud",
+    "description": "AI-powered sample management and recommendation platform for music producers.",
+    "website": "https://www.loopcloud.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/786.png"
+  },
+  {
+    "id": 787,
+    "name": "Noiiz",
+    "description": "Sample library with AI-powered search and recommendation features for sounds.",
+    "website": "https://www.noiiz.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/787.png"
+  },
+  {
+    "id": 788,
+    "name": "Sounds.com",
+    "description": "Sample library with AI-powered search and recommendation features by Native Instruments.",
+    "website": "https://sounds.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/788.png"
+  },
+  {
+    "id": 789,
+    "name": "Sample Focus",
+    "description": "Online sample library with AI-powered search and categorization features.",
+    "website": "https://samplefocus.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/789.png"
+  },
+  {
+    "id": 790,
+    "name": "Freesound",
+    "description": "Collaborative database of Creative Commons Licensed sounds with AI-powered search.",
+    "website": "https://freesound.org/",
+    "category": "Design & Creativity",
+    "logo": "/images/790.png"
+  },
+  {
+    "id": 791,
+    "name": "Zapsplat",
+    "description": "Royalty-free sound effects library with AI-powered search and categorization.",
+    "website": "https://www.zapsplat.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/791.png"
+  },
+  {
+    "id": 792,
+    "name": "Storyblocks",
+    "description": "Stock media library with AI-powered search for audio, video, and images.",
+    "website": "https://www.storyblocks.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/792.png"
+  },
+  {
+    "id": 793,
+    "name": "Epidemic Sound",
+    "description": "Royalty-free music library with AI-powered search and recommendation features.",
+    "website": "https://www.epidemicsound.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/793.png"
+  },
+  {
+    "id": 794,
+    "name": "Artlist",
+    "description": "Royalty-free music and sound effects with AI-powered search and curation.",
+    "website": "https://artlist.io/",
+    "category": "Design & Creativity",
+    "logo": "/images/794.png"
+  },
+  {
+    "id": 795,
+    "name": "Musicbed",
+    "description": "Music licensing platform with AI-powered search and recommendation features.",
+    "website": "https://www.musicbed.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/795.png"
+  },
+  {
+    "id": 796,
+    "name": "Pond5",
+    "description": "Stock media marketplace with AI-powered search for audio, video, and images.",
+    "website": "https://www.pond5.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/796.png"
+  },
+  {
+    "id": 797,
+    "name": "AudioJungle",
+    "description": "Stock audio marketplace with AI-powered search and recommendation features.",
+    "website": "https://audiojungle.net/",
+    "category": "Design & Creativity",
+    "logo": "/images/797.png"
+  },
+  {
+    "id": 798,
+    "name": "Shutterstock",
+    "description": "Stock media platform with AI-powered search for images, video, and music.",
+    "website": "https://www.shutterstock.com/music",
+    "category": "Design & Creativity",
+    "logo": "/images/798.png"
+  },
+  {
+    "id": 799,
+    "name": "Getty Images",
+    "description": "Stock media company with AI-powered search and curation for visual and audio content.",
+    "website": "https://www.gettyimages.com/music",
+    "category": "Design & Creativity",
+    "logo": "/images/799.png"
+  },
+  {
+    "id": 800,
+    "name": "Adobe Stock",
+    "description": "Stock media service with AI-powered search for images, video, and audio.",
+    "website": "https://stock.adobe.com/audio",
+    "category": "Design & Creativity",
+    "logo": "/images/800.png"
+  },
+  {
+    "id": 801,
+    "name": "AIVA",
+    "description": "AI composer that creates emotional soundtrack music for videos, games, and films.",
+    "website": "https://www.aiva.ai/",
+    "category": "Design & Creativity",
+    "logo": "/images/801.png"
+  },
+  {
+    "id": 802,
+    "name": "Amper Music",
+    "description": "AI music composition platform that creates custom music for content creators.",
+    "website": "https://www.ampermusic.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/802.png"
+  },
+  {
+    "id": 803,
+    "name": "Boomy",
+    "description": "AI music creation platform that helps users make original songs in seconds.",
+    "website": "https://boomy.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/803.png"
+  },
+  {
+    "id": 804,
+    "name": "Ecrett",
+    "description": "AI music generator that creates royalty-free music for videos, games, and apps.",
+    "website": "https://ecrettmusic.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/804.png"
+  },
+  {
+    "id": 805,
+    "name": "Soundraw",
+    "description": "AI music generator that creates custom royalty-free music for content creators.",
+    "website": "https://soundraw.io/",
+    "category": "Design & Creativity",
+    "logo": "/images/805.png"
+  },
+  {
+    "id": 806,
+    "name": "Mubert",
+    "description": "AI music generator that creates royalty-free music in real-time for streams and videos.",
+    "website": "https://mubert.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/806.png"
+  },
+  {
+    "id": 807,
+    "name": "Loudly",
+    "description": "AI music creation platform that generates custom music for various content needs.",
+    "website": "https://www.loudly.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/807.png"
+  },
+  {
+    "id": 808,
+    "name": "Jukedeck",
+    "description": "AI music composition platform acquired by TikTok for creating original music.",
+    "website": "https://www.jukedeck.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/808.png"
+  },
+  {
+    "id": 809,
+    "name": "Amper Score",
+    "description": "AI music composition tool for creating custom soundtracks for media projects.",
+    "website": "https://www.ampermusic.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/809.png"
+  },
+  {
+    "id": 810,
+    "name": "Melodrive",
+    "description": "AI music engine for games that creates adaptive, emotionally-responsive soundtracks.",
+    "website": "https://melodrive.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/810.png"
+  },
+  {
+    "id": 811,
+    "name": "WaveAI",
+    "description": "AI-powered music mastering service for independent artists and producers.",
+    "website": "https://waveai.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/811.png"
+  },
+  {
+    "id": 812,
+    "name": "LANDR",
+    "description": "AI-powered online music mastering and distribution platform for musicians.",
+    "website": "https://www.landr.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/812.png"
+  },
+  {
+    "id": 813,
+    "name": "Auddly",
+    "description": "AI platform for music metadata and rights management using blockchain technology.",
+    "website": "https://auddly.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/813.png"
+  },
+  {
+    "id": 814,
+    "name": "Shazam",
+    "description": "AI-powered music identification service that recognizes songs from short audio clips.",
+    "website": "https://www.shazam.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/814.png"
+  },
+  {
+    "id": 815,
+    "name": "Pandora",
+    "description": "Music streaming service with AI-powered recommendation engine Music Genome Project.",
+    "website": "https://www.pandora.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/815.png"
+  },
+  {
+    "id": 816,
+    "name": "Spotify",
+    "description": "Music streaming platform with AI-powered music discovery and recommendation features.",
+    "website": "https://www.spotify.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/816.png"
+  },
+  {
+    "id": 817,
+    "name": "Apple Music",
+    "description": "Music streaming service with AI-curated playlists and recommendation algorithms.",
+    "website": "https://www.apple.com/apple-music/",
+    "category": "Design & Creativity",
+    "logo": "/images/817.png"
+  },
+  {
+    "id": 818,
+    "name": "YouTube Music",
+    "description": "Music streaming service with AI-powered recommendations based on listening habits.",
+    "website": "https://music.youtube.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/818.png"
+  },
+  {
+    "id": 819,
+    "name": "SoundCloud",
+    "description": "Audio distribution platform with AI-powered discovery and recommendation features.",
+    "website": "https://soundcloud.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/819.png"
+  },
+  {
+    "id": 820,
+    "name": "Deezer",
+    "description": "Music streaming service with AI-powered Flow feature for personalized music discovery.",
+    "website": "https://www.deezer.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/820.png"
+  },
+  {
+    "id": 821,
+    "name": "Tidal",
+    "description": "High-fidelity music streaming service with AI-powered music recommendations.",
+    "website": "https://tidal.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/821.png"
+  },
+  {
+    "id": 822,
+    "name": "Amazon Music",
+    "description": "Music streaming service with AI-powered recommendations and voice control.",
+    "website": "https://music.amazon.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/822.png"
+  },
+  {
+    "id": 823,
+    "name": "Qobuz",
+    "description": "Hi-Res music streaming service with AI-powered discovery features.",
+    "website": "https://www.qobuz.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/823.png"
+  }]
