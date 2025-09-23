@@ -3982,26 +3982,26 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 498,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
-  "category": "Design & Creativity",
+  "name": "Shutterstock AI Image Studio",
+  "description": "AI-powered image generation and editing platform with advanced style transfer and content-aware enhancement tools.",
+  "website": "https://www.shutterstock.com/ai-image-studio",
+  "category": "AI Image Generation",
   "logo": "/images/498.png"
 },
 {
   "id": 499,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
-  "category": "Design & Creativity",
+  "name": "Shutterstock AI Music Composer",
+  "description": "AI-driven music composition tool that generates royalty-free tracks based on mood, genre, and duration parameters.",
+  "website": "https://www.shutterstock.com/ai-music",
+  "category": "AI Audio & Music",
   "logo": "/images/499.png"
 },
 {
   "id": 500,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
-  "category": "Design & Creativity",
+  "name": "Shutterstock AI Content Analyzer",
+  "description": "Machine learning platform that analyzes visual content for trends, predicts virality, and recommends optimal media selections.",
+  "website": "https://www.shutterstock.com/ai-analyzer",
+  "category": "AI Analytics & Insights",
   "logo": "/images/500.png"
 },
 {
