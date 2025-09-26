@@ -254,11 +254,11 @@ export const aiTools: AITool[] = [
   },
   {
     "id": 32,
-    "name": "Copy.ai",
-    "description": "Generates high-converting ad copy, blogs, and social posts.",
-    "website": "https://www.copy.ai/",
-    "category": "Entrepreneurship & Startups",
-    "logo": "/images/cop.png"
+    "name": "Claude AI",
+    "description": "AI assistant focused on helpful, honest dialogue and complex reasoning tasks.",
+    "website": "https://claude.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/32.png"
   },
   {
     "id": 33,
@@ -469,12 +469,12 @@ export const aiTools: AITool[] = [
   "logo": "/images/58.png"
 },
 {
-  "id": 59,
-  "name": "Copy.ai",
-  "description": "AI-powered copywriting tool for marketing content and business messaging.",
-  "website": "https://www.copy.ai/",
-  "category": "Entrepreneurship & Startups",
-  "logo": "/images/59.png"
+ "id": 59,
+    "name": "Claude Desktop",
+    "description": "Desktop application for Anthropic's Claude AI assistant with file upload capabilities.",
+    "website": "https://claude.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/59.png"
 },
 {
   "id": 60,
@@ -525,10 +525,10 @@ export const aiTools: AITool[] = [
   "logo": "/images/65.png"
 },
 {
-  "id": 66,
-  "name": "Copysmith",
-  "description": "AI content creation platform for e-commerce and marketing teams.",
-  "website": "https://copysmith.ai/",
+ "id": 66,
+  "name": "Copysmith Pro",
+  "description": "Advanced AI content creation platform for enterprise marketing teams.",
+  "website": "https://copysmith.ai/enterprise",
   "category": "Entrepreneurship & Startups",
   "logo": "/images/cop.png"
 },
@@ -678,9 +678,9 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 85,
-  "name": "Notion AI",
-  "description": "AI writing assistant integrated within Notion workspace.",
-  "website": "https://www.notion.so/product/ai",
+  "name": "Notion AI Pro",
+  "description": "Advanced AI writing and organization features for Notion power users.",
+  "website": "https://www.notion.so/product/ai-pro",
   "category": "Productivity & Writing",
   "logo": "/images/85.png"
 },
@@ -862,9 +862,9 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 108,
-  "name": "Akkio",
-  "description": "AI business forecasting and analytics platform for revenue teams.",
-  "website": "https://www.akkio.com/",
+  "name": "Akkio Analytics",
+  "description": "AI-powered business intelligence and forecasting platform for data-driven decisions.",
+  "website": "https://www.akkio.com/analytics",
   "category": "Entrepreneurship & Startups",
   "logo": "/images/108.png"
 },
@@ -2862,9 +2862,9 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 358,
-  "name": "Synthesia",
-  "description": "AI video generation platform that creates professional videos from text.",
-  "website": "https://www.synthesia.io/",
+  "name": "Synthesia Studio",
+  "description": "Enterprise AI video generation platform with custom avatar creation.",
+  "website": "https://www.synthesia.io/studio",
   "category": "Design & Creativity",
   "logo": "/images/358.png"
 },
@@ -2942,9 +2942,9 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 368,
-  "name": "Runway",
-  "description": "AI-powered video editing platform with advanced tools for creators.",
-  "website": "https://runwayml.com/",
+  "name": "Runway ML Pro",
+  "description": "Professional AI video editing platform with advanced generative tools.",
+  "website": "https://runwayml.com/pro",
   "category": "Design & Creativity",
   "logo": "/images/368.png"
 },
@@ -2958,9 +2958,9 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 370,
-  "name": "Murf",
-  "description": "AI voice generator that creates realistic voiceovers from text.",
-  "website": "https://murf.ai/",
+  "name": "Murf Studio",
+  "description": "Professional AI voice generation platform with advanced customization.",
+  "website": "https://murf.ai/studio",
   "category": "Design & Creativity",
   "logo": "/images/370.png"
 },
@@ -3974,9 +3974,9 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 497,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "DreamStudio",
+  "description": "AI image generation platform by Stability AI with advanced control features.",
+  "website": "https://dreamstudio.ai/",
   "category": "Design & Creativity",
   "logo": "/images/497.png"
 },
@@ -4566,9 +4566,9 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 571,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "Leonardo AI",
+  "description": "AI art generation platform with real-time canvas and style training.",
+  "website": "https://leonardo.ai/",
   "category": "Design & Creativity",
   "logo": "/images/571.png"
 },
@@ -4590,33 +4590,33 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 574,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "Playground AI Pro",
+  "description": "Advanced AI image creation and editing platform with collaborative features.",
+  "website": "https://playgroundai.com/pro",
   "category": "Design & Creativity",
   "logo": "/images/574.png"
 },
 {
   "id": 575,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "Clipdrop",
+  "description": "AI-powered image editing and manipulation tool by Stability AI.",
+  "website": "https://clipdrop.co/",
   "category": "Design & Creativity",
   "logo": "/images/575.png"
 },
 {
   "id": 576,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "Krea AI",
+  "description": "Real-time AI image generation and enhancement platform.",
+  "website": "https://krea.ai/",
   "category": "Design & Creativity",
   "logo": "/images/576.png"
 },
 {
   "id": 577,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "Mage AI",
+  "description": "Open-source AI image generation platform with community models.",
+  "website": "https://www.mage.space/",
   "category": "Design & Creativity",
   "logo": "/images/577.png"
 },
@@ -5182,9 +5182,9 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 648,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "GetIMG AI",
+  "description": "AI image generation platform with editing tools and custom model training.",
+  "website": "https://getimg.ai/",
   "category": "Design & Creativity",
   "logo": "/images/648.png"
 },
@@ -5206,33 +5206,33 @@ export const aiTools: AITool[] = [
 },
 {
   "id": 651,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "Imagine AI",
+  "description": "AI art generator with advanced style control and upscaling capabilities.",
+  "website": "https://www.imagine.art/",
   "category": "Design & Creativity",
   "logo": "/images/651.png"
 },
 {
   "id": 652,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "NightCafe Creator",
+  "description": "AI art platform with multiple algorithms and community features.",
+  "website": "https://creator.nightcafe.studio/",
   "category": "Design & Creativity",
   "logo": "/images/652.png"
 },
 {
   "id": 653,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "Stablecog",
+  "description": "AI image generation tool with Stable Diffusion and various models.",
+  "website": "https://stablecog.com/",
   "category": "Design & Creativity",
   "logo": "/images/653.png"
 },
 {
   "id": 654,
-  "name": "Shutterstock",
-  "description": "Stock media platform with AI-powered search for images, video, and music.",
-  "website": "https://www.shutterstock.com/music",
+  "name": "Zazow",
+  "description": "AI algorithmic art generator creating unique abstract artworks.",
+  "website": "https://www.zazow.com/",
   "category": "Design & Creativity",
   "logo": "/images/654.png"
 },
@@ -5798,9 +5798,9 @@ export const aiTools: AITool[] = [
   },
   {
     "id": 725,
-    "name": "Shutterstock",
-    "description": "Stock media platform with AI-powered search for images, video, and music.",
-    "website": "https://www.shutterstock.com/music",
+    "name": "Artbreeder",
+    "description": "AI art platform for creating and mixing images using generative algorithms.",
+    "website": "https://www.artbreeder.com/",
     "category": "Design & Creativity",
     "logo": "/images/725.png"
   },
@@ -6382,9 +6382,9 @@ export const aiTools: AITool[] = [
   },
   {
     "id": 798,
-    "name": "Shutterstock",
-    "description": "Stock media platform with AI-powered search for images, video, and music.",
-    "website": "https://www.shutterstock.com/music",
+    "name": "Neural Love",
+    "description": "AI art generator and image enhancement tool with style transfer.",
+    "website": "https://neural.love/",
     "category": "Design & Creativity",
     "logo": "/images/798.png"
   },
