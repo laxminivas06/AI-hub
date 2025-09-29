@@ -6587,4 +6587,1420 @@ export const aiTools: AITool[] = [
     "website": "https://www.qobuz.com/",
     "category": "Design & Creativity",
     "logo": "/images/823.png"
+  },
+{
+    "id": 824,
+    "name": "Krisp",
+    "description": "AI-powered noise cancellation for crystal clear audio calls.",
+    "website": "https://krisp.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/824.png"
+  },
+  {
+    "id": 825,
+    "name": "Otter AI",
+    "description": "Real-time transcription and meeting notes with AI assistance.",
+    "website": "https://otter.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/825.png"
+  },
+  {
+    "id": 826,
+    "name": "Fireflies AI",
+    "description": "AI meeting assistant that records, transcribes, and summarizes conversations.",
+    "website": "https://fireflies.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/826.png"
+  },
+  {
+    "id": 827,
+    "name": "Sembly AI",
+    "description": "AI team assistant that transforms meetings into actionable insights.",
+    "website": "https://sembly.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/827.png"
+  },
+  {
+    "id": 828,
+    "name": "Fathom AI",
+    "description": "Free AI meeting assistant that records and summarizes Zoom calls.",
+    "website": "https://fathom.video/",
+    "category": "Productivity & Writing",
+    "logo": "/images/828.png"
+  },
+  {
+    "id": 829,
+    "name": "Airgram",
+    "description": "AI meeting assistant for recording, transcribing, and sharing meetings.",
+    "website": "https://airgram.io/",
+    "category": "Productivity & Writing",
+    "logo": "/images/829.png"
+  },
+  {
+    "id": 830,
+    "name": "Supernormal",
+    "description": "AI that automatically writes your meeting notes in Google Docs.",
+    "website": "https://supernormal.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/830.png"
+  },
+  {
+    "id": 831,
+    "name": "Columba AI",
+    "description": "AI-powered project management and team collaboration platform.",
+    "website": "https://columba.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/831.png"
+  },
+  {
+    "id": 832,
+    "name": "Memo AI",
+    "description": "AI workspace for notes, tasks, and knowledge management.",
+    "website": "https://memo.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/832.png"
+  },
+  {
+    "id": 833,
+    "name": "Genei",
+    "description": "AI research and summarization tool for academic and professional use.",
+    "website": "https://www.genei.io/",
+    "category": "Students & Learning",
+    "logo": "/images/833.png"
+  },
+  {
+    "id": 834,
+    "name": "Scite AI",
+    "description": "AI tool for evaluating scientific articles using Smart Citations.",
+    "website": "https://scite.ai/",
+    "category": "Students & Learning",
+    "logo": "/images/834.png"
+  },
+  {
+    "id": 835,
+    "name": "Semantic Scholar",
+    "description": "AI-powered academic search engine for scientific literature.",
+    "website": "https://www.semanticscholar.org/",
+    "category": "Students & Learning",
+    "logo": "/images/835.png"
+  },
+  {
+    "id": 836,
+    "name": "Iris AI",
+    "description": "AI research assistant for systematic literature reviews.",
+    "website": "https://iris.ai/",
+    "category": "Students & Learning",
+    "logo": "/images/836.png"
+  },
+  {
+    "id": 837,
+    "name": "Yewno",
+    "description": "AI-powered knowledge discovery and research platform.",
+    "website": "https://www.yewno.com/",
+    "category": "Students & Learning",
+    "logo": "/images/837.png"
+  },
+  {
+    "id": 838,
+    "name": "Lateral AI",
+    "description": "AI research tool for organizing and connecting research materials.",
+    "website": "https://lateral.io/",
+    "category": "Students & Learning",
+    "logo": "/images/838.png"
+  },
+  {
+    "id": 839,
+    "name": "System",
+    "description": "AI platform for building and deploying computer vision applications.",
+    "website": "https://system.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/839.png"
+  },
+  {
+    "id": 840,
+    "name": "V7 Labs",
+    "description": "AI platform for automating visual data labeling and annotation.",
+    "website": "https://www.v7labs.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/840.png"
+  },
+  {
+    "id": 841,
+    "name": "Scale AI",
+    "description": "Data platform for AI providing high-quality training data.",
+    "website": "https://scale.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/841.png"
+  },
+  {
+    "id": 842,
+    "name": "Labelbox",
+    "description": "AI data platform for creating and managing training data.",
+    "website": "https://labelbox.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/842.png"
+  },
+  {
+    "id": 843,
+    "name": "SuperAnnotate",
+    "description": "AI-powered data annotation platform for computer vision.",
+    "website": "https://www.superannotate.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/843.png"
+  },
+  {
+    "id": 844,
+    "name": "Playment",
+    "description": "AI data annotation platform for training machine learning models.",
+    "website": "https://playment.io/",
+    "category": "Engineering & Coding",
+    "logo": "/images/844.png"
+  },
+  {
+    "id": 845,
+    "name": "Appen",
+    "description": "AI data services for high-quality training data collection.",
+    "website": "https://appen.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/845.png"
+  },
+  {
+    "id": 846,
+    "name": "LightTag",
+    "description": "Text annotation platform for NLP and machine learning projects.",
+    "website": "https://www.lighttag.io/",
+    "category": "Engineering & Coding",
+    "logo": "/images/846.png"
+  },
+  {
+    "id": 847,
+    "name": "Dataloop",
+    "description": "AI data management and annotation platform for enterprises.",
+    "website": "https://dataloop.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/847.png"
+  },
+  {
+    "id": 848,
+    "name": "Supervisely",
+    "description": "Computer vision platform for data annotation and model training.",
+    "website": "https://supervisely.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/848.png"
+  },
+  {
+    "id": 849,
+    "name": "Voxel51",
+    "description": "AI platform for computer vision dataset analysis and curation.",
+    "website": "https://voxel51.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/849.png"
+  },
+  {
+    "id": 850,
+    "name": "Aquarium",
+    "description": "AI data management platform for improving machine learning datasets.",
+    "website": "https://aquariumlearning.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/850.png"
+  },
+  {
+    "id": 851,
+    "name": "Snorkel AI",
+    "description": "AI platform for programmatically building and managing training data.",
+    "website": "https://snorkel.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/851.png"
+  },
+  {
+    "id": 852,
+    "name": "Gretel AI",
+    "description": "AI platform for generating synthetic data for machine learning.",
+    "website": "https://gretel.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/852.png"
+  },
+  {
+    "id": 853,
+    "name": "Mostly AI",
+    "description": "Synthetic data generation platform for AI training and testing.",
+    "website": "https://mostly.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/853.png"
+  },
+  {
+    "id": 854,
+    "name": "Hazy",
+    "description": "AI-powered synthetic data generation for business analytics.",
+    "website": "https://hazy.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/854.png"
+  },
+  {
+    "id": 855,
+    "name": "Tonic AI",
+    "description": "Synthetic data platform for AI model development and testing.",
+    "website": "https://www.tonic.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/855.png"
+  },
+  {
+    "id": 856,
+    "name": "Synthesis AI",
+    "description": "AI platform for generating synthetic human data for computer vision.",
+    "website": "https://synthesis.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/856.png"
+  },
+  {
+    "id": 857,
+    "name": "AI.Reverie",
+    "description": "Synthetic data platform for computer vision and AI training.",
+    "website": "https://aireverie.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/857.png"
+  },
+  {
+    "id": 858,
+    "name": "CVEDIA",
+    "description": "Synthetic data generation for computer vision applications.",
+    "website": "https://cvedia.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/858.png"
+  },
+  {
+    "id": 859,
+    "name": "Parallel Domain",
+    "description": "AI platform for generating synthetic data for autonomous systems.",
+    "website": "https://paralleldomain.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/859.png"
+  },
+  {
+    "id": 860,
+    "name": "OneView",
+    "description": "Synthetic data platform for geospatial AI and computer vision.",
+    "website": "https://oneview.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/860.png"
+  },
+  {
+    "id": 861,
+    "name": "Rendered AI",
+    "description": "Cloud platform for generating synthetic data for computer vision.",
+    "website": "https://rendered.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/861.png"
+  },
+  {
+    "id": 862,
+    "name": "AI21 Labs",
+    "description": "AI research lab developing large language models and NLP tools.",
+    "website": "https://www.ai21.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/862.png"
+  },
+  {
+    "id": 863,
+    "name": "Cohere",
+    "description": "AI platform providing language models for enterprise applications.",
+    "website": "https://cohere.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/863.png"
+  },
+  {
+    "id": 864,
+    "name": "Aleph Alpha",
+    "description": "European AI research company developing large language models.",
+    "website": "https://aleph-alpha.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/864.png"
+  },
+  {
+    "id": 865,
+    "name": "LightOn",
+    "description": "AI company developing large-scale language models and AI infrastructure.",
+    "website": "https://lighton.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/865.png"
+  },
+  {
+    "id": 866,
+    "name": "Narrative AI",
+    "description": "AI platform for generating business narratives and reports.",
+    "website": "https://narrative.ai/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/866.png"
+  },
+  {
+    "id": 867,
+    "name": "Cortical.io",
+    "description": "AI platform for natural language understanding using semantic folding.",
+    "website": "https://cortical.io/",
+    "category": "Engineering & Coding",
+    "logo": "/images/867.png"
+  },
+  {
+    "id": 868,
+    "name": "Expert.ai",
+    "description": "AI platform for natural language understanding and knowledge mining.",
+    "website": "https://www.expert.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/868.png"
+  },
+  {
+    "id": 869,
+    "name": "Linguamatics",
+    "description": "AI-powered text mining for life sciences and healthcare.",
+    "website": "https://www.linguamatics.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/869.png"
+  },
+  {
+    "id": 870,
+    "name": "Replika",
+    "description": "AI companion designed to provide emotional support and conversation.",
+    "website": "https://replika.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/870.png"
+  },
+  {
+    "id": 871,
+    "name": "Character AI",
+    "description": "AI platform for creating and chatting with virtual characters.",
+    "website": "https://beta.character.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/871.png"
+  },
+  {
+    "id": 872,
+    "name": "Anima",
+    "description": "AI virtual friend for conversation and emotional support.",
+    "website": "https://anima.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/872.png"
+  },
+  {
+    "id": 873,
+    "name": "Kajiwoto",
+    "description": "AI platform for creating and interacting with virtual pets and characters.",
+    "website": "https://kajiwoto.com/",
+    "category": "Design & Creativity",
+    "logo": "/images/873.png"
+  },
+  {
+    "id": 874,
+    "name": "AI Dungeon",
+    "description": "AI-powered text adventure game with infinite storytelling possibilities.",
+    "website": "https://aidungeon.io/",
+    "category": "Design & Creativity",
+    "logo": "/images/874.png"
+  },
+  {
+    "id": 875,
+    "name": "NovelAI",
+    "description": "AI-assisted storytelling and creative writing platform.",
+    "website": "https://novelai.net/",
+    "category": "Productivity & Writing",
+    "logo": "/images/875.png"
+  },
+  {
+    "id": 876,
+    "name": "Holocaust",
+    "description": "AI writing assistant specifically designed for fiction and novel writing.",
+    "website": "https://holocaust.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/876.png"
+  },
+  {
+    "id": 877,
+    "name": "ShortlyAI",
+    "description": "AI writing assistant for creative writing and content generation.",
+    "website": "https://www.shortlyai.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/877.png"
+  },
+  {
+    "id": 878,
+    "name": "Inferkit",
+    "description": "AI text generator with advanced language model capabilities.",
+    "website": "https://inferkit.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/878.png"
+  },
+  {
+    "id": 879,
+    "name": "AI Writer",
+    "description": "AI content generation platform for articles and blog posts.",
+    "website": "https://ai-writer.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/879.png"
+  },
+  {
+    "id": 880,
+    "name": "ContentBot",
+    "description": "AI content writer for blogs, ads, and marketing copy.",
+    "website": "https://contentbot.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/880.png"
+  },
+  {
+    "id": 881,
+    "name": "CopyMatic",
+    "description": "AI copywriting tool for generating marketing and sales content.",
+    "website": "https://copymatic.ai/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/881.png"
+  },
+  {
+    "id": 882,
+    "name": "Snazzy AI",
+    "description": "AI writing assistant for various content types and marketing materials.",
+    "website": "https://snazzy.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/882.png"
+  },
+  {
+    "id": 883,
+    "name": "Easy-Peasy.AI",
+    "description": "AI content generator for various writing needs and formats.",
+    "website": "https://easy-peasy.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/883.png"
+  },
+  {
+    "id": 884,
+    "name": "SmartCopy",
+    "description": "AI copywriting tool by Unbounce for creating persuasive marketing copy.",
+    "website": "https://smartcopy.ai/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/884.png"
+  },
+  {
+    "id": 885,
+    "name": "NeuralText",
+    "description": "AI content optimization and generation platform for SEO content.",
+    "website": "https://www.neuraltext.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/885.png"
+  },
+  {
+    "id": 886,
+    "name": "WriterZen",
+    "description": "AI-powered content research and writing platform for SEO professionals.",
+    "website": "https://www.writerzen.net/",
+    "category": "Productivity & Writing",
+    "logo": "/images/886.png"
+  },
+  {
+    "id": 887,
+    "name": "Topic",
+    "description": "AI research assistant that helps explore and understand complex topics.",
+    "website": "https://www.topic.com/",
+    "category": "Students & Learning",
+    "logo": "/images/887.png"
+  },
+  {
+    "id": 888,
+    "name": "TLDR This",
+    "description": "AI text summarizer that condenses long articles into key points.",
+    "website": "https://tldrthis.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/888.png"
+  },
+  {
+    "id": 889,
+    "name": "Glasp",
+    "description": "AI-powered social web highlighter for research and knowledge management.",
+    "website": "https://glasp.co/",
+    "category": "Students & Learning",
+    "logo": "/images/889.png"
+  },
+  {
+    "id": 890,
+    "name": "Mem.ai",
+    "description": "AI-powered note-taking and knowledge management platform.",
+    "website": "https://mem.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/890.png"
+  },
+  {
+    "id": 891,
+    "name": "Taskade",
+    "description": "AI-powered productivity platform for notes, tasks, and mind maps.",
+    "website": "https://www.taskade.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/891.png"
+  },
+  {
+    "id": 892,
+    "name": "Motion",
+    "description": "AI-powered calendar and task management system that plans your day.",
+    "website": "https://www.usemotion.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/892.png"
+  },
+  {
+    "id": 893,
+    "name": "Reclaim AI",
+    "description": "AI scheduling assistant that optimizes your calendar and time management.",
+    "website": "https://reclaim.ai/",
+    "category": "Productivity & Writing",
+    "logo": "/images/893.png"
+  },
+  {
+    "id": 894,
+    "name": "Clockwise",
+    "description": "AI calendar assistant that creates focus time and optimizes schedules.",
+    "website": "https://www.getclockwise.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/894.png"
+  },
+  {
+    "id": 895,
+    "name": "SaneBox",
+    "description": "AI email management tool that prioritizes and organizes your inbox.",
+    "website": "https://www.sanebox.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/895.png"
+  },
+  {
+    "id": 896,
+    "name": "Superhuman",
+    "description": "AI-powered email client designed for speed and productivity.",
+    "website": "https://superhuman.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/896.png"
+  },
+  {
+    "id": 897,
+    "name": "Shortwave",
+    "description": "AI-enhanced email client with smart search and organization features.",
+    "website": "https://www.shortwave.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/897.png"
+  },
+  {
+    "id": 898,
+    "name": "Clean Email",
+    "description": "AI-powered email organizer that helps declutter and manage inboxes.",
+    "website": "https://clean.email/",
+    "category": "Productivity & Writing",
+    "logo": "/images/898.png"
+  },
+  {
+    "id": 899,
+    "name": "Boomerang",
+    "description": "AI email scheduling and follow-up tool for Gmail and Outlook.",
+    "website": "https://www.boomerangapp.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/899.png"
+  },
+  {
+    "id": 900,
+    "name": "Edison Mail",
+    "description": "AI-powered email app with smart features and privacy protection.",
+    "website": "https://www.edison.tech/mail/",
+    "category": "Productivity & Writing",
+    "logo": "/images/900.png"
+  },
+  {
+    "id": 901,
+    "name": "Spark Mail",
+    "description": "AI-enhanced email client with smart inbox and team collaboration.",
+    "website": "https://sparkmailapp.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/901.png"
+  },
+  {
+    "id": 902,
+    "name": "Canary Mail",
+    "description": "AI-powered email client with security features and intelligent organization.",
+    "website": "https://canarymail.io/",
+    "category": "Productivity & Writing",
+    "logo": "/images/902.png"
+  },
+  {
+    "id": 903,
+    "name": "Newton Mail",
+    "description": "AI-enhanced email app with read receipts, snooze, and other productivity features.",
+    "website": "https://newtonhq.com/",
+    "category": "Productivity & Writing",
+    "logo": "/images/903.png"
+  },
+  {
+    "id": 904,
+    "name": "Mixmax",
+    "description": "AI-powered sales productivity platform for email tracking and scheduling.",
+    "website": "https://www.mixmax.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/904.png"
+  },
+  {
+    "id": 905,
+    "name": "Yesware",
+    "description": "AI sales platform for email tracking, templates, and analytics.",
+    "website": "https://www.yesware.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/905.png"
+  },
+  {
+    "id": 906,
+    "name": "Outreach",
+    "description": "AI-powered sales engagement platform for scaling customer interactions.",
+    "website": "https://www.outreach.io/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/906.png"
+  },
+  {
+    "id": 907,
+    "name": "Salesloft",
+    "description": "AI sales engagement platform for revenue teams and customer outreach.",
+    "website": "https://www.salesloft.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/907.png"
+  },
+  {
+    "id": 908,
+    "name": "Gong",
+    "description": "AI revenue intelligence platform that analyzes customer interactions.",
+    "website": "https://www.gong.io/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/908.png"
+  },
+  {
+    "id": 909,
+    "name": "Chorus",
+    "description": "AI conversation intelligence platform for sales teams.",
+    "website": "https://www.chorus.ai/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/909.png"
+  },
+  {
+    "id": 910,
+    "name": "Cognism",
+    "description": "AI-powered sales intelligence and prospecting platform.",
+    "website": "https://www.cognism.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/910.png"
+  },
+  {
+    "id": 911,
+    "name": "People.ai",
+    "description": "AI revenue intelligence platform that captures customer engagement data.",
+    "website": "https://www.people.ai/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/911.png"
+  },
+  {
+    "id": 912,
+    "name": "Clari",
+    "description": "AI revenue platform for forecasting and pipeline management.",
+    "website": "https://www.clari.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/912.png"
+  },
+  {
+    "id": 913,
+    "name": "Cresta",
+    "description": "AI platform for real-time conversation intelligence and agent coaching.",
+    "website": "https://cresta.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/913.png"
+  },
+  {
+    "id": 914,
+    "name": "Uniphore",
+    "description": "AI conversation analytics platform for customer service and sales.",
+    "website": "https://uniphore.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/914.png"
+  },
+  {
+    "id": 915,
+    "name": "Observe.AI",
+    "description": "AI contact center platform for conversation intelligence and agent coaching.",
+    "website": "https://www.observe.ai/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/915.png"
+  },
+  {
+    "id": 916,
+    "name": "Balto",
+    "description": "AI real-time call guidance for sales and customer service representatives.",
+    "website": "https://www.balto.ai/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/916.png"
+  },
+  {
+    "id": 917,
+    "name": "Jiminny",
+    "description": "AI conversation intelligence platform for sales coaching and analytics.",
+    "website": "https://jiminny.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/917.png"
+  },
+  {
+    "id": 918,
+    "name": "ExecVision",
+    "description": "AI conversation intelligence for sales and customer success teams.",
+    "website": "https://www.execvision.io/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/918.png"
+  },
+  {
+    "id": 919,
+    "name": "Salesforce Einstein",
+    "description": "AI platform integrated with Salesforce for predictive analytics and automation.",
+    "website": "https://www.salesforce.com/products/einstein/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/919.png"
+  },
+  {
+    "id": 920,
+    "name": "HubSpot AI",
+    "description": "AI features integrated into HubSpot for marketing, sales, and service.",
+    "website": "https://www.hubspot.com/products/ai",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/920.png"
+  },
+  {
+    "id": 921,
+    "name": "Drift",
+    "description": "AI-powered conversational marketing and sales platform.",
+    "website": "https://www.drift.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/921.png"
+  },
+  {
+    "id": 922,
+    "name": "Intercom",
+    "description": "AI customer messaging platform with chatbots and automation.",
+    "website": "https://www.intercom.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/922.png"
+  },
+  {
+    "id": 923,
+    "name": "Zendesk AI",
+    "description": "AI-powered customer service and support platform.",
+    "website": "https://www.zendesk.com/ai/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/923.png"
+  },
+  {
+    "id": 924,
+    "name": "Freshdesk AI",
+    "description": "AI-enhanced customer support software with automation features.",
+    "website": "https://freshdesk.com/ai",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/924.png"
+  },
+  {
+    "id": 925,
+    "name": "Kustomer",
+    "description": "AI-powered CRM platform for customer service and support.",
+    "website": "https://www.kustomer.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/925.png"
+  },
+  {
+    "id": 926,
+    "name": "Ada",
+    "description": "AI-powered automated customer service platform with chatbots.",
+    "website": "https://www.ada.cx/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/926.png"
+  },
+  {
+    "id": 927,
+    "name": "Forethought",
+    "description": "AI customer support platform that automates ticket resolution.",
+    "website": "https://www.forethought.ai/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/927.png"
+  },
+  {
+    "id": 928,
+    "name": "Kore.ai",
+    "description": "AI platform for building enterprise-grade virtual assistants and chatbots.",
+    "website": "https://kore.ai/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/928.png"
+  },
+  {
+    "id": 929,
+    "name": "LivePerson",
+    "description": "AI conversational platform for customer engagement and messaging.",
+    "website": "https://www.liveperson.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/929.png"
+  },
+  {
+    "id": 930,
+    "name": "Cognigy",
+    "description": "AI conversational automation platform for customer service.",
+    "website": "https://www.cognigy.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/930.png"
+  },
+  {
+    "id": 931,
+    "name": "Solvemate",
+    "description": "AI customer service platform that automates issue resolution.",
+    "website": "https://www.solvemate.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/931.png"
+  },
+  {
+    "id": 932,
+    "name": "Verint",
+    "description": "AI-powered customer engagement platform with automation capabilities.",
+    "website": "https://www.verint.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/932.png"
+  },
+  {
+    "id": 933,
+    "name": "NICE",
+    "description": "AI customer experience platform with automation and analytics.",
+    "website": "https://www.nice.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/933.png"
+  },
+  {
+    "id": 934,
+    "name": "Pega",
+    "description": "AI decisioning and analytics platform for customer engagement.",
+    "website": "https://www.pega.com/",
+    "category": "Entrepreneurship & Startups",
+    "logo": "/images/934.png"
+  },
+  {
+    "id": 935,
+    "name": "SAS Viya",
+    "description": "AI, analytics, and data management platform for businesses.",
+    "website": "https://www.sas.com/en_us/software/viya.html",
+    "category": "Data & Analytics",
+    "logo": "/images/935.png"
+  },
+  {
+    "id": 936,
+    "name": "DataRobot",
+    "description": "AI platform for automated machine learning and predictive analytics.",
+    "website": "https://www.datarobot.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/936.png"
+  },
+  {
+    "id": 937,
+    "name": "H2O.ai",
+    "description": "AI platform for automatic machine learning and AI applications.",
+    "website": "https://h2o.ai/",
+    "category": "Data & Analytics",
+    "logo": "/images/937.png"
+  },
+  {
+    "id": 938,
+    "name": "RapidMiner",
+    "description": "AI platform for data science, machine learning, and predictive analytics.",
+    "website": "https://rapidminer.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/938.png"
+  },
+  {
+    "id": 939,
+    "name": "Alteryx",
+    "description": "AI-powered analytics platform for data preparation and blending.",
+    "website": "https://www.alteryx.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/939.png"
+  },
+  {
+    "id": 940,
+    "name": "Domino Data Lab",
+    "description": "AI platform for enterprise data science teams and MLOps.",
+    "website": "https://www.dominodatalab.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/940.png"
+  },
+  {
+    "id": 941,
+    "name": "Dataiku",
+    "description": "AI platform for designing and deploying data science projects.",
+    "website": "https://www.dataiku.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/941.png"
+  },
+  {
+    "id": 942,
+    "name": "Knime",
+    "description": "Open-source platform for data analytics, reporting, and integration.",
+    "website": "https://www.knime.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/942.png"
+  },
+  {
+    "id": 943,
+    "name": "RStudio",
+    "description": "AI and data science platform for R programming and statistical computing.",
+    "website": "https://www.rstudio.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/943.png"
+  },
+  {
+    "id": 944,
+    "name": "Anaconda",
+    "description": "Platform for Python data science, machine learning, and AI development.",
+    "website": "https://www.anaconda.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/944.png"
+  },
+  {
+    "id": 945,
+    "name": "Databricks",
+    "description": "AI platform for data engineering, science, and machine learning.",
+    "website": "https://www.databricks.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/945.png"
+  },
+  {
+    "id": 946,
+    "name": "Snowflake",
+    "description": "AI-powered data cloud platform for data warehousing and analytics.",
+    "website": "https://www.snowflake.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/946.png"
+  },
+  {
+    "id": 947,
+    "name": "BigML",
+    "description": "Machine learning platform for creating and deploying predictive models.",
+    "website": "https://bigml.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/947.png"
+  },
+  {
+    "id": 948,
+    "name": "Google Cloud AI",
+    "description": "AI and machine learning services on Google Cloud Platform.",
+    "website": "https://cloud.google.com/products/ai",
+    "category": "Data & Analytics",
+    "logo": "/images/948.png"
+  },
+  {
+    "id": 949,
+    "name": "AWS AI Services",
+    "description": "Amazon's AI and machine learning services on AWS cloud platform.",
+    "website": "https://aws.amazon.com/machine-learning/",
+    "category": "Data & Analytics",
+    "logo": "/images/949.png"
+  },
+  {
+    "id": 950,
+    "name": "Azure AI",
+    "description": "Microsoft's AI and machine learning services on Azure cloud.",
+    "website": "https://azure.microsoft.com/en-us/products/machine-learning",
+    "category": "Data & Analytics",
+    "logo": "/images/950.png"
+  },
+  {
+    "id": 951,
+    "name": "IBM Watson",
+    "description": "AI platform for businesses with various AI tools and services.",
+    "website": "https://www.ibm.com/watson",
+    "category": "Data & Analytics",
+    "logo": "/images/951.png"
+  },
+  {
+    "id": 952,
+    "name": "Oracle AI",
+    "description": "AI and machine learning services integrated with Oracle Cloud.",
+    "website": "https://www.oracle.com/artificial-intelligence/",
+    "category": "Data & Analytics",
+    "logo": "/images/952.png"
+  },
+  {
+    "id": 953,
+    "name": "SAP AI",
+    "description": "AI capabilities integrated into SAP's business software solutions.",
+    "website": "https://www.sap.com/products/ai.html",
+    "category": "Data & Analytics",
+    "logo": "/images/953.png"
+  },
+  {
+    "id": 954,
+    "name": "Einstein Analytics",
+    "description": "AI-powered analytics platform from Salesforce for business intelligence.",
+    "website": "https://www.salesforce.com/products/einstein-analytics/",
+    "category": "Data & Analytics",
+    "logo": "/images/954.png"
+  },
+  {
+    "id": 955,
+    "name": "ThoughtSpot",
+    "description": "AI-powered analytics platform for natural language search and insights.",
+    "website": "https://www.thoughtspot.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/955.png"
+  },
+  {
+    "id": 956,
+    "name": "Qlik Sense",
+    "description": "AI-powered data analytics and visualization platform.",
+    "website": "https://www.qlik.com/us/products/qlik-sense",
+    "category": "Data & Analytics",
+    "logo": "/images/956.png"
+  },
+  {
+    "id": 957,
+    "name": "Tableau",
+    "description": "AI-enhanced data visualization and business intelligence platform.",
+    "website": "https://www.tableau.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/957.png"
+  },
+  {
+    "id": 958,
+    "name": "Power BI",
+    "description": "Microsoft's AI-powered business analytics and visualization tool.",
+    "website": "https://powerbi.microsoft.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/958.png"
+  },
+  {
+    "id": 959,
+    "name": "Looker",
+    "description": "AI-powered business intelligence and data analytics platform.",
+    "website": "https://looker.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/959.png"
+  },
+  {
+    "id": 960,
+    "name": "Domo",
+    "description": "AI-powered business intelligence and data visualization platform.",
+    "website": "https://www.domo.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/960.png"
+  },
+  {
+    "id": 961,
+    "name": "Sisense",
+    "description": "AI-driven analytics platform for embedded business intelligence.",
+    "website": "https://www.sisense.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/961.png"
+  },
+  {
+    "id": 962,
+    "name": "MicroStrategy",
+    "description": "AI-powered enterprise analytics and mobility platform.",
+    "website": "https://www.microstrategy.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/962.png"
+  },
+  {
+    "id": 963,
+    "name": "GoodData",
+    "description": "AI-powered analytics platform for embedded business intelligence.",
+    "website": "https://www.gooddata.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/963.png"
+  },
+  {
+    "id": 964,
+    "name": "Yellowfin",
+    "description": "AI-powered analytics and data visualization platform.",
+    "website": "https://www.yellowfinbi.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/964.png"
+  },
+  {
+    "id": 965,
+    "name": "Zoho Analytics",
+    "description": "AI-powered business intelligence and analytics platform.",
+    "website": "https://www.zoho.com/analytics/",
+    "category": "Data & Analytics",
+    "logo": "/images/965.png"
+  },
+  {
+    "id": 966,
+    "name": "SAS Analytics",
+    "description": "AI and analytics platform for advanced statistical analysis.",
+    "website": "https://www.sas.com/en_us/software/analytics.html",
+    "category": "Data & Analytics",
+    "logo": "/images/966.png"
+  },
+  {
+    "id": 967,
+    "name": "Rapid Insight",
+    "description": "AI-powered predictive analytics and data visualization platform.",
+    "website": "https://www.rapidinsight.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/967.png"
+  },
+  {
+    "id": 968,
+    "name": "Information Builders",
+    "description": "AI-powered analytics and business intelligence platform.",
+    "website": "https://www.ibi.com/",
+    "category": "Data & Analytics",
+    "logo": "/images/968.png"
+  },
+  {
+    "id": 969,
+    "name": "TIBCO Spotfire",
+    "description": "AI-powered analytics and data visualization platform.",
+    "website": "https://www.tibco.com/products/tibco-spotfire",
+    "category": "Data & Analytics",
+    "logo": "/images/969.png"
+  },
+  {
+    "id": 970,
+    "name": "PyTorch",
+    "description": "Open-source machine learning framework for AI research and development.",
+    "website": "https://pytorch.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/970.png"
+  },
+  {
+    "id": 971,
+    "name": "TensorFlow",
+    "description": "Open-source machine learning platform for AI development and research.",
+    "website": "https://www.tensorflow.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/971.png"
+  },
+  {
+    "id": 972,
+    "name": "Keras",
+    "description": "Open-source neural network library written in Python.",
+    "website": "https://keras.io/",
+    "category": "Engineering & Coding",
+    "logo": "/images/972.png"
+  },
+  {
+    "id": 973,
+    "name": "Scikit-learn",
+    "description": "Open-source machine learning library for Python programming.",
+    "website": "https://scikit-learn.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/973.png"
+  },
+  {
+    "id": 974,
+    "name": "OpenCV",
+    "description": "Open-source computer vision and machine learning software library.",
+    "website": "https://opencv.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/974.png"
+  },
+  {
+    "id": 975,
+    "name": "Apache Spark",
+    "description": "Unified analytics engine for large-scale data processing and machine learning.",
+    "website": "https://spark.apache.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/975.png"
+  },
+  {
+    "id": 976,
+    "name": "Hugging Face",
+    "description": "AI community building the future of machine learning and NLP models.",
+    "website": "https://huggingface.co/",
+    "category": "Engineering & Coding",
+    "logo": "/images/976.png"
+  },
+  {
+    "id": 977,
+    "name": "Fast.ai",
+    "description": "Open-source library that simplifies training fast and accurate neural nets.",
+    "website": "https://www.fast.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/977.png"
+  },
+  {
+    "id": 978,
+    "name": "MLflow",
+    "description": "Open-source platform for the complete machine learning lifecycle.",
+    "website": "https://mlflow.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/978.png"
+  },
+  {
+    "id": 979,
+    "name": "Kubeflow",
+    "description": "Machine learning toolkit for Kubernetes and cloud-native ML workflows.",
+    "website": "https://www.kubeflow.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/979.png"
+  },
+  {
+    "id": 980,
+    "name": "Weights & Biases",
+    "description": "Developer tools for machine learning experiment tracking and visualization.",
+    "website": "https://wandb.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/980.png"
+  },
+  {
+    "id": 981,
+    "name": "Comet ML",
+    "description": "Machine learning platform for tracking, comparing, and optimizing models.",
+    "website": "https://www.comet.ml/",
+    "category": "Engineering & Coding",
+    "logo": "/images/981.png"
+  },
+  {
+    "id": 982,
+    "name": "Neptune AI",
+    "description": "Metadata store for MLOps, built for research and production teams.",
+    "website": "https://neptune.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/982.png"
+  },
+  {
+    "id": 983,
+    "name": "Determined AI",
+    "description": "Open-source deep learning training platform with hyperparameter tuning.",
+    "website": "https://determined.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/983.png"
+  },
+  {
+    "id": 984,
+    "name": "Algorithmia",
+    "description": "AI model deployment platform for machine learning operations.",
+    "website": "https://algorithmia.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/984.png"
+  },
+  {
+    "id": 985,
+    "name": "Cortex",
+    "description": "Open-source platform for deploying machine learning models in production.",
+    "website": "https://www.cortex.dev/",
+    "category": "Engineering & Coding",
+    "logo": "/images/985.png"
+  },
+  {
+    "id": 986,
+    "name": "Seldon",
+    "description": "Open-source platform for deploying and monitoring machine learning models.",
+    "website": "https://www.seldon.io/",
+    "category": "Engineering & Coding",
+    "logo": "/images/986.png"
+  },
+  {
+    "id": 987,
+    "name": "BentoML",
+    "description": "Open-source platform for serving and deploying machine learning models.",
+    "website": "https://bentoml.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/987.png"
+  },
+  {
+    "id": 988,
+    "name": "Triton",
+    "description": "NVIDIA's open-source inference serving software for AI models.",
+    "website": "https://developer.nvidia.com/nvidia-triton-inference-server",
+    "category": "Engineering & Coding",
+    "logo": "/images/988.png"
+  },
+  {
+    "id": 989,
+    "name": "ONNX",
+    "description": "Open format for representing machine learning models across frameworks.",
+    "website": "https://onnx.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/989.png"
+  },
+  {
+    "id": 990,
+    "name": "TFX",
+    "description": "TensorFlow Extended production-ready machine learning platform.",
+    "website": "https://www.tensorflow.org/tfx",
+    "category": "Engineering & Coding",
+    "logo": "/images/990.png"
+  },
+  {
+    "id": 991,
+    "name": "KFServing",
+    "description": "Serverless inference platform for Kubernetes and machine learning models.",
+    "website": "https://github.com/kubeflow/kfserving",
+    "category": "Engineering & Coding",
+    "logo": "/images/991.png"
+  },
+  {
+    "id": 992,
+    "name": "MLRun",
+    "description": "Open-source MLOps framework for managing machine learning pipelines.",
+    "website": "https://www.mlrun.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/992.png"
+  },
+  {
+    "id": 993,
+    "name": "Feast",
+    "description": "Open-source feature store for machine learning and AI applications.",
+    "website": "https://feast.dev/",
+    "category": "Engineering & Coding",
+    "logo": "/images/993.png"
+  },
+  {
+    "id": 994,
+    "name": "Hopsworks",
+    "description": "AI platform with feature store for machine learning and data science.",
+    "website": "https://www.hopsworks.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/994.png"
+  },
+  {
+    "id": 995,
+    "name": "Tecton",
+    "description": "Enterprise feature store for machine learning and AI applications.",
+    "website": "https://www.tecton.ai/",
+    "category": "Engineering & Coding",
+    "logo": "/images/995.png"
+  },
+  {
+    "id": 996,
+    "name": "Pachyderm",
+    "description": "Data versioning and pipeline platform for machine learning and data science.",
+    "website": "https://www.pachyderm.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/996.png"
+  },
+  {
+    "id": 997,
+    "name": "DVC",
+    "description": "Open-source version control system for machine learning projects.",
+    "website": "https://dvc.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/997.png"
+  },
+  {
+    "id": 998,
+    "name": "Polyaxon",
+    "description": "Platform for reproducing and managing machine learning experiments.",
+    "website": "https://polyaxon.com/",
+    "category": "Engineering & Coding",
+    "logo": "/images/998.png"
+  },
+  {
+    "id": 999,
+    "name": "Metaflow",
+    "description": "Human-centric framework for real-life data science and machine learning.",
+    "website": "https://metaflow.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/999.png"
+  },
+  {
+    "id": 1000,
+    "name": "Kedro",
+    "description": "Open-source Python framework for creating reproducible, maintainable data science code.",
+    "website": "https://kedro.org/",
+    "category": "Engineering & Coding",
+    "logo": "/images/1000.png"
   }]
