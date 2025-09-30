@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ExternalLink, X, Search, Filter } from 'lucide-react';
+import { ExternalLink, X, Search, Filter, MoreVertical } from 'lucide-react';
 import { AITool } from '../types';
 import { aiTools } from '../data/aiTools';
 
@@ -26,10 +26,15 @@ const AITools: React.FC = () => {
   });
 
   const handleToolClick = (tool: AITool) => {
-    // Prevent modal opening on mobile devices
-    if (window.innerWidth < 768) { // 768px is the typical breakpoint for 'md' in Tailwind
+    // Prevent modal opening on mobile devices through card click
+    if (window.innerWidth < 768) {
       return;
     }
+    setSelectedTool(tool);
+  };
+
+  const handleMobileViewMore = (e: React.MouseEvent, tool: AITool) => {
+    e.stopPropagation();
     setSelectedTool(tool);
   };
 
@@ -76,7 +81,7 @@ const AITools: React.FC = () => {
           </div>
         </div>
 
-        {/* Tools Grid - Updated for mobile responsiveness */}
+        {/* Tools Grid */}
         <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6">
           {filteredTools.map((tool, index) => (
             <div
@@ -84,37 +89,46 @@ const AITools: React.FC = () => {
               className={`bg-white rounded-2xl shadow-lg hover:shadow-2xl transform transition-all duration-300 overflow-hidden ${
                 visibleTools.includes(tool) ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               } ${
-                // Only add hover effects and cursor pointer on desktop
                 window.innerWidth >= 768 ? 'hover:scale-105 cursor-pointer' : 'cursor-default'
               }`}
               style={{ transitionDelay: `${index * 50}ms` }}
               onClick={() => handleToolClick(tool)}
             >
               {/* Mobile Compact View */}
-              <div className="sm:hidden p-3 flex flex-col items-center text-center">
+              <div className="sm:hidden p-3 flex flex-col items-center text-center h-full">
                 <img
                   src={tool.logo}
                   alt={`${tool.name} logo`}
                   className="w-10 h-10 rounded-lg object-cover shadow-md mb-2"
                 />
-                <h3 className="font-semibold text-gray-900 text-xs leading-tight mb-1 line-clamp-2">
+                <h3 className="font-semibold text-gray-900 text-xs leading-tight mb-1 line-clamp-2 flex-1">
                   {tool.name}
                 </h3>
                 <span className="text-xs text-purple-600 bg-purple-100 px-1.5 py-0.5 rounded-full mb-2">
                   {tool.category.split(' ')[0]}
                 </span>
                 
-                {/* Mobile Visit Button - Always visible on mobile */}
-                <button
-                  onClick={(e) => handleMobileVisit(e, tool)}
-                  className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-xs transition-colors duration-200 mt-1"
-                >
-                  Visit
-                  <ExternalLink className="ml-1 h-3 w-3" />
-                </button>
+                {/* Mobile Action Buttons */}
+                <div className="flex flex-col gap-1 w-full mt-auto">
+                  <button
+                    onClick={(e) => handleMobileVisit(e, tool)}
+                    className="inline-flex items-center justify-center text-blue-600 hover:text-blue-700 font-medium text-xs transition-colors duration-200 py-1 px-2 border border-blue-600 rounded-lg hover:bg-blue-50"
+                  >
+                    Visit
+                    <ExternalLink className="ml-1 h-3 w-3" />
+                  </button>
+                  
+                  <button
+                    onClick={(e) => handleMobileViewMore(e, tool)}
+                    className="inline-flex items-center justify-center text-gray-600 hover:text-gray-700 font-medium text-xs transition-colors duration-200 py-1 px-2 border border-gray-300 rounded-lg hover:bg-gray-50"
+                  >
+                    <MoreVertical className="h-3 w-3 mr-1" />
+                    View More
+                  </button>
+                </div>
 
                 {tool.featured && (
-                  <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs px-1.5 py-0.5 rounded-full font-medium mt-1">
+                  <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs px-1.5 py-0.5 rounded-full font-medium mt-2">
                     Featured
                   </span>
                 )}
@@ -160,48 +174,53 @@ const AITools: React.FC = () => {
           ))}
         </div>
 
-        {/* Tool Detail Modal - Only relevant for desktop */}
+        {/* Responsive Tool Detail Modal */}
         {selectedTool && (
           <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
             <div className="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-auto shadow-2xl transform transition-all duration-300 scale-100">
-              <div className="p-8">
-                <div className="flex items-start justify-between mb-6">
-                  <div className="flex items-center space-x-4">
-                    <img
-                      src={selectedTool.logo}
-                      alt={`${selectedTool.name} logo`}
-                      className="w-16 h-16 rounded-xl object-cover shadow-lg"
-                    />
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-900">{selectedTool.name}</h3>
-                      <span className="text-purple-600 bg-purple-100 px-3 py-1 rounded-full text-sm font-medium">
-                        {selectedTool.category}
-                      </span>
-                    </div>
+              {/* Close Button - Top Right */}
+              <div className="sticky top-0 bg-white border-b border-gray-200 rounded-t-3xl px-6 py-4 flex justify-end z-10">
+                <button
+                  onClick={() => setSelectedTool(null)}
+                  className="p-2 hover:bg-gray-100 rounded-full transition-colors duration-200"
+                >
+                  <X className="h-6 w-6 text-gray-500" />
+                </button>
+              </div>
+
+              <div className="p-6">
+                <div className="flex items-start space-x-4 mb-6">
+                  <img
+                    src={selectedTool.logo}
+                    alt={`${selectedTool.name} logo`}
+                    className="w-16 h-16 rounded-xl object-cover shadow-lg flex-shrink-0"
+                  />
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2 break-words">
+                      {selectedTool.name}
+                    </h3>
+                    <span className="inline-block text-purple-600 bg-purple-100 px-3 py-1 rounded-full text-sm font-medium">
+                      {selectedTool.category}
+                    </span>
                   </div>
-                  <button
-                    onClick={() => setSelectedTool(null)}
-                    className="p-2 hover:bg-gray-100 rounded-full transition-colors duration-200"
-                  >
-                    <X className="h-6 w-6 text-gray-500" />
-                  </button>
                 </div>
 
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
                   {selectedTool.description}
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-4">
+                {/* Mobile-optimized action buttons */}
+                <div className="flex flex-col sm:flex-row gap-3">
                   <button
                     onClick={() => window.open(selectedTool.website, '_blank')}
-                    className="flex-1 inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-purple-500/25 transform hover:scale-105 transition-all duration-300"
+                    className="flex-1 inline-flex items-center justify-center px-6 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-purple-500/25 transform hover:scale-105 transition-all duration-300 text-base"
                   >
                     Visit {selectedTool.name}
                     <ExternalLink className="ml-2 h-5 w-5" />
                   </button>
                   <button
                     onClick={() => setSelectedTool(null)}
-                    className="px-6 py-3 border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50 transition-colors duration-200"
+                    className="px-6 py-4 border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50 transition-colors duration-200 text-base"
                   >
                     Close
                   </button>
