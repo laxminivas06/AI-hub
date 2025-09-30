@@ -63,8 +63,8 @@ const AITools: React.FC = () => {
           </div>
         </div>
 
-        {/* Tools Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {/* Tools Grid - Updated for mobile responsiveness */}
+        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6">
           {filteredTools.map((tool, index) => (
             <div
               key={tool.id}
@@ -74,7 +74,28 @@ const AITools: React.FC = () => {
               style={{ transitionDelay: `${index * 50}ms` }}
               onClick={() => setSelectedTool(tool)}
             >
-              <div className="p-6">
+              {/* Mobile Compact View */}
+              <div className="sm:hidden p-3 flex flex-col items-center text-center">
+                <img
+                  src={tool.logo}
+                  alt={`${tool.name} logo`}
+                  className="w-10 h-10 rounded-lg object-cover shadow-md mb-2"
+                />
+                <h3 className="font-semibold text-gray-900 text-xs leading-tight mb-1 line-clamp-2">
+                  {tool.name}
+                </h3>
+                <span className="text-xs text-purple-600 bg-purple-100 px-1.5 py-0.5 rounded-full mb-2">
+                  {tool.category.split(' ')[0]}
+                </span>
+                {tool.featured && (
+                  <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs px-1.5 py-0.5 rounded-full font-medium">
+                    Featured
+                  </span>
+                )}
+              </div>
+
+              {/* Desktop/Tablet Detailed View */}
+              <div className="hidden sm:block p-6">
                 <div className="flex items-center space-x-4 mb-4">
                   <img
                     src={tool.logo}
