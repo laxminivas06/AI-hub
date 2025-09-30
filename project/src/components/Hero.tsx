@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
   }, []);
 
   const title = "Discover the Future of AI";
-  const subtitle = "Explore 100+ cutting-edge AI tools that are revolutionizing how we work, create, and innovate";
+  const subtitle = "Explore 1000+ cutting-edge AI tools that are revolutionizing how we work, create, and innovate";
 
   return (
     <section id="home" className="min-h-screen relative overflow-hidden bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-100">

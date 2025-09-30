@@ -25,6 +25,19 @@ const AITools: React.FC = () => {
     return matchesSearch && matchesCategory;
   });
 
+  const handleToolClick = (tool: AITool) => {
+    // Prevent modal opening on mobile devices
+    if (window.innerWidth < 768) { // 768px is the typical breakpoint for 'md' in Tailwind
+      return;
+    }
+    setSelectedTool(tool);
+  };
+
+  const handleMobileVisit = (e: React.MouseEvent, tool: AITool) => {
+    e.stopPropagation();
+    window.open(tool.website, '_blank');
+  };
+
   return (
     <section id="tools" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -68,11 +81,14 @@ const AITools: React.FC = () => {
           {filteredTools.map((tool, index) => (
             <div
               key={tool.id}
-              className={`bg-white rounded-2xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 cursor-pointer overflow-hidden ${
+              className={`bg-white rounded-2xl shadow-lg hover:shadow-2xl transform transition-all duration-300 overflow-hidden ${
                 visibleTools.includes(tool) ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+              } ${
+                // Only add hover effects and cursor pointer on desktop
+                window.innerWidth >= 768 ? 'hover:scale-105 cursor-pointer' : 'cursor-default'
               }`}
               style={{ transitionDelay: `${index * 50}ms` }}
-              onClick={() => setSelectedTool(tool)}
+              onClick={() => handleToolClick(tool)}
             >
               {/* Mobile Compact View */}
               <div className="sm:hidden p-3 flex flex-col items-center text-center">
@@ -87,8 +103,18 @@ const AITools: React.FC = () => {
                 <span className="text-xs text-purple-600 bg-purple-100 px-1.5 py-0.5 rounded-full mb-2">
                   {tool.category.split(' ')[0]}
                 </span>
+                
+                {/* Mobile Visit Button - Always visible on mobile */}
+                <button
+                  onClick={(e) => handleMobileVisit(e, tool)}
+                  className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-xs transition-colors duration-200 mt-1"
+                >
+                  Visit
+                  <ExternalLink className="ml-1 h-3 w-3" />
+                </button>
+
                 {tool.featured && (
-                  <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs px-1.5 py-0.5 rounded-full font-medium">
+                  <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs px-1.5 py-0.5 rounded-full font-medium mt-1">
                     Featured
                   </span>
                 )}
@@ -134,7 +160,7 @@ const AITools: React.FC = () => {
           ))}
         </div>
 
-        {/* Tool Detail Modal */}
+        {/* Tool Detail Modal - Only relevant for desktop */}
         {selectedTool && (
           <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
             <div className="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-auto shadow-2xl transform transition-all duration-300 scale-100">
