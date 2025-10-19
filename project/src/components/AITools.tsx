@@ -91,7 +91,7 @@ const AITools: React.FC = () => {
             AI Tools Collection
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            Discover 100 powerful AI tools that can transform your workflow, boost creativity, and unlock new possibilities
+            Discover 1000+ powerful AI tools that can transform your workflow, boost creativity, and unlock new possibilities
           </p>
         </div>
 
