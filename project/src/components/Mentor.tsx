@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ExternalLink, Linkedin, Globe, Instagram, Github, Mail } from 'lucide-react';
 import { mentor } from '../data/mentor';
@@ -42,14 +43,12 @@ const Mentor: React.FC = () => {
                   {mentor.name}
                 </h3>
                 
-                {/* Tagline - Single line with guaranteed single line display */}
-                <div className="mb-2 w-full overflow-hidden">
-                  <p className="text-lg sm:text-xl lg:text-2xl text-purple-600 font-semibold whitespace-nowrap overflow-hidden text-ellipsis max-w-full block w-full">
+                {/* Tagline - Two lines with full text display */}
+                <div className="mb-3 sm:mb-4 w-full">
+                  <p className="text-lg sm:text-xl lg:text-2xl text-purple-600 font-semibold line-clamp-2 leading-tight sm:leading-snug break-words hyphens-auto">
                     {mentor.tagline}
                   </p>
                 </div>
-                
-                
                 
                 {/* About Section */}
                 <div className="mb-6 sm:mb-8 w-full">
