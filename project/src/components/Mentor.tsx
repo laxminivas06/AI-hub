@@ -49,12 +49,7 @@ const Mentor: React.FC = () => {
                   </p>
                 </div>
                 
-                {/* Subtitle - Single line */}
-                <div className="mb-4 sm:mb-6 w-full overflow-hidden">
-                  <p className="text-base sm:text-lg lg:text-xl text-gray-700 whitespace-nowrap overflow-hidden text-ellipsis max-w-full block w-full">
-                    {mentor.subtitle}
-                  </p>
-                </div>
+                
                 
                 {/* About Section */}
                 <div className="mb-6 sm:mb-8 w-full">
