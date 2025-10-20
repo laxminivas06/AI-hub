@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { ExternalLink, X, Search, Filter, MoreVertical } from 'lucide-react';
+import { ExternalLink, X, Search, Filter, MoreVertical, ChevronLeft, ChevronRight } from 'lucide-react';
 import { AITool } from '../types';
 import { aiTools } from '../data/aiTools';
 
@@ -9,6 +9,10 @@ const AITools: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [isMobile, setIsMobile] = useState(false);
   const [isTablet, setIsTablet] = useState(false);
+  
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(12);
 
   // Responsive device detection
   useEffect(() => {
@@ -16,6 +20,15 @@ const AITools: React.FC = () => {
       const width = window.innerWidth;
       setIsMobile(width < 768);
       setIsTablet(width >= 768 && width < 1024);
+      
+      // Adjust items per page based on screen size
+      if (width < 768) {
+        setItemsPerPage(8); // 2 columns × 4 rows = 8 items
+      } else if (width < 1024) {
+        setItemsPerPage(12); // 3 columns × 4 rows = 12 items
+      } else {
+        setItemsPerPage(16); // 4 columns × 4 rows = 16 items
+      }
     };
 
     checkDevice();
@@ -32,6 +45,17 @@ const AITools: React.FC = () => {
       const matchesCategory = selectedCategory === 'All' || tool.category === selectedCategory;
       return matchesSearch && matchesCategory;
     });
+  }, [searchTerm, selectedCategory]);
+
+  // Pagination calculations
+  const totalPages = Math.ceil(filteredTools.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentTools = filteredTools.slice(startIndex, endIndex);
+
+  // Reset to first page when search or filter changes
+  useEffect(() => {
+    setCurrentPage(1);
   }, [searchTerm, selectedCategory]);
 
   const categories = ['All', ...Array.from(new Set(aiTools.map(tool => tool.category)))];
@@ -59,6 +83,19 @@ const AITools: React.FC = () => {
     setSelectedTool(null);
   }, []);
 
+  // Pagination handlers
+  const handleNextPage = useCallback(() => {
+    setCurrentPage(prev => Math.min(prev + 1, totalPages));
+  }, [totalPages]);
+
+  const handlePrevPage = useCallback(() => {
+    setCurrentPage(prev => Math.max(prev - 1, 1));
+  }, []);
+
+  const handlePageClick = useCallback((page: number) => {
+    setCurrentPage(page);
+  }, []);
+
   // Optimized modal management
   useEffect(() => {
     if (selectedTool) {
@@ -77,9 +114,46 @@ const AITools: React.FC = () => {
 
   // Get grid columns based on screen size
   const getGridColumns = () => {
-    if (isMobile) return 'grid-cols-2'; // 2 columns on mobile
-    if (isTablet) return 'grid-cols-3'; // 3 columns on tablet
-    return 'grid-cols-4'; // 4 columns on desktop
+    if (isMobile) return 'grid-cols-2';
+    if (isTablet) return 'grid-cols-3';
+    return 'grid-cols-4';
+  };
+
+  // Generate pagination buttons
+  const getPaginationButtons = () => {
+    const buttons = [];
+    const maxVisibleButtons = isMobile ? 3 : 5;
+
+    let startPage = Math.max(1, currentPage - Math.floor(maxVisibleButtons / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisibleButtons - 1);
+
+    // Adjust if we're near the end
+    if (endPage - startPage + 1 < maxVisibleButtons) {
+      startPage = Math.max(1, endPage - maxVisibleButtons + 1);
+    }
+
+    // First page
+    if (startPage > 1) {
+      buttons.push(1);
+      if (startPage > 2) {
+        buttons.push('...');
+      }
+    }
+
+    // Page numbers
+    for (let i = startPage; i <= endPage; i++) {
+      buttons.push(i);
+    }
+
+    // Last page
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) {
+        buttons.push('...');
+      }
+      buttons.push(totalPages);
+    }
+
+    return buttons;
   };
 
   return (
@@ -129,9 +203,43 @@ const AITools: React.FC = () => {
           </div>
         </div>
 
+        {/* Results Count */}
+        <div className="mb-4 sm:mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-gray-600 text-sm sm:text-base">
+            Showing <span className="font-semibold">{startIndex + 1}-{Math.min(endIndex, filteredTools.length)}</span> of{' '}
+            <span className="font-semibold">{filteredTools.length}</span> tools
+            {searchTerm && (
+              <span> for "<span className="font-semibold">{searchTerm}</span>"</span>
+            )}
+            {selectedCategory !== 'All' && (
+              <span> in <span className="font-semibold">{selectedCategory}</span></span>
+            )}
+          </p>
+          
+          {/* Items per page selector for desktop */}
+          {!isMobile && (
+            <div className="flex items-center gap-2 mt-2 sm:mt-0">
+              <span className="text-gray-600 text-sm">Show:</span>
+              <select
+                value={itemsPerPage}
+                onChange={(e) => {
+                  setItemsPerPage(Number(e.target.value));
+                  setCurrentPage(1);
+                }}
+                className="border border-gray-300 rounded-lg px-2 py-1 text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+              >
+                <option value={8}>8</option>
+                <option value={12}>12</option>
+                <option value={16}>16</option>
+                <option value={20}>20</option>
+              </select>
+            </div>
+          )}
+        </div>
+
         {/* Tools Grid - Responsive columns */}
-        <div className={`grid ${getGridColumns()} gap-3 sm:gap-4 lg:gap-6`}>
-          {filteredTools.map((tool) => (
+        <div className={`grid ${getGridColumns()} gap-3 sm:gap-4 lg:gap-6 mb-8 sm:mb-12`}>
+          {currentTools.map((tool) => (
             <div
               key={tool.id}
               className="bg-white rounded-xl sm:rounded-2xl shadow-md sm:shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col"
@@ -248,6 +356,104 @@ const AITools: React.FC = () => {
             </div>
             <p className="text-gray-500 text-base sm:text-lg font-medium">No AI tools found</p>
             <p className="text-gray-400 mt-2 text-sm sm:text-base">Try adjusting your search or filter criteria</p>
+          </div>
+        )}
+
+        {/* Pagination */}
+        {filteredTools.length > 0 && totalPages > 1 && (
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-8 sm:mt-12">
+            {/* Mobile: Simple pagination */}
+            <div className="lg:hidden flex items-center justify-between w-full">
+              <button
+                onClick={handlePrevPage}
+                disabled={currentPage === 1}
+                className={`flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm ${
+                  currentPage === 1
+                    ? 'text-gray-400 cursor-not-allowed'
+                    : 'text-blue-600 hover:bg-blue-50 active:bg-blue-100'
+                }`}
+                style={{ WebkitTapHighlightColor: 'transparent' }}
+              >
+                <ChevronLeft className="h-4 w-4" />
+                Previous
+              </button>
+              
+              <span className="text-gray-600 text-sm font-medium">
+                Page {currentPage} of {totalPages}
+              </span>
+              
+              <button
+                onClick={handleNextPage}
+                disabled={currentPage === totalPages}
+                className={`flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm ${
+                  currentPage === totalPages
+                    ? 'text-gray-400 cursor-not-allowed'
+                    : 'text-blue-600 hover:bg-blue-50 active:bg-blue-100'
+                }`}
+                style={{ WebkitTapHighlightColor: 'transparent' }}
+              >
+                Next
+                <ChevronRight className="h-4 w-4" />
+              </button>
+            </div>
+
+            {/* Desktop: Full pagination */}
+            <div className="hidden lg:flex items-center gap-2">
+              <button
+                onClick={handlePrevPage}
+                disabled={currentPage === 1}
+                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm ${
+                  currentPage === 1
+                    ? 'text-gray-400 cursor-not-allowed'
+                    : 'text-blue-600 hover:bg-blue-50 active:bg-blue-100'
+                }`}
+                style={{ WebkitTapHighlightColor: 'transparent' }}
+              >
+                <ChevronLeft className="h-4 w-4" />
+                Previous
+              </button>
+
+              <div className="flex items-center gap-1">
+                {getPaginationButtons().map((page, index) => (
+                  <React.Fragment key={index}>
+                    {page === '...' ? (
+                      <span className="px-3 py-2 text-gray-500">...</span>
+                    ) : (
+                      <button
+                        onClick={() => handlePageClick(page as number)}
+                        className={`min-w-[40px] px-3 py-2 rounded-lg font-medium text-sm transition-colors ${
+                          currentPage === page
+                            ? 'bg-blue-600 text-white shadow-md'
+                            : 'text-gray-600 hover:bg-gray-100 active:bg-gray-200'
+                        }`}
+                        style={{ WebkitTapHighlightColor: 'transparent' }}
+                      >
+                        {page}
+                      </button>
+                    )}
+                  </React.Fragment>
+                ))}
+              </div>
+
+              <button
+                onClick={handleNextPage}
+                disabled={currentPage === totalPages}
+                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm ${
+                  currentPage === totalPages
+                    ? 'text-gray-400 cursor-not-allowed'
+                    : 'text-blue-600 hover:bg-blue-50 active:bg-blue-100'
+                }`}
+                style={{ WebkitTapHighlightColor: 'transparent' }}
+              >
+                Next
+                <ChevronRight className="h-4 w-4" />
+              </button>
+            </div>
+
+            {/* Page info for desktop */}
+            <div className="hidden lg:block text-gray-600 text-sm">
+              Page {currentPage} of {totalPages} • {filteredTools.length} tools
+            </div>
           </div>
         )}
 

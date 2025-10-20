@@ -12,38 +12,57 @@ const Mentor: React.FC = () => {
   };
 
   return (
-    <section id="mentor" className="py-20 bg-white">
+    <section id="mentor" className="py-16 sm:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Meet Your Mentor
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Learn from an experienced AI dedicated to sharing knowledge and guiding your AI journey
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-3xl p-8 lg:p-12 shadow-xl">
-            <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-12">
+          <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 shadow-lg sm:shadow-xl overflow-hidden">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-6 sm:gap-8 lg:gap-12">
               {/* Profile Image */}
               <div className="flex-shrink-0">
                 <img
                   src={mentor.photo}
                   alt={mentor.name}
-                  className="w-48 h-48 rounded-full object-cover shadow-2xl ring-8 ring-white"
+                  className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full object-cover shadow-xl sm:shadow-2xl ring-4 sm:ring-8 ring-white"
                 />
               </div>
 
               {/* Content */}
-              <div className="flex-1 text-center lg:text-left">
-                <h3 className="text-3xl font-bold text-gray-900 mb-2">{mentor.name}</h3>
-                <p className="text-xl text-purple-600 font-semibold mb-2">{mentor.tagline}</p>
-                <p className="text-lg text-gray-700 mb-6">{mentor.subtitle}</p>
-                <p className="text-gray-600 leading-relaxed mb-8">{mentor.about}</p>
+              <div className="flex-1 text-center lg:text-left w-full min-w-0">
+                {/* Name - Single line */}
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2 whitespace-nowrap overflow-hidden text-ellipsis max-w-full">
+                  {mentor.name}
+                </h3>
+                
+                {/* Tagline - Single line */}
+                <p className="text-lg sm:text-xl lg:text-2xl text-purple-600 font-semibold mb-2 whitespace-nowrap overflow-hidden text-ellipsis max-w-full">
+                  {mentor.tagline}
+                </p>
+                
+                {/* Subtitle - Single line */}
+                <p className="text-base sm:text-lg lg:text-xl text-gray-700 mb-4 sm:mb-6 whitespace-nowrap overflow-hidden text-ellipsis max-w-full">
+                  {mentor.subtitle}
+                </p>
+                
+                {/* About Section - Completely controlled text flow */}
+                <div className="mb-6 sm:mb-8 w-full">
+                  <p className="text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed sm:leading-loose 
+                              break-normal hyphens-auto overflow-wrap-break-word 
+                              max-w-full w-full">
+                    Empowering the next generation with AI knowledge and cutting-edge technology insights. A visionary mind shaping the future through innovation and purpose, passionate about bridging the gap between knowledge and real-world impact, with an unwavering drive to inspire and create meaningful change.
+                  </p>
+                </div>
 
                 {/* Social Links */}
-                <div className="flex flex-wrap justify-center lg:justify-start gap-4">
+                <div className="flex flex-wrap justify-center lg:justify-start gap-2 sm:gap-3 lg:gap-4 w-full">
                   {Object.entries(mentor.socialLinks).map(([platform, url]) => {
                     if (!url) return null;
                     const IconComponent = socialIcons[platform as keyof typeof socialIcons];
@@ -55,11 +74,13 @@ const Mentor: React.FC = () => {
                         href={isEmail ? `mailto:${url}` : url}
                         target={isEmail ? '_self' : '_blank'}
                         rel="noopener noreferrer"
-                        className="inline-flex items-center px-4 py-2 bg-white text-gray-700 rounded-xl shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 hover:text-purple-600"
+                        className="inline-flex items-center px-3 py-2 sm:px-4 sm:py-2 bg-white text-gray-700 rounded-lg sm:rounded-xl shadow-sm sm:shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 hover:text-purple-600 text-xs sm:text-sm flex-shrink-0 max-w-full truncate"
                       >
-                        <IconComponent className="h-5 w-5 mr-2" />
-                        {platform.charAt(0).toUpperCase() + platform.slice(1)}
-                        {!isEmail && <ExternalLink className="ml-2 h-4 w-4" />}
+                        <IconComponent className="h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5 mr-1 sm:mr-2 flex-shrink-0" />
+                        <span className="truncate hidden xs:inline">
+                          {platform.charAt(0).toUpperCase() + platform.slice(1)}
+                        </span>
+                        {!isEmail && <ExternalLink className="ml-1 sm:ml-2 h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0" />}
                       </a>
                     );
                   })}
@@ -69,6 +90,17 @@ const Mentor: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Add custom CSS for text breaking */}
+      <style jsx>{`
+        .overflow-wrap-break-word {
+          overflow-wrap: break-word;
+          word-wrap: break-word;
+          -webkit-hyphens: auto;
+          -ms-hyphens: auto;
+          hyphens: auto;
+        }
+      `}</style>
     </section>
   );
 };
