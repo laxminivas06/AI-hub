@@ -42,21 +42,23 @@ const Mentor: React.FC = () => {
                   {mentor.name}
                 </h3>
                 
-                {/* Tagline - Single line */}
-                <p className="text-lg sm:text-xl lg:text-2xl text-purple-600 font-semibold mb-2 whitespace-nowrap overflow-hidden text-ellipsis max-w-full">
-                  {mentor.tagline}
-                </p>
+                {/* Tagline - Single line with guaranteed single line display */}
+                <div className="mb-2 w-full overflow-hidden">
+                  <p className="text-lg sm:text-xl lg:text-2xl text-purple-600 font-semibold whitespace-nowrap overflow-hidden text-ellipsis max-w-full block w-full">
+                    {mentor.tagline}
+                  </p>
+                </div>
                 
                 {/* Subtitle - Single line */}
-                <p className="text-base sm:text-lg lg:text-xl text-gray-700 mb-4 sm:mb-6 whitespace-nowrap overflow-hidden text-ellipsis max-w-full">
-                  {mentor.subtitle}
-                </p>
+                <div className="mb-4 sm:mb-6 w-full overflow-hidden">
+                  <p className="text-base sm:text-lg lg:text-xl text-gray-700 whitespace-nowrap overflow-hidden text-ellipsis max-w-full block w-full">
+                    {mentor.subtitle}
+                  </p>
+                </div>
                 
-                {/* About Section - Completely controlled text flow */}
+                {/* About Section */}
                 <div className="mb-6 sm:mb-8 w-full">
-                  <p className="text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed sm:leading-loose 
-                              break-normal hyphens-auto overflow-wrap-break-word 
-                              max-w-full w-full">
+                  <p className="text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed sm:leading-loose break-words hyphens-auto overflow-wrap-anywhere max-w-full">
                     Empowering the next generation with AI knowledge and cutting-edge technology insights. A visionary mind shaping the future through innovation and purpose, passionate about bridging the gap between knowledge and real-world impact, with an unwavering drive to inspire and create meaningful change.
                   </p>
                 </div>
@@ -74,10 +76,10 @@ const Mentor: React.FC = () => {
                         href={isEmail ? `mailto:${url}` : url}
                         target={isEmail ? '_self' : '_blank'}
                         rel="noopener noreferrer"
-                        className="inline-flex items-center px-3 py-2 sm:px-4 sm:py-2 bg-white text-gray-700 rounded-lg sm:rounded-xl shadow-sm sm:shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 hover:text-purple-600 text-xs sm:text-sm flex-shrink-0 max-w-full truncate"
+                        className="inline-flex items-center px-3 py-2 sm:px-4 sm:py-2 bg-white text-gray-700 rounded-lg sm:rounded-xl shadow-sm sm:shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 hover:text-purple-600 text-xs sm:text-sm flex-shrink-0"
                       >
                         <IconComponent className="h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5 mr-1 sm:mr-2 flex-shrink-0" />
-                        <span className="truncate hidden xs:inline">
+                        <span className="hidden xs:inline">
                           {platform.charAt(0).toUpperCase() + platform.slice(1)}
                         </span>
                         {!isEmail && <ExternalLink className="ml-1 sm:ml-2 h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0" />}
@@ -90,17 +92,6 @@ const Mentor: React.FC = () => {
           </div>
         </div>
       </div>
-
-      {/* Add custom CSS for text breaking */}
-      <style jsx>{`
-        .overflow-wrap-break-word {
-          overflow-wrap: break-word;
-          word-wrap: break-word;
-          -webkit-hyphens: auto;
-          -ms-hyphens: auto;
-          hyphens: auto;
-        }
-      `}</style>
     </section>
   );
 };
