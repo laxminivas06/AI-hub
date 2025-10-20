@@ -2,6 +2,9 @@ import React from 'react';
 import { Sparkles, Heart } from 'lucide-react';
 
 const Footer: React.FC = () => {
+  // Get current year automatically
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,7 +25,7 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="mt-8 pt-8 border-t border-gray-700 text-sm text-gray-500">
-            <p>&copy; 2025 AI Tools Hub. All rights reserved.</p>
+            <p>&copy; {currentYear} AI Tools Hub. All rights reserved.</p>
           </div>
         </div>
       </div>
