@@ -18,11 +18,5 @@ export const partners: Partner[] = [
     description: "Comprehensive learning platform offering expert tutorials and skill development",
     website: "https://padmatutorials.netlify.app/",
     logo: "/images/pt.png"
-  },
-  {
-    name: "Nivs Editz",
-    description: "Creative content production and video editing services for digital media",
-    website: "https://nivseditz.netlify.app/",
-    logo: "/images/ne.png"
   }
 ];
