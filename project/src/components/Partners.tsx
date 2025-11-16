@@ -15,14 +15,19 @@ const Partners: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
-          {partners.map((partner) => (
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+          {partners.map((partner, index) => (
             <a
               key={partner.name}
               href={partner.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-white rounded-lg sm:rounded-xl shadow-sm hover:shadow-md transform hover:scale-105 transition-all duration-300 overflow-hidden flex flex-col h-full min-h-[120px] sm:min-h-[140px] lg:min-h-[160px] border border-gray-100"
+              className={`
+                group bg-white rounded-lg sm:rounded-xl shadow-sm hover:shadow-md transform hover:scale-105 
+                transition-all duration-300 overflow-hidden flex flex-col h-full min-h-[120px] sm:min-h-[140px] 
+                lg:min-h-[160px] border border-gray-100
+                ${index === 2 ? 'col-span-2 lg:col-span-1 justify-self-center w-full max-w-[280px] sm:max-w-none' : ''}
+              `}
             >
               <div className="p-4 sm:p-6 lg:p-8 flex flex-col items-center justify-center text-center h-full">
                 {/* Logo Container */}
