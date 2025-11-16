@@ -15,36 +15,43 @@ const Partners: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-4 gap-2 sm:gap-4 lg:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {partners.map((partner) => (
             <a
               key={partner.name}
               href={partner.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-white rounded-lg sm:rounded-xl shadow-sm hover:shadow-md transform hover:scale-105 transition-all duration-300 overflow-hidden flex flex-col h-full min-h-[80px] sm:min-h-[100px] lg:min-h-[120px] border border-gray-100"
+              className="group bg-white rounded-lg sm:rounded-xl shadow-sm hover:shadow-md transform hover:scale-105 transition-all duration-300 overflow-hidden flex flex-col h-full min-h-[120px] sm:min-h-[140px] lg:min-h-[160px] border border-gray-100"
             >
-              <div className="p-2 sm:p-3 lg:p-4 flex flex-col items-center justify-center text-center h-full">
+              <div className="p-4 sm:p-6 lg:p-8 flex flex-col items-center justify-center text-center h-full">
                 {/* Logo Container */}
-                <div className="flex items-center justify-center mb-1 sm:mb-2 lg:mb-3">
+                <div className="flex items-center justify-center mb-3 sm:mb-4 lg:mb-5">
                   <img
                     src={partner.logo}
                     alt={`${partner.name} logo`}
-                    className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 rounded-md sm:rounded-lg object-contain transition-transform duration-300 group-hover:scale-110"
+                    className="w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 rounded-lg sm:rounded-xl object-contain transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
                 
                 {/* Name */}
-                <h3 className="text-xs sm:text-sm lg:text-base font-semibold text-gray-900 group-hover:text-purple-600 transition-colors duration-300 line-clamp-2 leading-tight">
+                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-gray-900 group-hover:text-purple-600 transition-colors duration-300 line-clamp-2 leading-tight">
                   {partner.name}
                 </h3>
+                
+                {/* Optional: Description */}
+                {partner.description && (
+                  <p className="mt-2 text-xs sm:text-sm text-gray-600 line-clamp-2 leading-relaxed">
+                    {partner.description}
+                  </p>
+                )}
               </div>
             </a>
           ))}
         </div>
 
         {/* Optional: View All Button for many partners */}
-        {partners.length > 8 && (
+        {partners.length > 6 && (
           <div className="text-center mt-8 sm:mt-12">
             <button className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-purple-600 text-white font-semibold rounded-xl hover:bg-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
               <span>View All Organisations</span>
