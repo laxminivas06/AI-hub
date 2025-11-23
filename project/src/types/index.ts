@@ -5,7 +5,11 @@ export interface AITool {
   website: string;
   category: string;
   logo: string;
-  featured?: boolean;
+  pros: string;
+  cons: string;
+  pricing: string | number; // Allow both string and number
+  tags: string;
+  detailedDescription: string;
 }
 
 export interface Mentor {

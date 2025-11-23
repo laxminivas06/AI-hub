@@ -1,20 +1,19 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { ExternalLink, X, Search, Filter, MoreVertical, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ExternalLink, Search, Filter, ChevronLeft, ChevronRight } from 'lucide-react';
 import { AITool } from '../types';
 import { aiTools } from '../data/aiTools';
+import { useNavigate } from 'react-router-dom';
 
 const AITools: React.FC = () => {
-  const [selectedTool, setSelectedTool] = useState<AITool | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [isMobile, setIsMobile] = useState(false);
   const [isTablet, setIsTablet] = useState(false);
-  
-  // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(12);
 
-  // Responsive device detection
+  const navigate = useNavigate();
+
   useEffect(() => {
     const checkDevice = () => {
       const width = window.innerWidth;
@@ -22,12 +21,14 @@ const AITools: React.FC = () => {
       setIsTablet(width >= 768 && width < 1024);
       
       // Adjust items per page based on screen size
-      if (width < 768) {
-        setItemsPerPage(8); // 2 columns × 4 rows = 8 items
-      } else if (width < 1024) {
-        setItemsPerPage(12); // 3 columns × 4 rows = 12 items
-      } else {
-        setItemsPerPage(16); // 4 columns × 4 rows = 16 items
+      if (width < 640) { // Small mobile
+        setItemsPerPage(8);  // 2 columns × 4 rows
+      } else if (width < 768) { // Mobile
+        setItemsPerPage(10); // 2 columns × 5 rows
+      } else if (width < 1024) { // Tablet
+        setItemsPerPage(12); // 3 columns × 4 rows
+      } else { // Desktop
+        setItemsPerPage(16); // 4 columns × 4 rows
       }
     };
 
@@ -37,53 +38,36 @@ const AITools: React.FC = () => {
     return () => window.removeEventListener('resize', checkDevice);
   }, []);
 
-  // Memoized filtered tools calculation
   const filteredTools = React.useMemo(() => {
     return aiTools.filter(tool => {
       const matchesSearch = tool.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                           tool.description.toLowerCase().includes(searchTerm.toLowerCase());
+                           tool.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                           tool.tags.toLowerCase().includes(searchTerm.toLowerCase());
       const matchesCategory = selectedCategory === 'All' || tool.category === selectedCategory;
       return matchesSearch && matchesCategory;
     });
   }, [searchTerm, selectedCategory]);
 
-  // Pagination calculations
   const totalPages = Math.ceil(filteredTools.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentTools = filteredTools.slice(startIndex, endIndex);
 
-  // Reset to first page when search or filter changes
   useEffect(() => {
     setCurrentPage(1);
   }, [searchTerm, selectedCategory]);
 
   const categories = ['All', ...Array.from(new Set(aiTools.map(tool => tool.category)))];
 
-  // Optimized event handlers
-  const handleToolClick = useCallback((tool: AITool) => {
-    if (!isMobile) {
-      setSelectedTool(tool);
-    }
-  }, [isMobile]);
+  const handleToolClick = useCallback((toolId: number) => {
+    navigate(`/tool/${toolId}`);
+  }, [navigate]);
 
-  const handleMobileViewMore = useCallback((e: React.MouseEvent, tool: AITool) => {
-    e.preventDefault();
+  const handleVisitWebsite = useCallback((e: React.MouseEvent, website: string) => {
     e.stopPropagation();
-    setSelectedTool(tool);
+    window.open(website, '_blank', 'noopener,noreferrer');
   }, []);
 
-  const handleMobileVisit = useCallback((e: React.MouseEvent, tool: AITool) => {
-    e.preventDefault();
-    e.stopPropagation();
-    window.open(tool.website, '_blank', 'noopener,noreferrer');
-  }, []);
-
-  const handleCloseModal = useCallback(() => {
-    setSelectedTool(null);
-  }, []);
-
-  // Pagination handlers
   const handleNextPage = useCallback(() => {
     setCurrentPage(prev => Math.min(prev + 1, totalPages));
   }, [totalPages]);
@@ -96,30 +80,13 @@ const AITools: React.FC = () => {
     setCurrentPage(page);
   }, []);
 
-  // Optimized modal management
-  useEffect(() => {
-    if (selectedTool) {
-      document.documentElement.style.overflow = 'hidden';
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.documentElement.style.overflow = '';
-      document.body.style.overflow = '';
-    }
-
-    return () => {
-      document.documentElement.style.overflow = '';
-      document.body.style.overflow = '';
-    };
-  }, [selectedTool]);
-
-  // Get grid columns based on screen size
+  // Updated responsive grid columns
   const getGridColumns = () => {
-    if (isMobile) return 'grid-cols-2';
-    if (isTablet) return 'grid-cols-3';
-    return 'grid-cols-4';
+    if (isMobile) return 'grid-cols-2'; // 2 columns on mobile
+    if (isTablet) return 'grid-cols-3'; // 3 columns on tablet
+    return 'grid-cols-4'; // 4 columns on desktop
   };
 
-  // Generate pagination buttons
   const getPaginationButtons = () => {
     const buttons = [];
     const maxVisibleButtons = isMobile ? 3 : 5;
@@ -127,12 +94,10 @@ const AITools: React.FC = () => {
     let startPage = Math.max(1, currentPage - Math.floor(maxVisibleButtons / 2));
     let endPage = Math.min(totalPages, startPage + maxVisibleButtons - 1);
 
-    // Adjust if we're near the end
     if (endPage - startPage + 1 < maxVisibleButtons) {
       startPage = Math.max(1, endPage - maxVisibleButtons + 1);
     }
 
-    // First page
     if (startPage > 1) {
       buttons.push(1);
       if (startPage > 2) {
@@ -140,12 +105,10 @@ const AITools: React.FC = () => {
       }
     }
 
-    // Page numbers
     for (let i = startPage; i <= endPage; i++) {
       buttons.push(i);
     }
 
-    // Last page
     if (endPage < totalPages) {
       if (endPage < totalPages - 1) {
         buttons.push('...');
@@ -156,45 +119,66 @@ const AITools: React.FC = () => {
     return buttons;
   };
 
+  // Helper function to format pricing (handle both string and number)
+  const formatPricing = (pricing: string | number): string => {
+    if (typeof pricing === 'number') {
+      return pricing === 0 ? 'Free' : `$${pricing}/month`;
+    }
+    
+    const pricingStr = pricing.toString().toLowerCase();
+    if (pricingStr.includes('free')) {
+      return 'Free';
+    } else if (pricingStr.includes('freemium')) {
+      return 'Freemium';
+    } else if (pricingStr.includes('paid')) {
+      return 'Paid';
+    }
+    return pricing.toString();
+  };
+
+  // Helper function to get pricing color
+  const getPricingColor = (pricing: string | number) => {
+    const formattedPricing = formatPricing(pricing).toLowerCase();
+    if (formattedPricing.includes('free')) {
+      return 'bg-green-100 text-green-800';
+    } else if (formattedPricing.includes('freemium')) {
+      return 'bg-blue-100 text-blue-800';
+    } else if (formattedPricing.includes('paid')) {
+      return 'bg-orange-100 text-orange-800';
+    }
+    return 'bg-gray-100 text-gray-800';
+  };
+
   return (
-    <section id="tools" className="py-16 sm:py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header Section */}
-        <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+    <section id="tools" className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
+        <div className="text-center mb-10 sm:mb-12 lg:mb-16">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">
             AI Tools Collection
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            Discover 1000+ powerful AI tools that can transform your workflow, boost creativity, and unlock new possibilities
+          <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-3 sm:px-4">
+            Discover powerful AI tools that can transform your workflow and boost creativity
           </p>
         </div>
 
-        {/* Search and Filter */}
-        <div className="mb-10 sm:mb-12 flex flex-col sm:flex-row gap-3 sm:gap-4">
+        {/* Search and Filter - Improved mobile layout */}
+        <div className="mb-8 sm:mb-10 lg:mb-12 flex flex-col sm:flex-row gap-3">
           <div className="relative flex-1">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 sm:h-5 sm:w-5 text-gray-400 pointer-events-none" />
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
             <input
               type="text"
               placeholder="Search AI tools..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white text-sm sm:text-base"
-              style={{ 
-                WebkitAppearance: 'none',
-                WebkitTapHighlightColor: 'transparent'
-              }}
+              className="w-full pl-10 pr-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg sm:rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white text-sm"
             />
           </div>
-          <div className="relative sm:min-w-[200px]">
-            <Filter className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 sm:h-5 sm:w-5 text-gray-400 pointer-events-none" />
+          <div className="relative sm:min-w-[180px] lg:min-w-[200px]">
+            <Filter className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="w-full pl-10 pr-8 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white text-sm sm:text-base"
-              style={{ 
-                WebkitAppearance: 'none',
-                WebkitTapHighlightColor: 'transparent'
-              }}
+              className="w-full pl-10 pr-8 py-2.5 sm:py-3 border border-gray-300 rounded-lg sm:rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white text-sm"
             >
               {categories.map(category => (
                 <option key={category} value={category}>{category}</option>
@@ -204,8 +188,8 @@ const AITools: React.FC = () => {
         </div>
 
         {/* Results Count */}
-        <div className="mb-4 sm:mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-gray-600 text-sm sm:text-base">
+        <div className="mb-4 sm:mb-6 lg:mb-8">
+          <p className="text-gray-600 text-xs sm:text-sm lg:text-base">
             Showing <span className="font-semibold">{startIndex + 1}-{Math.min(endIndex, filteredTools.length)}</span> of{' '}
             <span className="font-semibold">{filteredTools.length}</span> tools
             {searchTerm && (
@@ -215,134 +199,69 @@ const AITools: React.FC = () => {
               <span> in <span className="font-semibold">{selectedCategory}</span></span>
             )}
           </p>
-          
-          {/* Items per page selector for desktop */}
-          {!isMobile && (
-            <div className="flex items-center gap-2 mt-2 sm:mt-0">
-              <span className="text-gray-600 text-sm">Show:</span>
-              <select
-                value={itemsPerPage}
-                onChange={(e) => {
-                  setItemsPerPage(Number(e.target.value));
-                  setCurrentPage(1);
-                }}
-                className="border border-gray-300 rounded-lg px-2 py-1 text-sm focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-              >
-                <option value={8}>8</option>
-                <option value={12}>12</option>
-                <option value={16}>16</option>
-                <option value={20}>20</option>
-              </select>
-            </div>
-          )}
         </div>
 
-        {/* Tools Grid - Responsive columns */}
-        <div className={`grid ${getGridColumns()} gap-3 sm:gap-4 lg:gap-6 mb-8 sm:mb-12`}>
+        {/* Tools Grid - Updated with responsive gap and padding */}
+        <div className={`grid ${getGridColumns()} gap-3 sm:gap-4 lg:gap-6 mb-6 sm:mb-8 lg:mb-12`}>
           {currentTools.map((tool) => (
             <div
               key={tool.id}
-              className="bg-white rounded-xl sm:rounded-2xl shadow-md sm:shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col"
-              onClick={() => handleToolClick(tool)}
+              className="bg-white rounded-lg sm:rounded-xl lg:rounded-2xl shadow-md sm:shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 cursor-pointer transform hover:-translate-y-1"
+              onClick={() => handleToolClick(tool.id)}
             >
-              {/* Mobile & Tablet View */}
-              <div className="block lg:hidden p-3 sm:p-4 flex flex-col h-full">
-                <div className="flex items-start gap-2 sm:gap-3 mb-2 sm:mb-3">
+              <div className="p-3 sm:p-4 lg:p-6">
+                {/* Tool Header */}
+                <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                   <img
                     src={tool.logo}
                     alt={`${tool.name} logo`}
-                    className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg object-cover flex-shrink-0"
+                    className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-lg sm:rounded-xl object-cover flex-shrink-0"
                     loading="lazy"
                   />
                   <div className="flex-1 min-w-0">
-                    <h3 className="font-semibold text-gray-900 text-xs sm:text-sm leading-tight mb-1 line-clamp-2">
+                    <h3 className="font-bold text-gray-900 text-sm sm:text-base lg:text-lg leading-tight mb-1 sm:mb-2 line-clamp-2">
                       {tool.name}
                     </h3>
-                    <span className="inline-block text-purple-600 bg-purple-100 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded-full text-xs">
-                      {isMobile ? tool.category.split(' ')[0] : tool.category}
-                    </span>
-                  </div>
-                </div>
-
-                {/* Description for tablet */}
-                {isTablet && (
-                  <p className="text-gray-600 text-xs leading-relaxed mb-3 line-clamp-2 flex-1">
-                    {tool.description}
-                  </p>
-                )}
-
-                {/* Action Buttons */}
-                <div className="flex flex-col gap-1.5 sm:gap-2 mt-auto">
-                  <button
-                    onClick={(e) => handleMobileVisit(e, tool)}
-                    className="w-full flex items-center justify-center gap-1 sm:gap-2 py-2 sm:py-2.5 px-3 bg-blue-600 text-white font-medium rounded-lg active:bg-blue-700 transition-colors text-xs sm:text-sm"
-                    style={{ WebkitTapHighlightColor: 'transparent' }}
-                  >
-                    <span>Visit</span>
-                    <ExternalLink className="h-3 w-3 sm:h-4 sm:w-4" />
-                  </button>
-                  
-                  <button
-                    onClick={(e) => handleMobileViewMore(e, tool)}
-                    className="w-full flex items-center justify-center gap-1 sm:gap-2 py-2 sm:py-2.5 px-3 border border-gray-300 text-gray-700 font-medium rounded-lg active:bg-gray-100 transition-colors text-xs sm:text-sm"
-                    style={{ WebkitTapHighlightColor: 'transparent' }}
-                  >
-                    <MoreVertical className="h-3 w-3 sm:h-4 sm:w-4" />
-                    <span>Details</span>
-                  </button>
-                </div>
-
-                {tool.featured && (
-                  <div className="mt-2 flex justify-center">
-                    <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs px-2 py-1 rounded-full font-medium">
-                      Featured
-                    </span>
-                  </div>
-                )}
-              </div>
-
-              {/* Desktop View */}
-              <div className="hidden lg:block p-4 lg:p-6 h-full flex flex-col">
-                <div className="flex items-center gap-3 lg:gap-4 mb-3 lg:mb-4">
-                  <img
-                    src={tool.logo}
-                    alt={`${tool.name} logo`}
-                    className="w-10 h-10 lg:w-12 lg:h-12 rounded-lg lg:rounded-xl object-cover flex-shrink-0"
-                    loading="lazy"
-                  />
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-semibold text-gray-900 text-sm lg:text-lg leading-tight mb-1">
-                      {tool.name}
-                    </h3>
-                    <span className="inline-block text-purple-600 bg-purple-100 px-2 lg:px-3 py-1 rounded-full text-xs lg:text-sm">
-                      {tool.category}
-                    </span>
+                    <div className="flex flex-wrap gap-1 sm:gap-2">
+                      <span className="inline-block text-purple-600 bg-purple-100 px-2 py-1 rounded-full text-xs font-medium">
+                        {tool.category}
+                      </span>
+                      <span className={`inline-block px-2 py-1 rounded-full text-xs font-medium ${getPricingColor(tool.pricing)}`}>
+                        {formatPricing(tool.pricing)}
+                      </span>
+                    </div>
                   </div>
                 </div>
                 
-                <p className="text-gray-600 text-xs lg:text-sm leading-relaxed mb-3 lg:mb-4 flex-1 line-clamp-3">
+                {/* Description */}
+                <p className="text-gray-600 text-xs sm:text-sm leading-relaxed mb-3 sm:mb-4 line-clamp-2 sm:line-clamp-3">
                   {tool.description}
                 </p>
-                
-                <div className="flex items-center justify-between pt-2 lg:pt-4">
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      window.open(tool.website, '_blank', 'noopener,noreferrer');
-                    }}
-                    className="flex items-center gap-1 lg:gap-2 text-blue-600 hover:text-blue-700 font-medium text-xs lg:text-sm transition-colors py-1.5 lg:py-2 px-2 lg:px-3 rounded-lg hover:bg-blue-50"
-                    style={{ WebkitTapHighlightColor: 'transparent' }}
-                  >
-                    <span>Visit Tool</span>
-                    <ExternalLink className="h-3 w-3 lg:h-4 lg:w-4" />
-                  </button>
-                  
-                  {tool.featured && (
-                    <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs px-2 lg:px-3 py-1 rounded-full font-medium">
-                      Featured
+
+                {/* Tags */}
+                <div className="flex flex-wrap gap-1 mb-3 sm:mb-4">
+                  {tool.tags.split(', ').slice(0, isMobile ? 2 : 3).map((tag, index) => (
+                    <span
+                      key={index}
+                      className="inline-block bg-gray-100 text-gray-700 px-1.5 py-1 rounded text-xs"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                  {tool.tags.split(', ').length > (isMobile ? 2 : 3) && (
+                    <span className="inline-block bg-gray-100 text-gray-600 px-1.5 py-1 rounded text-xs">
+                      +{tool.tags.split(', ').length - (isMobile ? 2 : 3)} more
                     </span>
                   )}
                 </div>
+
+                {/* Action Button */}
+                <button
+                  onClick={() => handleToolClick(tool.id)}
+                  className="w-full py-2 px-3 sm:py-2.5 sm:px-4 border border-gray-300 text-gray-700 font-medium rounded-lg sm:rounded-xl hover:bg-gray-50 transition-colors text-xs sm:text-sm"
+                >
+                  View Details
+                </button>
               </div>
             </div>
           ))}
@@ -361,53 +280,50 @@ const AITools: React.FC = () => {
 
         {/* Pagination */}
         {filteredTools.length > 0 && totalPages > 1 && (
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-8 sm:mt-12">
-            {/* Mobile: Simple pagination */}
-            <div className="lg:hidden flex items-center justify-between w-full">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-8 sm:mt-10 lg:mt-12">
+            {/* Mobile Pagination */}
+            <div className="sm:hidden flex items-center justify-between w-full">
               <button
                 onClick={handlePrevPage}
                 disabled={currentPage === 1}
-                className={`flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm ${
+                className={`flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-xs ${
                   currentPage === 1
                     ? 'text-gray-400 cursor-not-allowed'
-                    : 'text-blue-600 hover:bg-blue-50 active:bg-blue-100'
+                    : 'text-blue-600 hover:bg-blue-50'
                 }`}
-                style={{ WebkitTapHighlightColor: 'transparent' }}
               >
-                <ChevronLeft className="h-4 w-4" />
+                <ChevronLeft className="h-3 w-3" />
                 Previous
               </button>
               
-              <span className="text-gray-600 text-sm font-medium">
+              <span className="text-gray-600 text-xs font-medium">
                 Page {currentPage} of {totalPages}
               </span>
               
               <button
                 onClick={handleNextPage}
                 disabled={currentPage === totalPages}
-                className={`flex items-center gap-1 px-4 py-2 rounded-lg font-medium text-sm ${
+                className={`flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-xs ${
                   currentPage === totalPages
                     ? 'text-gray-400 cursor-not-allowed'
-                    : 'text-blue-600 hover:bg-blue-50 active:bg-blue-100'
+                    : 'text-blue-600 hover:bg-blue-50'
                 }`}
-                style={{ WebkitTapHighlightColor: 'transparent' }}
               >
                 Next
-                <ChevronRight className="h-4 w-4" />
+                <ChevronRight className="h-3 w-3" />
               </button>
             </div>
 
-            {/* Desktop: Full pagination */}
-            <div className="hidden lg:flex items-center gap-2">
+            {/* Desktop Pagination */}
+            <div className="hidden sm:flex items-center gap-2">
               <button
                 onClick={handlePrevPage}
                 disabled={currentPage === 1}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm ${
+                className={`flex items-center gap-2 px-3 sm:px-4 py-2 rounded-lg font-medium text-sm ${
                   currentPage === 1
                     ? 'text-gray-400 cursor-not-allowed'
-                    : 'text-blue-600 hover:bg-blue-50 active:bg-blue-100'
+                    : 'text-blue-600 hover:bg-blue-50'
                 }`}
-                style={{ WebkitTapHighlightColor: 'transparent' }}
               >
                 <ChevronLeft className="h-4 w-4" />
                 Previous
@@ -417,16 +333,15 @@ const AITools: React.FC = () => {
                 {getPaginationButtons().map((page, index) => (
                   <React.Fragment key={index}>
                     {page === '...' ? (
-                      <span className="px-3 py-2 text-gray-500">...</span>
+                      <span className="px-2 sm:px-3 py-2 text-gray-500 text-sm">...</span>
                     ) : (
                       <button
                         onClick={() => handlePageClick(page as number)}
-                        className={`min-w-[40px] px-3 py-2 rounded-lg font-medium text-sm transition-colors ${
+                        className={`min-w-[32px] sm:min-w-[40px] px-2 sm:px-3 py-2 rounded-lg font-medium text-sm transition-colors ${
                           currentPage === page
                             ? 'bg-blue-600 text-white shadow-md'
-                            : 'text-gray-600 hover:bg-gray-100 active:bg-gray-200'
+                            : 'text-gray-600 hover:bg-gray-100'
                         }`}
-                        style={{ WebkitTapHighlightColor: 'transparent' }}
                       >
                         {page}
                       </button>
@@ -438,116 +353,20 @@ const AITools: React.FC = () => {
               <button
                 onClick={handleNextPage}
                 disabled={currentPage === totalPages}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm ${
+                className={`flex items-center gap-2 px-3 sm:px-4 py-2 rounded-lg font-medium text-sm ${
                   currentPage === totalPages
                     ? 'text-gray-400 cursor-not-allowed'
-                    : 'text-blue-600 hover:bg-blue-50 active:bg-blue-100'
+                    : 'text-blue-600 hover:bg-blue-50'
                 }`}
-                style={{ WebkitTapHighlightColor: 'transparent' }}
               >
                 Next
                 <ChevronRight className="h-4 w-4" />
               </button>
             </div>
 
-            {/* Page info for desktop */}
-            <div className="hidden lg:block text-gray-600 text-sm">
+            {/* Page Info */}
+            <div className="hidden sm:block text-gray-600 text-sm">
               Page {currentPage} of {totalPages} • {filteredTools.length} tools
-            </div>
-          </div>
-        )}
-
-        {/* Responsive Modal */}
-        {selectedTool && (
-          <div 
-            className="fixed inset-0 z-50 flex items-center justify-center p-0 sm:p-4 bg-black/50 backdrop-blur-sm"
-            style={{
-              WebkitBackdropFilter: 'blur(8px)',
-              position: 'fixed',
-              top: 0,
-              left: 0,
-              right: 0,
-              bottom: 0,
-            }}
-            onClick={handleCloseModal}
-          >
-            <div 
-              className={`bg-white w-full h-full sm:h-auto sm:rounded-3xl sm:shadow-2xl flex flex-col ${
-                isMobile ? 'max-w-full' : 
-                isTablet ? 'max-w-2xl' : 
-                'max-w-3xl'
-              }`}
-              style={{
-                WebkitOverflowScrolling: 'touch',
-                maxHeight: isMobile ? '100vh' : '90vh',
-              }}
-              onClick={(e) => e.stopPropagation()}
-            >
-              {/* Header */}
-              <div className="sticky top-0 bg-white border-b border-gray-200 sm:rounded-t-3xl px-4 sm:px-6 py-4 flex items-center justify-between z-10">
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 truncate pr-4">
-                  {selectedTool.name}
-                </h3>
-                <button
-                  onClick={handleCloseModal}
-                  className="flex-shrink-0 p-2 hover:bg-gray-100 rounded-full transition-colors"
-                  style={{ WebkitTapHighlightColor: 'transparent' }}
-                >
-                  <X className="h-5 w-5 sm:h-6 sm:w-6 text-gray-500" />
-                </button>
-              </div>
-
-              {/* Scrollable Content */}
-              <div 
-                className="flex-1 overflow-y-auto p-4 sm:p-6"
-                style={{ WebkitOverflowScrolling: 'touch' }}
-              >
-                <div className="flex items-center gap-4 mb-4 sm:mb-6">
-                  <img
-                    src={selectedTool.logo}
-                    alt={`${selectedTool.name} logo`}
-                    className="w-12 h-12 sm:w-16 sm:h-16 rounded-lg sm:rounded-xl object-cover flex-shrink-0 shadow-md"
-                    loading="lazy"
-                  />
-                  <div className="flex-1 min-w-0">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <span className="inline-block text-purple-600 bg-purple-100 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium">
-                        {selectedTool.category}
-                      </span>
-                      {selectedTool.featured && (
-                        <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-xs px-2 py-1 rounded-full font-medium">
-                          Featured
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                </div>
-
-                <p className="text-gray-700 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 sm:mb-8">
-                  {selectedTool.description}
-                </p>
-              </div>
-
-              {/* Footer */}
-              <div className="sticky bottom-0 bg-white border-t border-gray-200 sm:rounded-b-3xl p-4 sm:p-6">
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <button
-                    onClick={() => window.open(selectedTool.website, '_blank', 'noopener,noreferrer')}
-                    className="flex-1 flex items-center justify-center gap-2 py-3 sm:py-4 px-4 sm:px-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg sm:rounded-xl active:scale-95 transition-transform text-sm sm:text-base"
-                    style={{ WebkitTapHighlightColor: 'transparent' }}
-                  >
-                    <span>Visit {selectedTool.name}</span>
-                    <ExternalLink className="h-4 w-4 sm:h-5 sm:w-5" />
-                  </button>
-                  <button
-                    onClick={handleCloseModal}
-                    className="py-3 sm:py-4 px-4 sm:px-6 border border-gray-300 text-gray-700 font-semibold rounded-lg sm:rounded-xl active:bg-gray-50 transition-colors text-sm sm:text-base sm:min-w-[120px]"
-                    style={{ WebkitTapHighlightColor: 'transparent' }}
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
             </div>
           </div>
         )}
