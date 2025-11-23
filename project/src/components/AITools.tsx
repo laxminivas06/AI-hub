@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { ExternalLink, Search, Filter, ChevronLeft, ChevronRight } from 'lucide-react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { ExternalLink, Search, Filter, ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react';
 import { AITool } from '../types';
 import { aiTools } from '../data/aiTools';
 import { useNavigate } from 'react-router-dom';
@@ -11,8 +11,22 @@ const AITools: React.FC = () => {
   const [isTablet, setIsTablet] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(12);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const navigate = useNavigate();
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   useEffect(() => {
     const checkDevice = () => {
@@ -62,6 +76,11 @@ const AITools: React.FC = () => {
   const handleToolClick = useCallback((toolId: number) => {
     navigate(`/tool/${toolId}`);
   }, [navigate]);
+
+  const handleCategorySelect = useCallback((category: string) => {
+    setSelectedCategory(category);
+    setIsDropdownOpen(false);
+  }, []);
 
   const handleVisitWebsite = useCallback((e: React.MouseEvent, website: string) => {
     e.stopPropagation();
@@ -161,7 +180,7 @@ const AITools: React.FC = () => {
           </p>
         </div>
 
-        {/* Search and Filter - Improved mobile layout */}
+        {/* Search and Filter - Custom Dropdown */}
         <div className="mb-8 sm:mb-10 lg:mb-12 flex flex-col sm:flex-row gap-3">
           <div className="relative flex-1">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
@@ -173,17 +192,44 @@ const AITools: React.FC = () => {
               className="w-full pl-10 pr-4 py-2.5 sm:py-3 border border-gray-300 rounded-lg sm:rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white text-sm"
             />
           </div>
-          <div className="relative sm:min-w-[180px] lg:min-w-[200px]">
-            <Filter className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
-            <select
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-              className="w-full pl-10 pr-8 py-2.5 sm:py-3 border border-gray-300 rounded-lg sm:rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white text-sm"
+          
+          {/* Custom Dropdown Container */}
+          <div className="relative sm:min-w-[180px] lg:min-w-[200px]" ref={dropdownRef}>
+            <button
+              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+              className="w-full pl-10 pr-8 py-2.5 sm:py-3 border border-gray-300 rounded-lg sm:rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white text-sm text-left flex items-center justify-between hover:bg-gray-50 transition-colors"
             >
-              {categories.map(category => (
-                <option key={category} value={category}>{category}</option>
-              ))}
-            </select>
+              <div className="flex items-center">
+                <Filter className="h-4 w-4 text-gray-400 mr-2" />
+                <span className="truncate">{selectedCategory}</span>
+              </div>
+              <ChevronDown 
+                className={`h-4 w-4 text-gray-400 transition-transform ${
+                  isDropdownOpen ? 'rotate-180' : ''
+                }`} 
+              />
+            </button>
+
+            {/* Dropdown Menu */}
+            {isDropdownOpen && (
+              <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-300 rounded-lg sm:rounded-xl shadow-lg z-50 max-h-60 overflow-hidden">
+                <div className="overflow-y-auto max-h-60 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
+                  {categories.map((category) => (
+                    <button
+                      key={category}
+                      onClick={() => handleCategorySelect(category)}
+                      className={`w-full px-4 py-2.5 text-left text-sm hover:bg-gray-50 transition-colors ${
+                        selectedCategory === category
+                          ? 'bg-purple-50 text-purple-700 font-medium'
+                          : 'text-gray-700'
+                      } first:rounded-t-lg last:rounded-b-lg`}
+                    >
+                      {category}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
 
