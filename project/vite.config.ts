@@ -3,9 +3,11 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      external: ['react-router-dom']
-    }
+  server: {
+    port: 3000,
+  },
+  resolve: {
+    // This should be the default, but ensure it's there
+    mainFields: ['module', 'jsnext:main', 'jsnext'],
   }
 })
